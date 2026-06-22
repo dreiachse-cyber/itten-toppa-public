@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-27",
+  "weekday": "土曜",
+  "updatedAt": "2026-06-27 08:00 JST",
+  "headline": "迷った買い目は切る。本命3連単と穴3連複だけで勝負。",
+  "summary": "東京11Rを本命の軸に据え、京都10Rは穴3連複で拾う構え。WIN5は堅実、妙味、穴の三段構えで一点突破を狙う。",
+  "venues": ["東京", "京都", "函館"],
+  "trackCondition": "芝 良 / ダート 稍重",
+  "scratches": "確認時点なし",
+  "expectedReturn": 46800,
+  "expectedRoi": 216,
+  "races": [
+    {
+      "venue": "東京",
+      "raceNo": 9,
+      "start": "14:35",
+      "grade": "2勝C",
+      "name": "八ヶ岳特別",
+      "condition": "芝1800m / 3歳以上",
+      "confidence": "妙味",
+      "trifecta": [6, 2, 9],
+      "trio": [3, 6, 11],
+      "value": "B+",
+      "note": "前受け残り"
+    },
+    {
+      "venue": "東京",
+      "raceNo": 10,
+      "start": "15:10",
+      "grade": "3勝C",
+      "name": "江の島ステークス",
+      "condition": "芝2000m / 3歳以上",
+      "confidence": "本命",
+      "trifecta": [4, 7, 1],
+      "trio": [2, 8, 12],
+      "value": "A-",
+      "note": "軸信頼"
+    },
+    {
+      "venue": "東京",
+      "raceNo": 11,
+      "start": "15:45",
+      "grade": "L",
+      "name": "パラダイスステークス",
+      "condition": "芝1400m / オープン",
+      "confidence": "本命",
+      "trifecta": [7, 11, 2],
+      "trio": [5, 7, 13],
+      "value": "A",
+      "note": "決め手上位"
+    },
+    {
+      "venue": "京都",
+      "raceNo": 10,
+      "start": "15:00",
+      "grade": "3勝C",
+      "name": "ストークステークス",
+      "condition": "芝1600m / 3歳以上",
+      "confidence": "穴",
+      "trifecta": [10, 3, 6],
+      "trio": [3, 9, 14],
+      "value": "A",
+      "note": "外差し警戒"
+    },
+    {
+      "venue": "京都",
+      "raceNo": 11,
+      "start": "15:35",
+      "grade": "GIII",
+      "name": "京都新聞杯",
+      "condition": "芝2200m / 3歳",
+      "confidence": "本命",
+      "trifecta": [5, 2, 8],
+      "trio": [1, 5, 12],
+      "value": "B",
+      "note": "距離延長"
+    },
+    {
+      "venue": "函館",
+      "raceNo": 11,
+      "start": "15:25",
+      "grade": "OP",
+      "name": "青函ステークス",
+      "condition": "芝1200m / オープン",
+      "confidence": "穴",
+      "trifecta": [9, 1, 4],
+      "trio": [4, 9, 16],
+      "value": "A-",
+      "note": "洋芝適性"
+    }
+  ],
+  "win5": {
+    "deadline": "14:45",
+    "routes": [
+      {
+        "name": "堅実",
+        "style": "軸を信じる",
+        "legs": [
+          { "race": "東京10R", "pick": 4 },
+          { "race": "京都10R", "pick": 10 },
+          { "race": "函館11R", "pick": 9 },
+          { "race": "東京11R", "pick": 7 },
+          { "race": "京都11R", "pick": 5 }
+        ]
+      },
+      {
+        "name": "妙味",
+        "style": "一つだけズラす",
+        "legs": [
+          { "race": "東京10R", "pick": 7 },
+          { "race": "京都10R", "pick": 3 },
+          { "race": "函館11R", "pick": 9 },
+          { "race": "東京11R", "pick": 11 },
+          { "race": "京都11R", "pick": 5 }
+        ]
+      },
+      {
+        "name": "穴",
+        "style": "荒れ筋を刺す",
+        "legs": [
+          { "race": "東京10R", "pick": 1 },
+          { "race": "京都10R", "pick": 6 },
+          { "race": "函館11R", "pick": 16 },
+          { "race": "東京11R", "pick": 2 },
+          { "race": "京都11R", "pick": 8 }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,903 @@
+:root {
+  --ink: #0b0a08;
+  --ink-2: #17130f;
+  --paper: #f2eadb;
+  --paper-2: #e3d5bd;
+  --paper-3: #cbb890;
+  --red: #a51618;
+  --red-2: #d04031;
+  --gold: #c7a65a;
+  --blue: #15223b;
+  --green: #2e7a46;
+  --line: rgba(199, 166, 90, 0.35);
+  --muted: rgba(242, 234, 219, 0.68);
+  --shadow: 0 22px 60px rgba(0, 0, 0, 0.34);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--paper);
+  background:
+    linear-gradient(90deg, rgba(11, 10, 8, 0.97), rgba(11, 10, 8, 0.9)),
+    url("img/sumi-race-bg.png") center / cover fixed;
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  letter-spacing: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -48px;
+  z-index: 100;
+  color: var(--ink);
+  background: var(--paper);
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 92px;
+  padding: 18px clamp(18px, 4vw, 54px);
+  background: rgba(8, 7, 6, 0.92);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(14px);
+}
+
+.brand {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.brand::after {
+  content: "";
+  position: absolute;
+  left: 84px;
+  bottom: -9px;
+  width: min(420px, 52vw);
+  height: 18px;
+  background: url("img/sumi-race-bg.png") 18% 48% / 620px auto;
+  opacity: 0.72;
+  pointer-events: none;
+}
+
+.brand > * {
+  position: relative;
+  z-index: 1;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid var(--red-2);
+  background:
+    radial-gradient(circle at 34% 28%, rgba(255, 255, 255, 0.12), transparent 18%),
+    var(--red);
+  box-shadow: inset 0 0 0 4px rgba(11, 10, 8, 0.42), 0 0 0 1px rgba(199, 166, 90, 0.28);
+}
+
+.brand-mark span {
+  color: var(--ink);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 2.1rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.brand h1 {
+  margin: 0;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0;
+  text-shadow: 0 3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.brand-kicker,
+.section-label {
+  margin: 0 0 6px;
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.header-status {
+  display: grid;
+  gap: 4px;
+  justify-items: end;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.header-status strong {
+  color: var(--paper);
+  font-size: 1rem;
+}
+
+.layout-shell {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  min-height: calc(100vh - 92px);
+}
+
+.sidebar {
+  position: sticky;
+  top: 92px;
+  align-self: start;
+  min-height: calc(100vh - 92px);
+  padding: 24px 18px;
+  background: rgba(9, 8, 7, 0.78);
+  border-right: 1px solid var(--line);
+}
+
+.sidebar-art {
+  min-height: 230px;
+  margin-bottom: 22px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(11, 10, 8, 0.05), rgba(11, 10, 8, 0.78)),
+    url("img/sumi-race-bg.png") 19% 58% / cover;
+}
+
+.side-nav {
+  display: grid;
+  gap: 2px;
+}
+
+.side-nav a {
+  color: var(--paper);
+  text-decoration: none;
+  padding: 14px 12px;
+  border-bottom: 1px solid rgba(199, 166, 90, 0.18);
+}
+
+.side-nav a:hover,
+.side-nav a:focus {
+  color: var(--gold);
+  background: rgba(165, 22, 24, 0.18);
+}
+
+.rule-block {
+  margin-top: 28px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  background: rgba(11, 10, 8, 0.6);
+}
+
+.rule-block span,
+.rule-block p {
+  color: var(--muted);
+}
+
+.rule-block strong {
+  display: block;
+  margin: 6px 0;
+  color: var(--gold);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.65rem;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(340px, 0.75fr);
+  gap: 18px;
+  padding: 24px clamp(16px, 3vw, 34px) 40px;
+}
+
+.control-bar,
+.hero-panel,
+.summary-strip,
+.content-panel {
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.control-bar {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(260px, 0.8fr) minmax(260px, 0.8fr);
+  gap: 18px;
+  padding: 18px;
+  background: rgba(11, 10, 8, 0.72);
+}
+
+.segmented {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.segmented button {
+  min-height: 42px;
+  padding: 0 18px;
+  color: var(--paper);
+  background: rgba(242, 234, 219, 0.06);
+  border: 1px solid rgba(199, 166, 90, 0.25);
+}
+
+.segmented.compact button {
+  min-height: 36px;
+  padding: 0 14px;
+}
+
+.segmented button.is-active {
+  color: var(--ink);
+  background: var(--gold);
+  border-color: var(--gold);
+  font-weight: 800;
+}
+
+.schedule-strip {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) minmax(220px, 0.8fr);
+  border: 1px solid var(--line);
+  background: rgba(11, 10, 8, 0.78);
+  box-shadow: var(--shadow);
+}
+
+.schedule-strip article {
+  display: grid;
+  gap: 5px;
+  padding: 16px 18px;
+  border-right: 1px solid rgba(199, 166, 90, 0.22);
+}
+
+.schedule-strip span,
+.schedule-strip small,
+.schedule-strip p {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.schedule-strip strong {
+  color: var(--gold);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: clamp(1.55rem, 2.6vw, 2.25rem);
+  line-height: 1;
+}
+
+.schedule-strip p {
+  align-self: center;
+  margin: 0;
+  padding: 16px 18px;
+  line-height: 1.65;
+}
+
+.hero-panel {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.48fr);
+  gap: 18px;
+  padding: clamp(20px, 3vw, 30px);
+  background:
+    linear-gradient(90deg, rgba(13, 12, 10, 0.74), rgba(13, 12, 10, 0.44)),
+    url("img/sumi-race-bg.png") center / cover;
+}
+
+.hero-copy h2 {
+  margin: 0;
+  max-width: 880px;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: clamp(1.9rem, 4.1vw, 3.75rem);
+  line-height: 1.08;
+}
+
+.hero-copy > p:not(.section-label) {
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.hero-meta span {
+  padding: 8px 12px;
+  color: var(--paper);
+  background: rgba(11, 10, 8, 0.62);
+  border: 1px solid rgba(199, 166, 90, 0.28);
+}
+
+.hero-stakes {
+  display: grid;
+  align-self: stretch;
+  background: rgba(8, 7, 6, 0.72);
+  border: 1px solid rgba(199, 166, 90, 0.35);
+}
+
+.hero-stakes div {
+  display: grid;
+  gap: 5px;
+  padding: 16px;
+  border-bottom: 1px solid rgba(199, 166, 90, 0.2);
+}
+
+.hero-stakes div:last-child {
+  border-bottom: 0;
+}
+
+.hero-stakes span,
+.summary-strip span {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.hero-stakes strong,
+.summary-strip strong {
+  color: var(--paper);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+}
+
+.summary-strip {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  background: rgba(11, 10, 8, 0.84);
+}
+
+.summary-strip article {
+  display: grid;
+  gap: 6px;
+  padding: 18px;
+  border-right: 1px solid rgba(199, 166, 90, 0.22);
+}
+
+.summary-strip article:last-child {
+  border-right: 0;
+}
+
+.content-panel {
+  background: rgba(240, 232, 217, 0.96);
+  color: var(--ink);
+}
+
+.content-panel.wide {
+  grid-row: span 2;
+}
+
+.daily-panel {
+  grid-column: 1 / -1;
+}
+
+.panel-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 22px 24px 16px;
+  border-bottom: 1px solid rgba(73, 51, 25, 0.22);
+}
+
+.content-panel .section-label {
+  color: var(--red);
+}
+
+.panel-heading h2 {
+  margin: 0;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+}
+
+.panel-note {
+  margin: 0;
+  color: rgba(11, 10, 8, 0.62);
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.ticket-list,
+.win5-routes,
+.review-list,
+.daily-summary-list {
+  padding: 0 24px 24px;
+}
+
+.race-ticket {
+  display: grid;
+  grid-template-columns: 96px minmax(190px, 0.9fr) minmax(250px, 1fr) 86px;
+  gap: 16px;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(73, 51, 25, 0.2);
+}
+
+.race-ticket:last-child {
+  border-bottom: 0;
+}
+
+.race-time {
+  display: grid;
+  align-content: start;
+  gap: 7px;
+}
+
+.race-time strong {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.35rem;
+}
+
+.grade,
+.tag,
+.bet-type {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 26px;
+  padding: 0 9px;
+  color: var(--paper);
+  background: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.tag {
+  color: var(--ink);
+  background: var(--paper-3);
+}
+
+.tag.red {
+  color: var(--paper);
+  background: var(--red);
+}
+
+.race-title h3 {
+  margin: 0 0 7px;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.38rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.race-title p,
+.review-item p {
+  margin: 0;
+  color: rgba(11, 10, 8, 0.64);
+  line-height: 1.7;
+}
+
+.bets {
+  display: grid;
+  gap: 10px;
+}
+
+.edge-panel {
+  display: grid;
+  gap: 8px;
+  margin-top: 2px;
+  padding: 10px;
+  background: rgba(255, 250, 240, 0.72);
+  border: 1px solid rgba(73, 51, 25, 0.16);
+}
+
+.edge-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.edge-head span,
+.edge-cell span,
+.edge-cell small {
+  color: rgba(11, 10, 8, 0.58);
+  font-size: 0.72rem;
+}
+
+.edge-head strong {
+  color: #2a2a23;
+  font-size: 0.82rem;
+}
+
+.edge-head strong.is-positive {
+  color: var(--red);
+}
+
+.edge-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.edge-cell {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+
+.edge-cell strong {
+  color: var(--red);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.edge-panel p {
+  margin: 0;
+  color: rgba(11, 10, 8, 0.66);
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.bet-line {
+  display: grid;
+  grid-template-columns: 86px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+
+.bet-type {
+  background: var(--red);
+}
+
+.bet-type.trio {
+  background: #2a2a23;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.num {
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  color: var(--ink);
+  background: #fffaf0;
+  border: 1px solid rgba(73, 51, 25, 0.25);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.arrow {
+  color: rgba(11, 10, 8, 0.45);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-weight: 800;
+}
+
+.race-side {
+  display: grid;
+  gap: 6px;
+  justify-items: end;
+  text-align: right;
+}
+
+.odds {
+  color: var(--red);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.route {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(73, 51, 25, 0.2);
+}
+
+.route:last-child {
+  border-bottom: 0;
+}
+
+.route-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.route-head h3 {
+  margin: 0;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.35rem;
+}
+
+.route-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.route-cell {
+  display: grid;
+  gap: 4px;
+  padding: 10px 8px;
+  background: #fffaf0;
+  border: 1px solid rgba(73, 51, 25, 0.16);
+}
+
+.route-cell span {
+  color: rgba(11, 10, 8, 0.58);
+  font-size: 0.72rem;
+}
+
+.route-cell strong {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+
+.review-item {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(73, 51, 25, 0.18);
+}
+
+.review-item:last-child {
+  border-bottom: 0;
+}
+
+.review-item h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.daily-summary-row {
+  display: grid;
+  grid-template-columns: 132px 94px minmax(0, 1fr) 150px;
+  gap: 18px;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(73, 51, 25, 0.18);
+}
+
+.daily-summary-row:last-child {
+  border-bottom: 0;
+}
+
+.daily-summary-row.is-current {
+  border-left: 4px solid var(--red);
+  padding-left: 14px;
+}
+
+.daily-date {
+  display: grid;
+  gap: 5px;
+}
+
+.daily-date strong {
+  color: var(--red);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.daily-date span,
+.daily-status span,
+.daily-stats span {
+  color: rgba(11, 10, 8, 0.62);
+  font-size: 0.86rem;
+}
+
+.daily-stamp {
+  display: inline-grid;
+  place-items: center;
+  justify-self: center;
+  width: 76px;
+  height: 76px;
+  color: rgba(11, 10, 8, 0.46);
+  background: rgba(255, 250, 240, 0.42);
+  border: 3px double currentColor;
+  border-radius: 50%;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.1rem;
+  font-weight: 900;
+  line-height: 1.05;
+  text-align: center;
+  transform: rotate(-9deg);
+}
+
+.daily-stamp.hit {
+  color: var(--red);
+  background: rgba(165, 22, 24, 0.06);
+}
+
+.daily-stamp.miss {
+  color: #2a2a23;
+}
+
+.daily-stamp.pending {
+  color: rgba(73, 51, 25, 0.42);
+  font-size: 0.96rem;
+}
+
+.daily-main {
+  display: grid;
+  gap: 8px;
+}
+
+.daily-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.daily-main p {
+  margin: 0;
+  color: rgba(11, 10, 8, 0.72);
+  line-height: 1.65;
+}
+
+.daily-stats {
+  display: grid;
+  gap: 5px;
+  justify-items: end;
+  text-align: right;
+}
+
+.daily-stats strong {
+  color: var(--red);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.45rem;
+}
+
+.site-footer {
+  padding: 22px 34px;
+  color: var(--muted);
+  background: rgba(8, 7, 6, 0.92);
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+@media (max-width: 1120px) {
+  .layout-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    min-height: auto;
+  }
+
+  .sidebar-art {
+    display: none;
+  }
+
+  .side-nav {
+    grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  }
+
+  .rule-block {
+    display: none;
+  }
+
+  .main-grid,
+  .control-bar,
+  .schedule-strip,
+  .hero-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-strip article {
+    border-right: 0;
+    border-bottom: 1px solid rgba(199, 166, 90, 0.18);
+  }
+}
+
+@media (max-width: 760px) {
+  .site-header {
+    position: static;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .header-status {
+    justify-items: start;
+  }
+
+  .brand-mark {
+    width: 52px;
+    height: 52px;
+  }
+
+  .brand::after {
+    left: 70px;
+    width: min(280px, 48vw);
+  }
+
+  .layout-shell {
+    min-height: auto;
+  }
+
+  .side-nav {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-grid {
+    padding: 14px;
+  }
+
+  .summary-strip {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .summary-strip article:nth-child(2) {
+    border-right: 0;
+  }
+
+  .race-ticket {
+    grid-template-columns: 1fr;
+  }
+
+  .daily-summary-row {
+    grid-template-columns: 1fr;
+  }
+
+  .daily-stamp {
+    justify-self: start;
+  }
+
+  .race-side {
+    justify-items: start;
+    text-align: left;
+  }
+
+  .edge-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .daily-stats {
+    justify-items: start;
+    text-align: left;
+  }
+
+  .route-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-heading {
+    display: grid;
+  }
+
+  .panel-note {
+    text-align: left;
+  }
+}

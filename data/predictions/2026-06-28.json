@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-28",
+  "weekday": "日曜",
+  "updatedAt": "2026-06-28 08:00 JST",
+  "headline": "日曜は重賞を中心に、三連系の一点だけを研ぐ。",
+  "summary": "本命3連単は人気上位を順序まで決め切り、穴3連複は馬場替わりで浮く馬を一頭入れる。WIN5は最終レースで勝負度を変える。",
+  "venues": ["東京", "阪神", "函館"],
+  "trackCondition": "芝 稍重 / ダート 良",
+  "scratches": "阪神10R 1頭取消",
+  "expectedReturn": 52200,
+  "expectedRoi": 241,
+  "races": [
+    {
+      "venue": "東京",
+      "raceNo": 10,
+      "start": "15:00",
+      "grade": "3勝C",
+      "name": "甲州街道ステークス",
+      "condition": "ダ1600m / 3歳以上",
+      "confidence": "本命",
+      "trifecta": [2, 7, 10],
+      "trio": [2, 8, 13],
+      "value": "B+",
+      "note": "先行力"
+    },
+    {
+      "venue": "東京",
+      "raceNo": 11,
+      "start": "15:40",
+      "grade": "GIII",
+      "name": "エプソムカップ",
+      "condition": "芝1800m / 3歳以上",
+      "confidence": "本命",
+      "trifecta": [11, 5, 3],
+      "trio": [4, 5, 11],
+      "value": "A",
+      "note": "末脚信頼"
+    },
+    {
+      "venue": "阪神",
+      "raceNo": 10,
+      "start": "15:05",
+      "grade": "3勝C",
+      "name": "花のみちステークス",
+      "condition": "ダ1200m / 3歳以上",
+      "confidence": "穴",
+      "trifecta": [8, 12, 4],
+      "trio": [4, 8, 15],
+      "value": "A-",
+      "note": "差し届く"
+    },
+    {
+      "venue": "阪神",
+      "raceNo": 11,
+      "start": "15:35",
+      "grade": "GI",
+      "name": "宝塚記念",
+      "condition": "芝2200m / 3歳以上",
+      "confidence": "本命",
+      "trifecta": [6, 1, 9],
+      "trio": [1, 6, 12],
+      "value": "A",
+      "note": "持続力"
+    },
+    {
+      "venue": "函館",
+      "raceNo": 11,
+      "start": "15:25",
+      "grade": "OP",
+      "name": "大沼ステークス",
+      "condition": "ダ1700m / オープン",
+      "confidence": "妙味",
+      "trifecta": [3, 10, 6],
+      "trio": [3, 7, 14],
+      "value": "B",
+      "note": "小回り巧者"
+    }
+  ],
+  "win5": {
+    "deadline": "14:55",
+    "routes": [
+      {
+        "name": "堅実",
+        "style": "重賞本線",
+        "legs": [
+          { "race": "東京10R", "pick": 2 },
+          { "race": "阪神10R", "pick": 8 },
+          { "race": "函館11R", "pick": 3 },
+          { "race": "東京11R", "pick": 11 },
+          { "race": "阪神11R", "pick": 6 }
+        ]
+      },
+      {
+        "name": "妙味",
+        "style": "函館でズラす",
+        "legs": [
+          { "race": "東京10R", "pick": 7 },
+          { "race": "阪神10R", "pick": 8 },
+          { "race": "函館11R", "pick": 10 },
+          { "race": "東京11R", "pick": 5 },
+          { "race": "阪神11R", "pick": 6 }
+        ]
+      },
+      {
+        "name": "穴",
+        "style": "阪神で勝負",
+        "legs": [
+          { "race": "東京10R", "pick": 10 },
+          { "race": "阪神10R", "pick": 12 },
+          { "race": "函館11R", "pick": 14 },
+          { "race": "東京11R", "pick": 3 },
+          { "race": "阪神11R", "pick": 12 }
+        ]
+      }
+    ]
+  }
+}
