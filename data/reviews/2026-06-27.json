@@ -1,29 +1,107 @@
 {
   "date": "2026-06-27",
+  "weekday": "土曜",
+  "updatedAt": "2026-06-27 17:29 JST",
+  "status": "settled",
+  "summary": "本命3連単2本的中、穴3連複とWIN5は不的中。回収率42.1%。",
   "settlement": {
-    "stake": 1500,
-    "payout": 2460,
+    "stake": 7500,
+    "payout": 3160,
     "hits": [
       {
-        "race": "京都10R",
-        "type": "穴3連複",
-        "payout": 2460
+        "race": "福島5R",
+        "type": "本命3連単",
+        "ticket": [
+          3,
+          6,
+          9
+        ],
+        "payout": 1850
+      },
+      {
+        "race": "小倉12R",
+        "type": "本命3連単",
+        "ticket": [
+          8,
+          2,
+          6
+        ],
+        "payout": 1310
       }
     ],
-    "result": "hit"
+    "result": "hit",
+    "balance": -4340,
+    "roi": 42.1
+  },
+  "breakdown": {
+    "trifecta": {
+      "stake": 3600,
+      "payout": 3160,
+      "hits": 2,
+      "roi": 87.8
+    },
+    "trio": {
+      "stake": 3600,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0.0
+    },
+    "win5": {
+      "stake": 300,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0.0
+    }
+  },
+  "win5": {
+    "result": [
+      4,
+      3,
+      2,
+      9,
+      4
+    ],
+    "payout": 575060,
+    "hitCount": 524,
+    "carryover": 0,
+    "salesVotes": 4304802,
+    "salesAmount": 430480200,
+    "remainingVotes": [
+      360019,
+      44455,
+      9097,
+      1192,
+      524
+    ],
+    "source": "https://www.jra.go.jp/kouza/win5/"
   },
   "items": [
     {
       "title": "本命3連単",
-      "body": "東京11Rは軸の決め手評価が正解。順序の詰めが課題。"
+      "body": "福島5Rと小倉12Rが的中。低EV扱いだった本線の確率をやや低く見た。"
     },
     {
       "title": "穴3連複",
-      "body": "京都10Rの外差し読みは継続。人気薄を入れる条件をもう少し絞る。"
+      "body": "高EV候補も全敗。高配当側の3着内同時成立を強く見すぎた。"
     },
     {
       "title": "WIN5",
-      "body": "妙味ルートは悪くないが、穴ルートは荒れ待ちが強すぎた。"
+      "body": "公式結果は4-3-2-9-4。3ルートとも不的中、キャリーオーバーは0円。"
+    }
+  ],
+  "sources": [
+    {
+      "name": "JRA公式 レース結果",
+      "url": "https://www.jra.go.jp/"
+    },
+    {
+      "name": "JRA公式 WIN5",
+      "url": "https://www.jra.go.jp/kouza/win5/",
+      "detailCname": "pw17hde01202606271/6E"
+    },
+    {
+      "name": "JRA公式 WIN5払戻金・キャリーオーバー",
+      "url": "https://www.jra.go.jp/kouza/win5/carry/"
     }
   ]
 }
