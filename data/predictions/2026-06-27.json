@@ -1,130 +1,5800 @@
 {
   "date": "2026-06-27",
   "weekday": "土曜",
-  "updatedAt": "2026-06-27 08:00 JST",
-  "headline": "迷った買い目は切る。本命3連単と穴3連複だけで勝負。",
-  "summary": "東京11Rを本命の軸に据え、京都10Rは穴3連複で拾う構え。WIN5は堅実、妙味、穴の三段構えで一点突破を狙う。",
-  "venues": ["東京", "京都", "函館"],
-  "trackCondition": "芝 良 / ダート 稍重",
-  "scratches": "確認時点なし",
-  "expectedReturn": 46800,
-  "expectedRoi": 216,
+  "updatedAt": "2026-06-27 08:21 JST",
+  "headline": "福島・小倉・函館の全36Rを固定2点で検証する。",
+  "summary": "JRA公式の開催お知らせ、出馬表、オッズ、馬場、WIN5対象を確認し、全レースに本命3連単1点と穴3連複1点を設定。重い小倉・函館は馬場適性と先行力をやや重視する。",
+  "venues": [
+    "福島",
+    "小倉",
+    "函館"
+  ],
+  "trackCondition": "福島 芝稍重 / ダート稍重、小倉 芝重 / ダート不良、函館 芝重 / ダート不良",
+  "scratches": "JRA開催お知らせ確認時点なし",
+  "expectedReturn": 3231,
+  "expectedRoi": 43,
   "races": [
     {
-      "venue": "東京",
+      "venue": "福島",
+      "raceNo": 1,
+      "start": "10:05",
+      "grade": "障害",
+      "name": "障害3歳以上未勝利",
+      "condition": "2750m(芝) / 障害3歳以上 未勝利 （混合） 定量",
+      "confidence": "検証",
+      "trifecta": [
+        4,
+        9,
+        5
+      ],
+      "trio": [
+        4,
+        9,
+        12
+      ],
+      "value": "C",
+      "note": "芝稍重を前提に、バラジの軸力を取りつつオーサムストロークの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "グラヴィテ",
+          "win": 0.046427,
+          "second": 0.078177,
+          "third": 0.066595,
+          "inTop3": 0.191199
+        },
+        {
+          "horseNo": 2,
+          "horse": "ナチュラルリバー",
+          "win": 0.030072,
+          "second": 0.066856,
+          "third": 0.056952,
+          "inTop3": 0.15388
+        },
+        {
+          "horseNo": 3,
+          "horse": "ワールドシリーズ",
+          "win": 0.013548,
+          "second": 0.048458,
+          "third": 0.041279,
+          "inTop3": 0.103284
+        },
+        {
+          "horseNo": 4,
+          "horse": "バラジ",
+          "win": 0.248092,
+          "second": 0.104702,
+          "third": 0.089191,
+          "inTop3": 0.441985
+        },
+        {
+          "horseNo": 5,
+          "horse": "ディベルティスマン",
+          "win": 0.132316,
+          "second": 0.102851,
+          "third": 0.087614,
+          "inTop3": 0.322781
+        },
+        {
+          "horseNo": 6,
+          "horse": "セキテイオー",
+          "win": 0.070884,
+          "second": 0.089299,
+          "third": 0.076069,
+          "inTop3": 0.236251
+        },
+        {
+          "horseNo": 7,
+          "horse": "クロライナ",
+          "win": 0.030771,
+          "second": 0.067439,
+          "third": 0.057448,
+          "inTop3": 0.155659
+        },
+        {
+          "horseNo": 8,
+          "horse": "エンジョイドライブ",
+          "win": 0.027376,
+          "second": 0.0645,
+          "third": 0.054944,
+          "inTop3": 0.14682
+        },
+        {
+          "horseNo": 9,
+          "horse": "キュピドン",
+          "win": 0.13928,
+          "second": 0.103618,
+          "third": 0.088268,
+          "inTop3": 0.331166
+        },
+        {
+          "horseNo": 10,
+          "horse": "ブライテストドーン",
+          "win": 0.013735,
+          "second": 0.048741,
+          "third": 0.04152,
+          "inTop3": 0.103997
+        },
+        {
+          "horseNo": 11,
+          "horse": "アスクアットバット",
+          "win": 0.007693,
+          "second": 0.037874,
+          "third": 0.032263,
+          "inTop3": 0.077829
+        },
+        {
+          "horseNo": 12,
+          "horse": "オーサムストローク",
+          "win": 0.124046,
+          "second": 0.101782,
+          "third": 0.086703,
+          "inTop3": 0.312531
+        },
+        {
+          "horseNo": 13,
+          "horse": "トラマンダーレ",
+          "win": 0.041565,
+          "second": 0.075247,
+          "third": 0.064099,
+          "inTop3": 0.180912
+        },
+        {
+          "horseNo": 14,
+          "horse": "フォルガイル",
+          "win": 0.074196,
+          "second": 0.090457,
+          "third": 0.077056,
+          "inTop3": 0.241708
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.36,
+          "memo": "飛越と位置取りを重視"
+        },
+        {
+          "name": "標準",
+          "probability": 0.44,
+          "memo": "減点の少ない持続戦"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "終盤の消耗差"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "標準 0.44: 減点の少ない持続戦",
+        "trifecta": {
+          "probability": 0.00337467,
+          "odds": 43.6,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.1471,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.02003799,
+          "odds": 23.1,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.4629,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "福島",
+      "raceNo": 2,
+      "start": "10:40",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1700m(ダート・右) / 3歳 未勝利 [指定] 馬齢",
+      "confidence": "本命",
+      "trifecta": [
+        14,
+        3,
+        15
+      ],
+      "trio": [
+        2,
+        8,
+        14
+      ],
+      "value": "C+",
+      "note": "ダート稍重を前提に、テンオンスゴールドの軸力を取りつつスクイーズアウトの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ルプルミエラムール",
+          "win": 0.010398,
+          "second": 0.044176,
+          "third": 0.037632,
+          "inTop3": 0.092206
+        },
+        {
+          "horseNo": 2,
+          "horse": "リマーカブル",
+          "win": 0.010738,
+          "second": 0.044798,
+          "third": 0.038162,
+          "inTop3": 0.093698
+        },
+        {
+          "horseNo": 3,
+          "horse": "アオイミズホ",
+          "win": 0.171801,
+          "second": 0.109614,
+          "third": 0.093375,
+          "inTop3": 0.37479
+        },
+        {
+          "horseNo": 4,
+          "horse": "コパノミラノ",
+          "win": 0.070561,
+          "second": 0.0916,
+          "third": 0.07803,
+          "inTop3": 0.240192
+        },
+        {
+          "horseNo": 5,
+          "horse": "カンフーヒーロー",
+          "win": 0.009222,
+          "second": 0.041909,
+          "third": 0.035701,
+          "inTop3": 0.086831
+        },
+        {
+          "horseNo": 6,
+          "horse": "タイセイジェンマ",
+          "win": 0.016328,
+          "second": 0.053576,
+          "third": 0.045639,
+          "inTop3": 0.115543
+        },
+        {
+          "horseNo": 7,
+          "horse": "アーティキュレート",
+          "win": 0.03893,
+          "second": 0.075319,
+          "third": 0.064161,
+          "inTop3": 0.17841
+        },
+        {
+          "horseNo": 8,
+          "horse": "スクイーズアウト",
+          "win": 0.085901,
+          "second": 0.096723,
+          "third": 0.082393,
+          "inTop3": 0.265017
+        },
+        {
+          "horseNo": 9,
+          "horse": "フロムドーン",
+          "win": 0.032656,
+          "second": 0.070603,
+          "third": 0.060143,
+          "inTop3": 0.163403
+        },
+        {
+          "horseNo": 10,
+          "horse": "マーゴットライズ",
+          "win": 0.024242,
+          "second": 0.062934,
+          "third": 0.05361,
+          "inTop3": 0.140786
+        },
+        {
+          "horseNo": 11,
+          "horse": "ナツミカンチャン",
+          "win": 0.054502,
+          "second": 0.084561,
+          "third": 0.072034,
+          "inTop3": 0.211098
+        },
+        {
+          "horseNo": 12,
+          "horse": "キタノタイキ",
+          "win": 0.00893,
+          "second": 0.041319,
+          "third": 0.035198,
+          "inTop3": 0.085447
+        },
+        {
+          "horseNo": 13,
+          "horse": "リゼクールグレー",
+          "win": 0.018551,
+          "second": 0.056488,
+          "third": 0.048119,
+          "inTop3": 0.123158
+        },
+        {
+          "horseNo": 14,
+          "horse": "テンオンスゴールド",
+          "win": 0.329286,
+          "second": 0.102377,
+          "third": 0.08721,
+          "inTop3": 0.518874
+        },
+        {
+          "horseNo": 15,
+          "horse": "スターツトゥデイ",
+          "win": 0.117953,
+          "second": 0.104002,
+          "third": 0.088594,
+          "inTop3": 0.310549
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.25,
+          "memo": "ペースが緩む想定"
+        },
+        {
+          "name": "標準",
+          "probability": 0.44,
+          "memo": "能力順に近い決着"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.31,
+          "memo": "持続力と末脚"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "標準 0.44: 能力順に近い決着",
+        "trifecta": {
+          "probability": 0.00917285,
+          "odds": 19.0,
+          "oddsTime": "08:15 JST",
+          "expectedValue": 0.1743,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00038418,
+          "odds": 1438.3,
+          "oddsTime": "08:15 JST",
+          "expectedValue": 0.5526,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "福島",
+      "raceNo": 3,
+      "start": "11:10",
+      "grade": "1勝C",
+      "name": "3歳以上1勝クラス",
+      "condition": "1700m(ダート・右) / 3歳以上 1勝C （混合）［指定］ 定量",
+      "confidence": "検証",
+      "trifecta": [
+        10,
+        9,
+        12
+      ],
+      "trio": [
+        5,
+        10,
+        12
+      ],
+      "value": "C+",
+      "note": "ダート稍重を前提に、ショウナンパトスの軸力を取りつつラルフテソーロの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "コウユーニポポニコ",
+          "win": 0.045507,
+          "second": 0.072676,
+          "third": 0.061909,
+          "inTop3": 0.180092
+        },
+        {
+          "horseNo": 2,
+          "horse": "ラフレードピエル",
+          "win": 0.026546,
+          "second": 0.059941,
+          "third": 0.051061,
+          "inTop3": 0.137548
+        },
+        {
+          "horseNo": 3,
+          "horse": "ジェネラスキング",
+          "win": 0.087513,
+          "second": 0.087604,
+          "third": 0.074626,
+          "inTop3": 0.249743
+        },
+        {
+          "horseNo": 4,
+          "horse": "タイセツナヒ",
+          "win": 0.026025,
+          "second": 0.059491,
+          "third": 0.050677,
+          "inTop3": 0.136193
+        },
+        {
+          "horseNo": 5,
+          "horse": "ナリノシャーウッド",
+          "win": 0.099546,
+          "second": 0.09008,
+          "third": 0.076735,
+          "inTop3": 0.26636
+        },
+        {
+          "horseNo": 6,
+          "horse": "サムシングニュー",
+          "win": 0.050086,
+          "second": 0.074979,
+          "third": 0.063871,
+          "inTop3": 0.188937
+        },
+        {
+          "horseNo": 7,
+          "horse": "ブルーユンチェリー",
+          "win": 0.017658,
+          "second": 0.051043,
+          "third": 0.043481,
+          "inTop3": 0.112183
+        },
+        {
+          "horseNo": 8,
+          "horse": "ガムラスタン",
+          "win": 0.095948,
+          "second": 0.089399,
+          "third": 0.076155,
+          "inTop3": 0.261502
+        },
+        {
+          "horseNo": 9,
+          "horse": "プロスペクトパーク",
+          "win": 0.132728,
+          "second": 0.094413,
+          "third": 0.080426,
+          "inTop3": 0.307566
+        },
+        {
+          "horseNo": 10,
+          "horse": "ショウナンパトス",
+          "win": 0.194236,
+          "second": 0.096029,
+          "third": 0.081803,
+          "inTop3": 0.372068
+        },
+        {
+          "horseNo": 11,
+          "horse": "キタノブレイク",
+          "win": 0.009019,
+          "second": 0.038424,
+          "third": 0.032731,
+          "inTop3": 0.080174
+        },
+        {
+          "horseNo": 12,
+          "horse": "ラルフテソーロ",
+          "win": 0.130552,
+          "second": 0.094221,
+          "third": 0.080262,
+          "inTop3": 0.305035
+        },
+        {
+          "horseNo": 13,
+          "horse": "クラウンフリード",
+          "win": 0.006992,
+          "second": 0.034344,
+          "third": 0.029256,
+          "inTop3": 0.070592
+        },
+        {
+          "horseNo": 14,
+          "horse": "コパノエイダン",
+          "win": 0.043756,
+          "second": 0.071733,
+          "third": 0.061106,
+          "inTop3": 0.176595
+        },
+        {
+          "horseNo": 15,
+          "horse": "パータリプトラ",
+          "win": 0.033888,
+          "second": 0.065622,
+          "third": 0.0559,
+          "inTop3": 0.155411
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.25,
+          "memo": "ペースが緩む想定"
+        },
+        {
+          "name": "標準",
+          "probability": 0.44,
+          "memo": "能力順に近い決着"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.31,
+          "memo": "持続力と末脚"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "標準 0.44: 能力順に近い決着",
+        "trifecta": {
+          "probability": 0.00211013,
+          "odds": 71.7,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.1513,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00792233,
+          "odds": 64.8,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.5134,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "福島",
+      "raceNo": 4,
+      "start": "11:40",
+      "grade": "障害",
+      "name": "障害3歳以上オープン",
+      "condition": "2750m(芝) / 障害3歳以上 オープン （混合） 別定",
+      "confidence": "本命",
+      "trifecta": [
+        7,
+        2,
+        3
+      ],
+      "trio": [
+        4,
+        5,
+        7
+      ],
+      "value": "C+",
+      "note": "芝稍重を前提に、ウォーターリーダーの軸力を取りつつシャンドゥレールの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "トモジャシック",
+          "win": 0.030294,
+          "second": 0.078216,
+          "third": 0.066629,
+          "inTop3": 0.175139
+        },
+        {
+          "horseNo": 2,
+          "horse": "ブラックバラード",
+          "win": 0.155033,
+          "second": 0.130232,
+          "third": 0.110938,
+          "inTop3": 0.396203
+        },
+        {
+          "horseNo": 3,
+          "horse": "ミレニアムヒロイン",
+          "win": 0.125503,
+          "second": 0.124727,
+          "third": 0.106249,
+          "inTop3": 0.356478
+        },
+        {
+          "horseNo": 4,
+          "horse": "ゴールドブリーズ",
+          "win": 0.094127,
+          "second": 0.11588,
+          "third": 0.098712,
+          "inTop3": 0.308719
+        },
+        {
+          "horseNo": 5,
+          "horse": "シャンドゥレール",
+          "win": 0.090881,
+          "second": 0.114733,
+          "third": 0.097735,
+          "inTop3": 0.30335
+        },
+        {
+          "horseNo": 6,
+          "horse": "コンバスチョン",
+          "win": 0.089849,
+          "second": 0.114357,
+          "third": 0.097415,
+          "inTop3": 0.301621
+        },
+        {
+          "horseNo": 7,
+          "horse": "ウォーターリーダー",
+          "win": 0.263556,
+          "second": 0.136636,
+          "third": 0.116394,
+          "inTop3": 0.516586
+        },
+        {
+          "horseNo": 8,
+          "horse": "ヴェールランス",
+          "win": 0.097613,
+          "second": 0.117056,
+          "third": 0.099715,
+          "inTop3": 0.314384
+        },
+        {
+          "horseNo": 9,
+          "horse": "アメリカンピース",
+          "win": 0.029613,
+          "second": 0.077515,
+          "third": 0.066032,
+          "inTop3": 0.17316
+        },
+        {
+          "horseNo": 10,
+          "horse": "ローンウルフ",
+          "win": 0.023532,
+          "second": 0.070647,
+          "third": 0.060181,
+          "inTop3": 0.15436
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.36,
+          "memo": "飛越と位置取りを重視"
+        },
+        {
+          "name": "標準",
+          "probability": 0.44,
+          "memo": "減点の少ない持続戦"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "終盤の消耗差"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "標準 0.44: 減点の少ない持続戦",
+        "trifecta": {
+          "probability": 0.00407197,
+          "odds": 32.6,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.1327,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00746285,
+          "odds": 70.7,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.5276,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "福島",
+      "raceNo": 5,
+      "start": "12:30",
+      "grade": "新馬",
+      "name": "メイクデビュー福島",
+      "condition": "1200m(芝・右) / 2歳 新馬 （混合）［指定］ 馬齢",
+      "confidence": "本命",
+      "trifecta": [
+        3,
+        6,
+        9
+      ],
+      "trio": [
+        3,
+        6,
+        10
+      ],
+      "value": "C+",
+      "note": "芝稍重を前提に、アンムートの軸力を取りつつモーモーゼロの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "エバーメテオ",
+          "win": 0.091598,
+          "second": 0.118398,
+          "third": 0.100857,
+          "inTop3": 0.310853
+        },
+        {
+          "horseNo": 2,
+          "horse": "エニシングゴース",
+          "win": 0.018891,
+          "second": 0.06603,
+          "third": 0.056247,
+          "inTop3": 0.141168
+        },
+        {
+          "horseNo": 3,
+          "horse": "アンムート",
+          "win": 0.302978,
+          "second": 0.141681,
+          "third": 0.120691,
+          "inTop3": 0.56535
+        },
+        {
+          "horseNo": 4,
+          "horse": "アイデアルカット",
+          "win": 0.035167,
+          "second": 0.085019,
+          "third": 0.072424,
+          "inTop3": 0.19261
+        },
+        {
+          "horseNo": 5,
+          "horse": "スウィット",
+          "win": 0.040397,
+          "second": 0.089661,
+          "third": 0.076378,
+          "inTop3": 0.206437
+        },
+        {
+          "horseNo": 6,
+          "horse": "エーアイクワイ",
+          "win": 0.291757,
+          "second": 0.142033,
+          "third": 0.120991,
+          "inTop3": 0.554782
+        },
+        {
+          "horseNo": 7,
+          "horse": "シャインフォード",
+          "win": 0.051152,
+          "second": 0.097818,
+          "third": 0.083327,
+          "inTop3": 0.232297
+        },
+        {
+          "horseNo": 8,
+          "horse": "ブラックナザレ",
+          "win": 0.028961,
+          "second": 0.078748,
+          "third": 0.067082,
+          "inTop3": 0.174791
+        },
+        {
+          "horseNo": 9,
+          "horse": "ショウナンハーヴェ",
+          "win": 0.094909,
+          "second": 0.119616,
+          "third": 0.101895,
+          "inTop3": 0.316421
+        },
+        {
+          "horseNo": 10,
+          "horse": "モーモーゼロ",
+          "win": 0.0229,
+          "second": 0.071564,
+          "third": 0.060962,
+          "inTop3": 0.155426
+        },
+        {
+          "horseNo": 11,
+          "horse": "セイウントレジャ",
+          "win": 0.02129,
+          "second": 0.069431,
+          "third": 0.059145,
+          "inTop3": 0.149866
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.41,
+          "memo": "短距離で先行力重視"
+        },
+        {
+          "name": "標準",
+          "probability": 0.38,
+          "memo": "人気上位の地力"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.21,
+          "memo": "差しの届く流れ"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.41: 短距離で先行力重視",
+        "trifecta": {
+          "probability": 0.01366191,
+          "odds": 19.2,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.2623,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00691022,
+          "odds": 93.8,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.6482,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "福島",
+      "raceNo": 6,
+      "start": "13:01",
+      "grade": "新馬",
+      "name": "メイクデビュー福島",
+      "condition": "1150m(ダート・右) / 2歳 新馬 （混合）［指定］ 馬齢",
+      "confidence": "本命",
+      "trifecta": [
+        9,
+        2,
+        5
+      ],
+      "trio": [
+        2,
+        7,
+        9
+      ],
+      "value": "C",
+      "note": "ダート稍重を前提に、ムーンベリルの軸力を取りつつセイウンガジュマルの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "レオライジング",
+          "win": 0.038201,
+          "second": 0.089764,
+          "third": 0.076465,
+          "inTop3": 0.20443
+        },
+        {
+          "horseNo": 2,
+          "horse": "エランヴィータ",
+          "win": 0.157389,
+          "second": 0.139081,
+          "third": 0.118477,
+          "inTop3": 0.414948
+        },
+        {
+          "horseNo": 3,
+          "horse": "ラヴァブルロマン",
+          "win": 0.046291,
+          "second": 0.096523,
+          "third": 0.082223,
+          "inTop3": 0.225037
+        },
+        {
+          "horseNo": 4,
+          "horse": "パレスラン",
+          "win": 0.042309,
+          "second": 0.093329,
+          "third": 0.079502,
+          "inTop3": 0.21514
+        },
+        {
+          "horseNo": 5,
+          "horse": "エコロメジャー",
+          "win": 0.143081,
+          "second": 0.13638,
+          "third": 0.116176,
+          "inTop3": 0.395637
+        },
+        {
+          "horseNo": 6,
+          "horse": "オルッス",
+          "win": 0.019194,
+          "second": 0.067885,
+          "third": 0.057828,
+          "inTop3": 0.144906
+        },
+        {
+          "horseNo": 7,
+          "horse": "セイウンガジュマル",
+          "win": 0.11405,
+          "second": 0.129155,
+          "third": 0.110021,
+          "inTop3": 0.353227
+        },
+        {
+          "horseNo": 8,
+          "horse": "ソラティオ",
+          "win": 0.033204,
+          "second": 0.084989,
+          "third": 0.072398,
+          "inTop3": 0.190592
+        },
+        {
+          "horseNo": 9,
+          "horse": "ムーンベリル",
+          "win": 0.357703,
+          "second": 0.144641,
+          "third": 0.123213,
+          "inTop3": 0.625557
+        },
+        {
+          "horseNo": 10,
+          "horse": "マリノエスプレッソ",
+          "win": 0.048577,
+          "second": 0.098253,
+          "third": 0.083697,
+          "inTop3": 0.230526
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.41,
+          "memo": "短距離で先行力重視"
+        },
+        {
+          "name": "標準",
+          "probability": 0.38,
+          "memo": "人気上位の地力"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.21,
+          "memo": "差しの届く流れ"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.41: 短距離で先行力重視",
+        "trifecta": {
+          "probability": 0.01189715,
+          "odds": 17.9,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.213,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.03754023,
+          "odds": 12.0,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.4505,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "福島",
+      "raceNo": 7,
+      "start": "13:30",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1800m(芝・右) / 3歳 未勝利 牝［指定］ 馬齢",
+      "confidence": "妙味",
+      "trifecta": [
+        3,
+        5,
+        1
+      ],
+      "trio": [
+        3,
+        11,
+        13
+      ],
+      "value": "A",
+      "note": "芝稍重を前提に、アッパーウォーターの軸力を取りつつエリオステモンの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "アースヴィンチ",
+          "win": 0.123796,
+          "second": 0.094884,
+          "third": 0.080827,
+          "inTop3": 0.299507
+        },
+        {
+          "horseNo": 2,
+          "horse": "モーブプリエール",
+          "win": 0.032077,
+          "second": 0.065005,
+          "third": 0.055375,
+          "inTop3": 0.152457
+        },
+        {
+          "horseNo": 3,
+          "horse": "アッパーウォーター",
+          "win": 0.233027,
+          "second": 0.096062,
+          "third": 0.081831,
+          "inTop3": 0.41092
+        },
+        {
+          "horseNo": 4,
+          "horse": "グレイスルーラー",
+          "win": 0.037372,
+          "second": 0.068682,
+          "third": 0.058507,
+          "inTop3": 0.164562
+        },
+        {
+          "horseNo": 5,
+          "horse": "エバーシャンティ",
+          "win": 0.226369,
+          "second": 0.096464,
+          "third": 0.082173,
+          "inTop3": 0.405007
+        },
+        {
+          "horseNo": 6,
+          "horse": "イバラヒメ",
+          "win": 0.017299,
+          "second": 0.051117,
+          "third": 0.043544,
+          "inTop3": 0.11196
+        },
+        {
+          "horseNo": 7,
+          "horse": "ラグアイリータ",
+          "win": 0.113185,
+          "second": 0.093527,
+          "third": 0.079671,
+          "inTop3": 0.286383
+        },
+        {
+          "horseNo": 8,
+          "horse": "フォセットジェンヌ",
+          "win": 0.013637,
+          "second": 0.046315,
+          "third": 0.039453,
+          "inTop3": 0.099405
+        },
+        {
+          "horseNo": 9,
+          "horse": "ミダレセツゲツカ",
+          "win": 0.011773,
+          "second": 0.043518,
+          "third": 0.037071,
+          "inTop3": 0.092361
+        },
+        {
+          "horseNo": 10,
+          "horse": "ウインスフェーン",
+          "win": 0.023936,
+          "second": 0.058192,
+          "third": 0.049571,
+          "inTop3": 0.131699
+        },
+        {
+          "horseNo": 11,
+          "horse": "レイナデルアイレ",
+          "win": 0.037909,
+          "second": 0.069028,
+          "third": 0.058802,
+          "inTop3": 0.165738
+        },
+        {
+          "horseNo": 12,
+          "horse": "セルレーヴ",
+          "win": 0.02751,
+          "second": 0.061386,
+          "third": 0.052292,
+          "inTop3": 0.141189
+        },
+        {
+          "horseNo": 13,
+          "horse": "エリオステモン",
+          "win": 0.031947,
+          "second": 0.064909,
+          "third": 0.055293,
+          "inTop3": 0.152149
+        },
+        {
+          "horseNo": 14,
+          "horse": "フロリメル",
+          "win": 0.025232,
+          "second": 0.059392,
+          "third": 0.050593,
+          "inTop3": 0.135217
+        },
+        {
+          "horseNo": 15,
+          "horse": "ラングロワブリッジ",
+          "win": 0.030011,
+          "second": 0.063426,
+          "third": 0.05403,
+          "inTop3": 0.147467
+        },
+        {
+          "horseNo": 16,
+          "horse": "ポポラヴィスタ",
+          "win": 0.014921,
+          "second": 0.048092,
+          "third": 0.040967,
+          "inTop3": 0.10398
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.25,
+          "memo": "ペースが緩む想定"
+        },
+        {
+          "name": "標準",
+          "probability": 0.44,
+          "memo": "能力順に近い決着"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.31,
+          "memo": "持続力と末脚"
+        }
+      ],
+      "edge": {
+        "verdict": "勝負",
+        "scenario": "標準 0.44: 能力順に近い決着",
+        "trifecta": {
+          "probability": 0.00724482,
+          "odds": 28.0,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.2029,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00029197,
+          "odds": 3984.7,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 1.1634,
+          "verdict": "勝負"
+        }
+      }
+    },
+    {
+      "venue": "福島",
+      "raceNo": 8,
+      "start": "14:01",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "2000m(芝・右) / 3歳 未勝利 （混合）［指定］ 馬齢",
+      "confidence": "妙味",
+      "trifecta": [
+        2,
+        11,
+        13
+      ],
+      "trio": [
+        4,
+        13,
+        15
+      ],
+      "value": "B+",
+      "note": "芝稍重を前提に、ウインマニフィークの軸力を取りつつサツキジュエルの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ベイツリー",
+          "win": 0.062266,
+          "second": 0.077879,
+          "third": 0.066342,
+          "inTop3": 0.206487
+        },
+        {
+          "horseNo": 2,
+          "horse": "ウインマニフィーク",
+          "win": 0.177113,
+          "second": 0.092415,
+          "third": 0.078724,
+          "inTop3": 0.348251
+        },
+        {
+          "horseNo": 3,
+          "horse": "モロノディアマンテ",
+          "win": 0.01744,
+          "second": 0.049594,
+          "third": 0.042246,
+          "inTop3": 0.10928
+        },
+        {
+          "horseNo": 4,
+          "horse": "シーサンタナ",
+          "win": 0.021599,
+          "second": 0.054008,
+          "third": 0.046007,
+          "inTop3": 0.121614
+        },
+        {
+          "horseNo": 5,
+          "horse": "ホープフルワールド",
+          "win": 0.033209,
+          "second": 0.063498,
+          "third": 0.054091,
+          "inTop3": 0.150797
+        },
+        {
+          "horseNo": 6,
+          "horse": "テンノルーキー",
+          "win": 0.011534,
+          "second": 0.041762,
+          "third": 0.035575,
+          "inTop3": 0.088871
+        },
+        {
+          "horseNo": 7,
+          "horse": "コールリッジ",
+          "win": 0.071161,
+          "second": 0.080775,
+          "third": 0.068808,
+          "inTop3": 0.220744
+        },
+        {
+          "horseNo": 8,
+          "horse": "サトノリアファル",
+          "win": 0.019925,
+          "second": 0.052316,
+          "third": 0.044566,
+          "inTop3": 0.116807
+        },
+        {
+          "horseNo": 9,
+          "horse": "クリスタルドレス",
+          "win": 0.069305,
+          "second": 0.080212,
+          "third": 0.068329,
+          "inTop3": 0.217846
+        },
+        {
+          "horseNo": 10,
+          "horse": "マイネルオラクル",
+          "win": 0.024599,
+          "second": 0.056801,
+          "third": 0.048386,
+          "inTop3": 0.129785
+        },
+        {
+          "horseNo": 11,
+          "horse": "シンショク",
+          "win": 0.159401,
+          "second": 0.092328,
+          "third": 0.07865,
+          "inTop3": 0.33038
+        },
+        {
+          "horseNo": 12,
+          "horse": "コスモアミュレット",
+          "win": 0.078138,
+          "second": 0.082714,
+          "third": 0.07046,
+          "inTop3": 0.231312
+        },
+        {
+          "horseNo": 13,
+          "horse": "ベアダイヤモンド",
+          "win": 0.15327,
+          "second": 0.092175,
+          "third": 0.078519,
+          "inTop3": 0.323964
+        },
+        {
+          "horseNo": 14,
+          "horse": "オートカリテ",
+          "win": 0.078912,
+          "second": 0.082913,
+          "third": 0.07063,
+          "inTop3": 0.232454
+        },
+        {
+          "horseNo": 15,
+          "horse": "サツキジュエル",
+          "win": 0.01487,
+          "second": 0.04646,
+          "third": 0.039577,
+          "inTop3": 0.100906
+        },
+        {
+          "horseNo": 16,
+          "horse": "マイチバイ",
+          "win": 0.007259,
+          "second": 0.034151,
+          "third": 0.029092,
+          "inTop3": 0.070501
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.25,
+          "memo": "ペースが緩む想定"
+        },
+        {
+          "name": "標準",
+          "probability": 0.44,
+          "memo": "能力順に近い決着"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.31,
+          "memo": "持続力と末脚"
+        }
+      ],
+      "edge": {
+        "verdict": "勝負",
+        "scenario": "標準 0.44: 能力順に近い決着",
+        "trifecta": {
+          "probability": 0.00190212,
+          "odds": 110.5,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.2102,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 4.386e-05,
+          "odds": 24405.0,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 1.0703,
+          "verdict": "勝負"
+        }
+      }
+    },
+    {
+      "venue": "福島",
       "raceNo": 9,
       "start": "14:35",
       "grade": "2勝C",
-      "name": "八ヶ岳特別",
-      "condition": "芝1800m / 3歳以上",
-      "confidence": "妙味",
-      "trifecta": [6, 2, 9],
-      "trio": [3, 6, 11],
-      "value": "B+",
-      "note": "前受け残り"
+      "name": "さくらんぼ特別",
+      "condition": "1150m(ダート・右) / 3歳以上 2勝C （混合）［指定］ 定量",
+      "confidence": "本命",
+      "trifecta": [
+        6,
+        15,
+        7
+      ],
+      "trio": [
+        1,
+        6,
+        13
+      ],
+      "value": "C+",
+      "note": "ダート稍重を前提に、エコロシードの軸力を取りつつサードウインドの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ゲクウ",
+          "win": 0.010223,
+          "second": 0.040433,
+          "third": 0.034443,
+          "inTop3": 0.085099
+        },
+        {
+          "horseNo": 2,
+          "horse": "カワキタマナレア",
+          "win": 0.063563,
+          "second": 0.080262,
+          "third": 0.068372,
+          "inTop3": 0.212197
+        },
+        {
+          "horseNo": 3,
+          "horse": "ゴルトリッチ",
+          "win": 0.020687,
+          "second": 0.054199,
+          "third": 0.04617,
+          "inTop3": 0.121056
+        },
+        {
+          "horseNo": 4,
+          "horse": "タケルハーロック",
+          "win": 0.050203,
+          "second": 0.074725,
+          "third": 0.063655,
+          "inTop3": 0.188582
+        },
+        {
+          "horseNo": 5,
+          "horse": "イノキ",
+          "win": 0.047196,
+          "second": 0.073252,
+          "third": 0.0624,
+          "inTop3": 0.182849
+        },
+        {
+          "horseNo": 6,
+          "horse": "エコロシード",
+          "win": 0.328408,
+          "second": 0.083118,
+          "third": 0.070804,
+          "inTop3": 0.48233
+        },
+        {
+          "horseNo": 7,
+          "horse": "ケブランリ",
+          "win": 0.091649,
+          "second": 0.088102,
+          "third": 0.07505,
+          "inTop3": 0.254801
+        },
+        {
+          "horseNo": 8,
+          "horse": "オセアエクスプレス",
+          "win": 0.028977,
+          "second": 0.06172,
+          "third": 0.052576,
+          "inTop3": 0.143273
+        },
+        {
+          "horseNo": 9,
+          "horse": "アメリカンチケット",
+          "win": 0.022455,
+          "second": 0.055981,
+          "third": 0.047687,
+          "inTop3": 0.126124
+        },
+        {
+          "horseNo": 10,
+          "horse": "ヒラボクカレラ",
+          "win": 0.091649,
+          "second": 0.088102,
+          "third": 0.07505,
+          "inTop3": 0.254801
+        },
+        {
+          "horseNo": 11,
+          "horse": "グラスブランシュ",
+          "win": 0.011694,
+          "second": 0.042834,
+          "third": 0.036488,
+          "inTop3": 0.091016
+        },
+        {
+          "horseNo": 12,
+          "horse": "タッカージーティー",
+          "win": 0.049261,
+          "second": 0.074274,
+          "third": 0.06327,
+          "inTop3": 0.186806
+        },
+        {
+          "horseNo": 13,
+          "horse": "サードウインド",
+          "win": 0.015827,
+          "second": 0.048631,
+          "third": 0.041427,
+          "inTop3": 0.105885
+        },
+        {
+          "horseNo": 14,
+          "horse": "モリノセピア",
+          "win": 0.035826,
+          "second": 0.06668,
+          "third": 0.056802,
+          "inTop3": 0.159308
+        },
+        {
+          "horseNo": 15,
+          "horse": "ルクスレイモンド",
+          "win": 0.109469,
+          "second": 0.091262,
+          "third": 0.077742,
+          "inTop3": 0.278473
+        },
+        {
+          "horseNo": 16,
+          "horse": "シアター",
+          "win": 0.022912,
+          "second": 0.056424,
+          "third": 0.048065,
+          "inTop3": 0.1274
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.41,
+          "memo": "短距離で先行力重視"
+        },
+        {
+          "name": "標準",
+          "probability": 0.38,
+          "memo": "人気上位の地力"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.21,
+          "memo": "差しの届く流れ"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.41: 短距離で先行力重視",
+        "trifecta": {
+          "probability": 0.0029674,
+          "odds": 31.6,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.0938,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 6.172e-05,
+          "odds": 8480.7,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.5234,
+          "verdict": "検証買い"
+        }
+      }
     },
     {
-      "venue": "東京",
+      "venue": "福島",
       "raceNo": 10,
       "start": "15:10",
-      "grade": "3勝C",
-      "name": "江の島ステークス",
-      "condition": "芝2000m / 3歳以上",
-      "confidence": "本命",
-      "trifecta": [4, 7, 1],
-      "trio": [2, 8, 12],
-      "value": "A-",
-      "note": "軸信頼"
+      "grade": "2勝C",
+      "name": "いわき特別",
+      "condition": "1700m(ダート・右) / 3歳以上 2勝C （混合）（特指） 定量",
+      "confidence": "検証",
+      "trifecta": [
+        9,
+        1,
+        2
+      ],
+      "trio": [
+        1,
+        2,
+        6
+      ],
+      "value": "C+",
+      "note": "ダート稍重を前提に、ドゥマーヴェリックの軸力を取りつつコックピットサイトの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ハイクオリティ",
+          "win": 0.213786,
+          "second": 0.13526,
+          "third": 0.115221,
+          "inTop3": 0.464267
+        },
+        {
+          "horseNo": 2,
+          "horse": "ラストレガシー",
+          "win": 0.171958,
+          "second": 0.131988,
+          "third": 0.112434,
+          "inTop3": 0.41638
+        },
+        {
+          "horseNo": 3,
+          "horse": "リフレックス",
+          "win": 0.109862,
+          "second": 0.120394,
+          "third": 0.102558,
+          "inTop3": 0.332815
+        },
+        {
+          "horseNo": 4,
+          "horse": "ホウオウフロイト",
+          "win": 0.025032,
+          "second": 0.072269,
+          "third": 0.061563,
+          "inTop3": 0.158864
+        },
+        {
+          "horseNo": 5,
+          "horse": "ショウナンヤッホー",
+          "win": 0.021791,
+          "second": 0.068273,
+          "third": 0.058159,
+          "inTop3": 0.148223
+        },
+        {
+          "horseNo": 6,
+          "horse": "コックピットサイト",
+          "win": 0.136381,
+          "second": 0.126593,
+          "third": 0.107839,
+          "inTop3": 0.370813
+        },
+        {
+          "horseNo": 7,
+          "horse": "コスモマルーン",
+          "win": 0.03102,
+          "second": 0.078747,
+          "third": 0.067081,
+          "inTop3": 0.176848
+        },
+        {
+          "horseNo": 8,
+          "horse": "ゲンパチルーナ",
+          "win": 0.023129,
+          "second": 0.069972,
+          "third": 0.059605,
+          "inTop3": 0.152706
+        },
+        {
+          "horseNo": 9,
+          "horse": "ドゥマーヴェリック",
+          "win": 0.219724,
+          "second": 0.135511,
+          "third": 0.115436,
+          "inTop3": 0.470671
+        },
+        {
+          "horseNo": 10,
+          "horse": "ルクスメンデス",
+          "win": 0.021037,
+          "second": 0.067284,
+          "third": 0.057316,
+          "inTop3": 0.145638
+        },
+        {
+          "horseNo": 11,
+          "horse": "オーケーマヒナ",
+          "win": 0.026279,
+          "second": 0.073707,
+          "third": 0.062788,
+          "inTop3": 0.162774
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.25,
+          "memo": "ペースが緩む想定"
+        },
+        {
+          "name": "標準",
+          "probability": 0.44,
+          "memo": "能力順に近い決着"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.31,
+          "memo": "持続力と末脚"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "標準 0.44: 能力順に近い決着",
+        "trifecta": {
+          "probability": 0.00840618,
+          "odds": 22.8,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.1917,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.02357596,
+          "odds": 27.8,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.6554,
+          "verdict": "検証買い"
+        }
+      }
     },
     {
-      "venue": "東京",
+      "venue": "福島",
       "raceNo": 11,
       "start": "15:45",
-      "grade": "L",
-      "name": "パラダイスステークス",
-      "condition": "芝1400m / オープン",
-      "confidence": "本命",
-      "trifecta": [7, 11, 2],
-      "trio": [5, 7, 13],
-      "value": "A",
-      "note": "決め手上位"
-    },
-    {
-      "venue": "京都",
-      "raceNo": 10,
-      "start": "15:00",
       "grade": "3勝C",
-      "name": "ストークステークス",
-      "condition": "芝1600m / 3歳以上",
-      "confidence": "穴",
-      "trifecta": [10, 3, 6],
-      "trio": [3, 9, 14],
-      "value": "A",
-      "note": "外差し警戒"
+      "name": "バーデンバーデンカップ",
+      "condition": "2000m(芝・右) / 3歳以上 3勝C （混合）（特指） 定量",
+      "confidence": "検証",
+      "trifecta": [
+        8,
+        4,
+        7
+      ],
+      "trio": [
+        4,
+        5,
+        8
+      ],
+      "value": "C+",
+      "note": "芝稍重を前提に、フィオレストラーダの軸力を取りつつホウオウスーペリアの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "テーオーダグラス",
+          "win": 0.048812,
+          "second": 0.100021,
+          "third": 0.085203,
+          "inTop3": 0.234036
+        },
+        {
+          "horseNo": 2,
+          "horse": "ノーランサンライズ",
+          "win": 0.078293,
+          "second": 0.117778,
+          "third": 0.10033,
+          "inTop3": 0.296401
+        },
+        {
+          "horseNo": 3,
+          "horse": "ハニーコム",
+          "win": 0.098845,
+          "second": 0.126465,
+          "third": 0.107729,
+          "inTop3": 0.333039
+        },
+        {
+          "horseNo": 4,
+          "horse": "マリアイリダータ",
+          "win": 0.239624,
+          "second": 0.150615,
+          "third": 0.128302,
+          "inTop3": 0.518541
+        },
+        {
+          "horseNo": 5,
+          "horse": "ホウオウスーペリア",
+          "win": 0.096434,
+          "second": 0.12556,
+          "third": 0.106958,
+          "inTop3": 0.328952
+        },
+        {
+          "horseNo": 6,
+          "horse": "ホルトバージ",
+          "win": 0.029287,
+          "second": 0.082078,
+          "third": 0.069918,
+          "inTop3": 0.181283
+        },
+        {
+          "horseNo": 7,
+          "horse": "リーティアコナル",
+          "win": 0.121655,
+          "second": 0.133822,
+          "third": 0.113996,
+          "inTop3": 0.369474
+        },
+        {
+          "horseNo": 8,
+          "horse": "フィオレストラーダ",
+          "win": 0.247112,
+          "second": 0.150913,
+          "third": 0.128556,
+          "inTop3": 0.526581
+        },
+        {
+          "horseNo": 9,
+          "horse": "アマイ",
+          "win": 0.039937,
+          "second": 0.092748,
+          "third": 0.079008,
+          "inTop3": 0.211693
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.25,
+          "memo": "ペースが緩む想定"
+        },
+        {
+          "name": "標準",
+          "probability": 0.44,
+          "memo": "能力順に近い決着"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.31,
+          "memo": "持続力と末脚"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "標準 0.44: 能力順に近い決着",
+        "trifecta": {
+          "probability": 0.00633815,
+          "odds": 41.6,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.2637,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.02999564,
+          "odds": 17.9,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.5369,
+          "verdict": "検証買い"
+        }
+      }
     },
     {
-      "venue": "京都",
-      "raceNo": 11,
-      "start": "15:35",
-      "grade": "GIII",
-      "name": "京都新聞杯",
-      "condition": "芝2200m / 3歳",
+      "venue": "福島",
+      "raceNo": 12,
+      "start": "16:30",
+      "grade": "1勝C",
+      "name": "3歳以上1勝クラス",
+      "condition": "1200m(芝・右) / 3歳以上 1勝C （混合）（特指） 定量",
+      "confidence": "検証",
+      "trifecta": [
+        15,
+        6,
+        13
+      ],
+      "trio": [
+        1,
+        11,
+        13
+      ],
+      "value": "C+",
+      "note": "芝稍重を前提に、ファインサマーデイの軸力を取りつつステートオブロックの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "オレイア",
+          "win": 0.017351,
+          "second": 0.047452,
+          "third": 0.040422,
+          "inTop3": 0.105226
+        },
+        {
+          "horseNo": 2,
+          "horse": "ルシェロアズーリ",
+          "win": 0.081268,
+          "second": 0.079088,
+          "third": 0.067372,
+          "inTop3": 0.227728
+        },
+        {
+          "horseNo": 3,
+          "horse": "クリノゴッホ",
+          "win": 0.02282,
+          "second": 0.052841,
+          "third": 0.045013,
+          "inTop3": 0.120675
+        },
+        {
+          "horseNo": 4,
+          "horse": "テルケンレンスキー",
+          "win": 0.082961,
+          "second": 0.079449,
+          "third": 0.067678,
+          "inTop3": 0.230088
+        },
+        {
+          "horseNo": 5,
+          "horse": "テンプーシャオン",
+          "win": 0.028752,
+          "second": 0.057619,
+          "third": 0.049083,
+          "inTop3": 0.135453
+        },
+        {
+          "horseNo": 6,
+          "horse": "デアリングエア",
+          "win": 0.104792,
+          "second": 0.083054,
+          "third": 0.07075,
+          "inTop3": 0.258596
+        },
+        {
+          "horseNo": 7,
+          "horse": "ラブリーガール",
+          "win": 0.051382,
+          "second": 0.070035,
+          "third": 0.05966,
+          "inTop3": 0.181077
+        },
+        {
+          "horseNo": 8,
+          "horse": "ココボロ",
+          "win": 0.010836,
+          "second": 0.039052,
+          "third": 0.033267,
+          "inTop3": 0.083154
+        },
+        {
+          "horseNo": 9,
+          "horse": "サムハラ",
+          "win": 0.066926,
+          "second": 0.075456,
+          "third": 0.064277,
+          "inTop3": 0.20666
+        },
+        {
+          "horseNo": 10,
+          "horse": "ジェイエルライナー",
+          "win": 0.01596,
+          "second": 0.045878,
+          "third": 0.039082,
+          "inTop3": 0.10092
+        },
+        {
+          "horseNo": 11,
+          "horse": "エバーラスト",
+          "win": 0.094812,
+          "second": 0.081627,
+          "third": 0.069534,
+          "inTop3": 0.245974
+        },
+        {
+          "horseNo": 12,
+          "horse": "ビッグフラワー",
+          "win": 0.071109,
+          "second": 0.076632,
+          "third": 0.065279,
+          "inTop3": 0.21302
+        },
+        {
+          "horseNo": 13,
+          "horse": "ステートオブロック",
+          "win": 0.100813,
+          "second": 0.082526,
+          "third": 0.0703,
+          "inTop3": 0.253639
+        },
+        {
+          "horseNo": 14,
+          "horse": "ルクスコロン",
+          "win": 0.048268,
+          "second": 0.068707,
+          "third": 0.058529,
+          "inTop3": 0.175504
+        },
+        {
+          "horseNo": 15,
+          "horse": "ファインサマーデイ",
+          "win": 0.176983,
+          "second": 0.085904,
+          "third": 0.073178,
+          "inTop3": 0.336065
+        },
+        {
+          "horseNo": 16,
+          "horse": "コックオーヴァン",
+          "win": 0.024966,
+          "second": 0.054678,
+          "third": 0.046577,
+          "inTop3": 0.126222
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.41,
+          "memo": "短距離で先行力重視"
+        },
+        {
+          "name": "標準",
+          "probability": 0.38,
+          "memo": "人気上位の地力"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.21,
+          "memo": "差しの届く流れ"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.41: 短距離で先行力重視",
+        "trifecta": {
+          "probability": 0.00050609,
+          "odds": 276.8,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.1401,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00015049,
+          "odds": 3829.5,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.5763,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 1,
+      "start": "09:55",
+      "grade": "未勝利",
+      "name": "2歳未勝利",
+      "condition": "1200m(芝・右) / 2歳 未勝利 （混合）［指定］ 馬齢",
       "confidence": "本命",
-      "trifecta": [5, 2, 8],
-      "trio": [1, 5, 12],
+      "trifecta": [
+        1,
+        5,
+        6
+      ],
+      "trio": [
+        1,
+        3,
+        6
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、シスキンブルームの軸力を取りつつニドヅケキンシの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "シスキンブルーム",
+          "win": 0.692561,
+          "second": 0.133617,
+          "third": 0.113822,
+          "inTop3": 0.94
+        },
+        {
+          "horseNo": 2,
+          "horse": "スマートメモリー",
+          "win": 0.05012,
+          "second": 0.149273,
+          "third": 0.127159,
+          "inTop3": 0.326552
+        },
+        {
+          "horseNo": 3,
+          "horse": "ペプチドニンバス",
+          "win": 0.036981,
+          "second": 0.131503,
+          "third": 0.112021,
+          "inTop3": 0.280505
+        },
+        {
+          "horseNo": 4,
+          "horse": "イザベル",
+          "win": 0.060945,
+          "second": 0.161542,
+          "third": 0.13761,
+          "inTop3": 0.360097
+        },
+        {
+          "horseNo": 5,
+          "horse": "クリコキアナ",
+          "win": 0.096433,
+          "second": 0.192525,
+          "third": 0.164003,
+          "inTop3": 0.452961
+        },
+        {
+          "horseNo": 6,
+          "horse": "ニドヅケキンシ",
+          "win": 0.06296,
+          "second": 0.163642,
+          "third": 0.139398,
+          "inTop3": 0.366
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.02981606,
+          "odds": 20.9,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.6232,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.02429681,
+          "odds": 21.5,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.5224,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 2,
+      "start": "10:30",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1000m(ダート・右) / 3歳 未勝利 （混合）［指定］ 馬齢",
+      "confidence": "検証",
+      "trifecta": [
+        10,
+        14,
+        8
+      ],
+      "trio": [
+        4,
+        10,
+        13
+      ],
+      "value": "C+",
+      "note": "ダート不良を前提に、ジャスパーブレイズの軸力を取りつつコパノルーカスの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "クリコファルコン",
+          "win": 0.038514,
+          "second": 0.074834,
+          "third": 0.063747,
+          "inTop3": 0.177094
+        },
+        {
+          "horseNo": 2,
+          "horse": "ヴォーゲ",
+          "win": 0.012514,
+          "second": 0.047754,
+          "third": 0.040679,
+          "inTop3": 0.100947
+        },
+        {
+          "horseNo": 3,
+          "horse": "メイショウマドンナ",
+          "win": 0.014244,
+          "second": 0.050466,
+          "third": 0.042989,
+          "inTop3": 0.107699
+        },
+        {
+          "horseNo": 4,
+          "horse": "モズエムブイピー",
+          "win": 0.113341,
+          "second": 0.102849,
+          "third": 0.087612,
+          "inTop3": 0.303801
+        },
+        {
+          "horseNo": 5,
+          "horse": "メイショウテンジン",
+          "win": 0.101716,
+          "second": 0.100485,
+          "third": 0.085599,
+          "inTop3": 0.2878
+        },
+        {
+          "horseNo": 6,
+          "horse": "サンライズキース",
+          "win": 0.007902,
+          "second": 0.03905,
+          "third": 0.033265,
+          "inTop3": 0.080218
+        },
+        {
+          "horseNo": 7,
+          "horse": "アルムアポジェ",
+          "win": 0.114983,
+          "second": 0.103146,
+          "third": 0.087865,
+          "inTop3": 0.305995
+        },
+        {
+          "horseNo": 8,
+          "horse": "モズタイシソウシ",
+          "win": 0.125934,
+          "second": 0.104922,
+          "third": 0.089378,
+          "inTop3": 0.320235
+        },
+        {
+          "horseNo": 9,
+          "horse": "メイワキラリ",
+          "win": 0.014857,
+          "second": 0.051374,
+          "third": 0.043763,
+          "inTop3": 0.109994
+        },
+        {
+          "horseNo": 10,
+          "horse": "ジャスパーブレイズ",
+          "win": 0.233349,
+          "second": 0.109384,
+          "third": 0.093179,
+          "inTop3": 0.435912
+        },
+        {
+          "horseNo": 11,
+          "horse": "ショーライトイヤー",
+          "win": 0.009468,
+          "second": 0.042302,
+          "third": 0.036035,
+          "inTop3": 0.087804
+        },
+        {
+          "horseNo": 12,
+          "horse": "マユナイト",
+          "win": 0.043354,
+          "second": 0.078051,
+          "third": 0.066488,
+          "inTop3": 0.187894
+        },
+        {
+          "horseNo": 13,
+          "horse": "コパノルーカス",
+          "win": 0.030633,
+          "second": 0.068745,
+          "third": 0.058561,
+          "inTop3": 0.157939
+        },
+        {
+          "horseNo": 14,
+          "horse": "スマッシング",
+          "win": 0.13919,
+          "second": 0.106638,
+          "third": 0.090839,
+          "inTop3": 0.336667
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.45,
+          "memo": "脚抜きの良さで先行有利"
+        },
+        {
+          "name": "標準",
+          "probability": 0.35,
+          "memo": "隊列が落ち着く"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "前崩れ待ち"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
+        "trifecta": {
+          "probability": 0.00204073,
+          "odds": 124.3,
+          "oddsTime": "08:15 JST",
+          "expectedValue": 0.2537,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00137362,
+          "odds": 418.6,
+          "oddsTime": "08:15 JST",
+          "expectedValue": 0.575,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 3,
+      "start": "11:00",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1800m(芝・右) / 3歳 未勝利 牝［指定］ 馬齢",
+      "confidence": "本命",
+      "trifecta": [
+        16,
+        10,
+        14
+      ],
+      "trio": [
+        6,
+        10,
+        16
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、バロッカネーラの軸力を取りつつヴァーティゴーの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "エイシンミスリル",
+          "win": 0.028373,
+          "second": 0.062035,
+          "third": 0.052845,
+          "inTop3": 0.143252
+        },
+        {
+          "horseNo": 2,
+          "horse": "ミリタリータトゥー",
+          "win": 0.060211,
+          "second": 0.080175,
+          "third": 0.068298,
+          "inTop3": 0.208684
+        },
+        {
+          "horseNo": 3,
+          "horse": "ゴールデンテティス",
+          "win": 0.038476,
+          "second": 0.069305,
+          "third": 0.059038,
+          "inTop3": 0.16682
+        },
+        {
+          "horseNo": 4,
+          "horse": "ジリアート",
+          "win": 0.068588,
+          "second": 0.083236,
+          "third": 0.070905,
+          "inTop3": 0.222728
+        },
+        {
+          "horseNo": 5,
+          "horse": "メイショウツキヨ",
+          "win": 0.009726,
+          "second": 0.040039,
+          "third": 0.034107,
+          "inTop3": 0.083871
+        },
+        {
+          "horseNo": 6,
+          "horse": "ヴァーティゴー",
+          "win": 0.030932,
+          "second": 0.064066,
+          "third": 0.054575,
+          "inTop3": 0.149573
+        },
+        {
+          "horseNo": 7,
+          "horse": "アロハ",
+          "win": 0.07512,
+          "second": 0.085305,
+          "third": 0.072668,
+          "inTop3": 0.233093
+        },
+        {
+          "horseNo": 8,
+          "horse": "ライツェントライゼ",
+          "win": 0.072363,
+          "second": 0.084463,
+          "third": 0.07195,
+          "inTop3": 0.228776
+        },
+        {
+          "horseNo": 9,
+          "horse": "クィーンズウィンク",
+          "win": 0.010074,
+          "second": 0.040653,
+          "third": 0.034631,
+          "inTop3": 0.085358
+        },
+        {
+          "horseNo": 10,
+          "horse": "オーロラボレアリス",
+          "win": 0.133688,
+          "second": 0.095724,
+          "third": 0.081543,
+          "inTop3": 0.310955
+        },
+        {
+          "horseNo": 11,
+          "horse": "ミスマリーゴールド",
+          "win": 0.008518,
+          "second": 0.037785,
+          "third": 0.032187,
+          "inTop3": 0.078491
+        },
+        {
+          "horseNo": 12,
+          "horse": "ビサイレント",
+          "win": 0.018915,
+          "second": 0.052947,
+          "third": 0.045103,
+          "inTop3": 0.116965
+        },
+        {
+          "horseNo": 13,
+          "horse": "スズノボンライミー",
+          "win": 0.016196,
+          "second": 0.0497,
+          "third": 0.042337,
+          "inTop3": 0.108233
+        },
+        {
+          "horseNo": 14,
+          "horse": "ミッキーテネシー",
+          "win": 0.089632,
+          "second": 0.089091,
+          "third": 0.075892,
+          "inTop3": 0.254614
+        },
+        {
+          "horseNo": 15,
+          "horse": "エコロゼルダ",
+          "win": 0.023686,
+          "second": 0.057889,
+          "third": 0.049313,
+          "inTop3": 0.130889
+        },
+        {
+          "horseNo": 16,
+          "horse": "バロッカネーラ",
+          "win": 0.315504,
+          "second": 0.087585,
+          "third": 0.07461,
+          "inTop3": 0.477699
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.0034093,
+          "odds": 70.0,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.2387,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00262535,
+          "odds": 255.2,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.67,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 4,
+      "start": "11:30",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1700m(ダート・右) / 3歳 未勝利 [指定] 馬齢",
+      "confidence": "検証",
+      "trifecta": [
+        13,
+        8,
+        6
+      ],
+      "trio": [
+        3,
+        8,
+        13
+      ],
       "value": "B",
-      "note": "距離延長"
+      "note": "ダート不良を前提に、ラッキーヴォーグの軸力を取りつつシンゼンコジロウの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "サカトクフェイス",
+          "win": 0.012925,
+          "second": 0.043607,
+          "third": 0.037147,
+          "inTop3": 0.093679
+        },
+        {
+          "horseNo": 2,
+          "horse": "セイウンダイフク",
+          "win": 0.03553,
+          "second": 0.064685,
+          "third": 0.055102,
+          "inTop3": 0.155318
+        },
+        {
+          "horseNo": 3,
+          "horse": "シンゼンコジロウ",
+          "win": 0.050466,
+          "second": 0.072706,
+          "third": 0.061935,
+          "inTop3": 0.185107
+        },
+        {
+          "horseNo": 4,
+          "horse": "タマモスカイ",
+          "win": 0.060482,
+          "second": 0.076768,
+          "third": 0.065395,
+          "inTop3": 0.202646
+        },
+        {
+          "horseNo": 5,
+          "horse": "ソルアモール",
+          "win": 0.038276,
+          "second": 0.066383,
+          "third": 0.056549,
+          "inTop3": 0.161209
+        },
+        {
+          "horseNo": 6,
+          "horse": "シャンパンスター",
+          "win": 0.120048,
+          "second": 0.089342,
+          "third": 0.076106,
+          "inTop3": 0.285497
+        },
+        {
+          "horseNo": 7,
+          "horse": "シャドウクライ",
+          "win": 0.041701,
+          "second": 0.068345,
+          "third": 0.05822,
+          "inTop3": 0.168266
+        },
+        {
+          "horseNo": 8,
+          "horse": "アイランド",
+          "win": 0.172243,
+          "second": 0.091655,
+          "third": 0.078077,
+          "inTop3": 0.341975
+        },
+        {
+          "horseNo": 9,
+          "horse": "オセアスターライト",
+          "win": 0.012477,
+          "second": 0.042965,
+          "third": 0.0366,
+          "inTop3": 0.092042
+        },
+        {
+          "horseNo": 10,
+          "horse": "ディープシャロー",
+          "win": 0.044764,
+          "second": 0.069969,
+          "third": 0.059603,
+          "inTop3": 0.174336
+        },
+        {
+          "horseNo": 11,
+          "horse": "ルヴレアール",
+          "win": 0.030241,
+          "second": 0.061048,
+          "third": 0.052004,
+          "inTop3": 0.143292
+        },
+        {
+          "horseNo": 12,
+          "horse": "テイエムロングダン",
+          "win": 0.00834,
+          "second": 0.036132,
+          "third": 0.030779,
+          "inTop3": 0.075251
+        },
+        {
+          "horseNo": 13,
+          "horse": "ラッキーヴォーグ",
+          "win": 0.180072,
+          "second": 0.091578,
+          "third": 0.078011,
+          "inTop3": 0.349661
+        },
+        {
+          "horseNo": 14,
+          "horse": "アップターンデイ",
+          "win": 0.083402,
+          "second": 0.083464,
+          "third": 0.071099,
+          "inTop3": 0.237964
+        },
+        {
+          "horseNo": 15,
+          "horse": "グレートアゲイン",
+          "win": 0.007454,
+          "second": 0.03439,
+          "third": 0.029295,
+          "inTop3": 0.071139
+        },
+        {
+          "horseNo": 16,
+          "horse": "ルージュエテルナ",
+          "win": 0.101579,
+          "second": 0.086962,
+          "third": 0.074078,
+          "inTop3": 0.262619
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.45,
+          "memo": "脚抜きの良さで先行有利"
+        },
+        {
+          "name": "標準",
+          "probability": 0.35,
+          "memo": "隊列が落ち着く"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "前崩れ待ち"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
+        "trifecta": {
+          "probability": 0.00168273,
+          "odds": 106.9,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.1799,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.0027079,
+          "odds": 263.1,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.7124,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 5,
+      "start": "12:20",
+      "grade": "新馬",
+      "name": "メイクデビュー小倉",
+      "condition": "1200m(芝・右) / 2歳 新馬 九州産馬［指定］ 馬齢",
+      "confidence": "本命",
+      "trifecta": [
+        9,
+        6,
+        2
+      ],
+      "trio": [
+        6,
+        7,
+        9
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、タカモリの軸力を取りつつクリノパッションの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ワッザイカ",
+          "win": 0.041192,
+          "second": 0.09115,
+          "third": 0.077646,
+          "inTop3": 0.209987
+        },
+        {
+          "horseNo": 2,
+          "horse": "リエーヴェ",
+          "win": 0.19669,
+          "second": 0.141571,
+          "third": 0.120598,
+          "inTop3": 0.458859
+        },
+        {
+          "horseNo": 3,
+          "horse": "ニシノキヅイタラ",
+          "win": 0.069014,
+          "second": 0.109507,
+          "third": 0.093284,
+          "inTop3": 0.271805
+        },
+        {
+          "horseNo": 4,
+          "horse": "カシノクロサイト",
+          "win": 0.034967,
+          "second": 0.085593,
+          "third": 0.072912,
+          "inTop3": 0.193472
+        },
+        {
+          "horseNo": 5,
+          "horse": "ヘキレキ",
+          "win": 0.048566,
+          "second": 0.096899,
+          "third": 0.082544,
+          "inTop3": 0.228009
+        },
+        {
+          "horseNo": 6,
+          "horse": "カエリールークス",
+          "win": 0.201734,
+          "second": 0.142004,
+          "third": 0.120967,
+          "inTop3": 0.464705
+        },
+        {
+          "horseNo": 7,
+          "horse": "クリノパッション",
+          "win": 0.084598,
+          "second": 0.11682,
+          "third": 0.099513,
+          "inTop3": 0.300932
+        },
+        {
+          "horseNo": 8,
+          "horse": "ルーストカール",
+          "win": 0.027509,
+          "second": 0.077811,
+          "third": 0.066283,
+          "inTop3": 0.171604
+        },
+        {
+          "horseNo": 9,
+          "horse": "タカモリ",
+          "win": 0.271297,
+          "second": 0.144507,
+          "third": 0.123099,
+          "inTop3": 0.538903
+        },
+        {
+          "horseNo": 10,
+          "horse": "ソゲソゲスマイル",
+          "win": 0.024434,
+          "second": 0.074138,
+          "third": 0.063155,
+          "inTop3": 0.161727
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.01289519,
+          "odds": 29.5,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.3804,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.023518,
+          "odds": 27.9,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.6562,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 6,
+      "start": "12:50",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "2000m(芝・右) / 3歳 未勝利 [指定] 馬齢",
+      "confidence": "検証",
+      "trifecta": [
+        1,
+        8,
+        9
+      ],
+      "trio": [
+        7,
+        9,
+        17
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、フレアオブセンスの軸力を取りつつケンブリッジグレイの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "フレアオブセンス",
+          "win": 0.13963,
+          "second": 0.080382,
+          "third": 0.068474,
+          "inTop3": 0.288486
+        },
+        {
+          "horseNo": 2,
+          "horse": "スクランプシャス",
+          "win": 0.079589,
+          "second": 0.074635,
+          "third": 0.063578,
+          "inTop3": 0.217802
+        },
+        {
+          "horseNo": 3,
+          "horse": "タガノミトゥンドゥ",
+          "win": 0.044463,
+          "second": 0.063898,
+          "third": 0.054432,
+          "inTop3": 0.162793
+        },
+        {
+          "horseNo": 4,
+          "horse": "グレイイメル",
+          "win": 0.013628,
+          "second": 0.041309,
+          "third": 0.03519,
+          "inTop3": 0.090127
+        },
+        {
+          "horseNo": 5,
+          "horse": "マスターストーン",
+          "win": 0.015102,
+          "second": 0.043078,
+          "third": 0.036696,
+          "inTop3": 0.094876
+        },
+        {
+          "horseNo": 6,
+          "horse": "クリスタルタワー",
+          "win": 0.050694,
+          "second": 0.066491,
+          "third": 0.05664,
+          "inTop3": 0.173825
+        },
+        {
+          "horseNo": 7,
+          "horse": "シャマレル",
+          "win": 0.026798,
+          "second": 0.053775,
+          "third": 0.045809,
+          "inTop3": 0.126382
+        },
+        {
+          "horseNo": 8,
+          "horse": "クロスボーダー",
+          "win": 0.122445,
+          "second": 0.079761,
+          "third": 0.067945,
+          "inTop3": 0.27015
+        },
+        {
+          "horseNo": 9,
+          "horse": "ビップヴォルフ",
+          "win": 0.112097,
+          "second": 0.079049,
+          "third": 0.067338,
+          "inTop3": 0.258484
+        },
+        {
+          "horseNo": 10,
+          "horse": "ヴェロシア",
+          "win": 0.107553,
+          "second": 0.078644,
+          "third": 0.066993,
+          "inTop3": 0.25319
+        },
+        {
+          "horseNo": 11,
+          "horse": "ルクスユアン",
+          "win": 0.019749,
+          "second": 0.047923,
+          "third": 0.040823,
+          "inTop3": 0.108495
+        },
+        {
+          "horseNo": 12,
+          "horse": "ゴナビーオーライト",
+          "win": 0.021986,
+          "second": 0.049944,
+          "third": 0.042545,
+          "inTop3": 0.114474
+        },
+        {
+          "horseNo": 13,
+          "horse": "スフィダンテ",
+          "win": 0.038635,
+          "second": 0.061082,
+          "third": 0.052033,
+          "inTop3": 0.15175
+        },
+        {
+          "horseNo": 14,
+          "horse": "ゼンノゾンターク",
+          "win": 0.057258,
+          "second": 0.068839,
+          "third": 0.05864,
+          "inTop3": 0.184737
+        },
+        {
+          "horseNo": 15,
+          "horse": "ブライトキングダム",
+          "win": 0.081213,
+          "second": 0.074952,
+          "third": 0.063848,
+          "inTop3": 0.220013
+        },
+        {
+          "horseNo": 16,
+          "horse": "トラカイキャッスル",
+          "win": 0.043972,
+          "second": 0.063676,
+          "third": 0.054243,
+          "inTop3": 0.161891
+        },
+        {
+          "horseNo": 17,
+          "horse": "ケンブリッジグレイ",
+          "win": 0.025186,
+          "second": 0.052562,
+          "third": 0.044775,
+          "inTop3": 0.122523
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.00102635,
+          "odds": 41.4,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.0425,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 6.502e-05,
+          "odds": 10115.7,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.6577,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 7,
+      "start": "13:20",
+      "grade": "1勝C",
+      "name": "3歳以上1勝クラス",
+      "condition": "1700m(ダート・右) / 3歳以上 1勝C 牝［指定］ 定量",
+      "confidence": "検証",
+      "trifecta": [
+        12,
+        13,
+        10
+      ],
+      "trio": [
+        4,
+        7,
+        13
+      ],
+      "value": "C+",
+      "note": "ダート不良を前提に、ショコラプリンの軸力を取りつつアンピュルシオンの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "クインズセレネ",
+          "win": 0.042328,
+          "second": 0.068179,
+          "third": 0.058079,
+          "inTop3": 0.168586
+        },
+        {
+          "horseNo": 2,
+          "horse": "ジョアン",
+          "win": 0.088937,
+          "second": 0.083934,
+          "third": 0.071499,
+          "inTop3": 0.24437
+        },
+        {
+          "horseNo": 3,
+          "horse": "メイショウウメゴチ",
+          "win": 0.021746,
+          "second": 0.053508,
+          "third": 0.045581,
+          "inTop3": 0.120835
+        },
+        {
+          "horseNo": 4,
+          "horse": "ベルメサイア",
+          "win": 0.070048,
+          "second": 0.079285,
+          "third": 0.067539,
+          "inTop3": 0.216872
+        },
+        {
+          "horseNo": 5,
+          "horse": "ショウナンラウール",
+          "win": 0.063323,
+          "second": 0.077153,
+          "third": 0.065723,
+          "inTop3": 0.2062
+        },
+        {
+          "horseNo": 6,
+          "horse": "ニホンピロマリンバ",
+          "win": 0.024891,
+          "second": 0.05637,
+          "third": 0.048019,
+          "inTop3": 0.12928
+        },
+        {
+          "horseNo": 7,
+          "horse": "アンピュルシオン",
+          "win": 0.019888,
+          "second": 0.051662,
+          "third": 0.044008,
+          "inTop3": 0.115558
+        },
+        {
+          "horseNo": 8,
+          "horse": "デュアルロール",
+          "win": 0.013838,
+          "second": 0.04458,
+          "third": 0.037975,
+          "inTop3": 0.096393
+        },
+        {
+          "horseNo": 9,
+          "horse": "クロユキ",
+          "win": 0.029101,
+          "second": 0.059769,
+          "third": 0.050914,
+          "inTop3": 0.139784
+        },
+        {
+          "horseNo": 10,
+          "horse": "クイーンズホリデー",
+          "win": 0.109936,
+          "second": 0.087348,
+          "third": 0.074408,
+          "inTop3": 0.271692
+        },
+        {
+          "horseNo": 11,
+          "horse": "ザラタン",
+          "win": 0.056138,
+          "second": 0.074526,
+          "third": 0.063485,
+          "inTop3": 0.194148
+        },
+        {
+          "horseNo": 12,
+          "horse": "ショコラプリン",
+          "win": 0.226155,
+          "second": 0.088304,
+          "third": 0.075222,
+          "inTop3": 0.389681
+        },
+        {
+          "horseNo": 13,
+          "horse": "ホウショウルクス",
+          "win": 0.143917,
+          "second": 0.090148,
+          "third": 0.076793,
+          "inTop3": 0.310858
+        },
+        {
+          "horseNo": 14,
+          "horse": "ポムドール",
+          "win": 0.009724,
+          "second": 0.038383,
+          "third": 0.032697,
+          "inTop3": 0.080804
+        },
+        {
+          "horseNo": 15,
+          "horse": "アンリーベイビー",
+          "win": 0.06136,
+          "second": 0.076474,
+          "third": 0.065144,
+          "inTop3": 0.202978
+        },
+        {
+          "horseNo": 16,
+          "horse": "ビジュードネージュ",
+          "win": 0.018668,
+          "second": 0.050377,
+          "third": 0.042914,
+          "inTop3": 0.111959
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.45,
+          "memo": "脚抜きの良さで先行有利"
+        },
+        {
+          "name": "標準",
+          "probability": 0.35,
+          "memo": "隊列が落ち着く"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "前崩れ待ち"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
+        "trifecta": {
+          "probability": 0.00249571,
+          "odds": 69.5,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.1735,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00018703,
+          "odds": 3558.1,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.6655,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 8,
+      "start": "13:50",
+      "grade": "1勝C",
+      "name": "3歳以上1勝クラス",
+      "condition": "1200m(芝・右) / 3歳以上 1勝C [指定] 定量",
+      "confidence": "検証",
+      "trifecta": [
+        3,
+        2,
+        8
+      ],
+      "trio": [
+        2,
+        3,
+        9
+      ],
+      "value": "B",
+      "note": "芝重を前提に、メローネの軸力を取りつつビーグラッドの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ドルチェミスト",
+          "win": 0.082599,
+          "second": 0.116687,
+          "third": 0.0994,
+          "inTop3": 0.298686
+        },
+        {
+          "horseNo": 2,
+          "horse": "ブルズアイプリンス",
+          "win": 0.17238,
+          "second": 0.13992,
+          "third": 0.119191,
+          "inTop3": 0.431491
+        },
+        {
+          "horseNo": 3,
+          "horse": "メローネ",
+          "win": 0.20867,
+          "second": 0.14368,
+          "third": 0.122394,
+          "inTop3": 0.474744
+        },
+        {
+          "horseNo": 4,
+          "horse": "ベネメレンティ",
+          "win": 0.062437,
+          "second": 0.106515,
+          "third": 0.090735,
+          "inTop3": 0.259686
+        },
+        {
+          "horseNo": 5,
+          "horse": "メイショウハボマイ",
+          "win": 0.055841,
+          "second": 0.102463,
+          "third": 0.087283,
+          "inTop3": 0.245588
+        },
+        {
+          "horseNo": 6,
+          "horse": "テーオーミリカン",
+          "win": 0.082599,
+          "second": 0.116687,
+          "third": 0.0994,
+          "inTop3": 0.298686
+        },
+        {
+          "horseNo": 7,
+          "horse": "パレットフレイバー",
+          "win": 0.029478,
+          "second": 0.080436,
+          "third": 0.068519,
+          "inTop3": 0.178433
+        },
+        {
+          "horseNo": 8,
+          "horse": "レオナルドスター",
+          "win": 0.161826,
+          "second": 0.138374,
+          "third": 0.117874,
+          "inTop3": 0.418074
+        },
+        {
+          "horseNo": 9,
+          "horse": "ビーグラッド",
+          "win": 0.144172,
+          "second": 0.135237,
+          "third": 0.115202,
+          "inTop3": 0.394611
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.00404072,
+          "odds": 77.2,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.3119,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.02445911,
+          "odds": 29.0,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.7093,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 9,
+      "start": "14:20",
+      "grade": "1勝C",
+      "name": "八代特別",
+      "condition": "2000m(芝・右) / 3歳以上 1勝C （混合）（特指） 定量",
+      "confidence": "本命",
+      "trifecta": [
+        4,
+        2,
+        7
+      ],
+      "trio": [
+        2,
+        4,
+        6
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、サヴォアフェールの軸力を取りつつパイオニアスクエアの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ダノンアトラス",
+          "win": 0.05551,
+          "second": 0.133986,
+          "third": 0.114136,
+          "inTop3": 0.303633
+        },
+        {
+          "horseNo": 2,
+          "horse": "ノンブルドール",
+          "win": 0.105624,
+          "second": 0.169134,
+          "third": 0.144077,
+          "inTop3": 0.418834
+        },
+        {
+          "horseNo": 3,
+          "horse": "デルシエロ",
+          "win": 0.019108,
+          "second": 0.085879,
+          "third": 0.073156,
+          "inTop3": 0.178142
+        },
+        {
+          "horseNo": 4,
+          "horse": "サヴォアフェール",
+          "win": 0.633743,
+          "second": 0.165379,
+          "third": 0.140878,
+          "inTop3": 0.94
+        },
+        {
+          "horseNo": 5,
+          "horse": "ウィテカービート",
+          "win": 0.014349,
+          "second": 0.075613,
+          "third": 0.064411,
+          "inTop3": 0.154373
+        },
+        {
+          "horseNo": 6,
+          "horse": "パイオニアスクエア",
+          "win": 0.042724,
+          "second": 0.120773,
+          "third": 0.102881,
+          "inTop3": 0.266378
+        },
+        {
+          "horseNo": 7,
+          "horse": "ゼンノインヴォーク",
+          "win": 0.073834,
+          "second": 0.149226,
+          "third": 0.127119,
+          "inTop3": 0.350179
+        },
+        {
+          "horseNo": 8,
+          "horse": "サンライズグラシア",
+          "win": 0.055108,
+          "second": 0.133608,
+          "third": 0.113814,
+          "inTop3": 0.30253
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.02381625,
+          "odds": 19.2,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.4573,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.034801,
+          "odds": 19.0,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.6612,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 10,
+      "start": "14:55",
+      "grade": "2勝C",
+      "name": "宗像特別",
+      "condition": "1200m(芝・右) / 3歳以上 2勝C （混合）［指定］ 定量",
+      "confidence": "検証",
+      "trifecta": [
+        8,
+        11,
+        2
+      ],
+      "trio": [
+        2,
+        8,
+        12
+      ],
+      "value": "C",
+      "note": "芝重を前提に、ロードトレゾールの軸力を取りつつクォーツァイトの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ミキノバカラ",
+          "win": 0.018604,
+          "second": 0.056041,
+          "third": 0.047739,
+          "inTop3": 0.122385
+        },
+        {
+          "horseNo": 2,
+          "horse": "ホーリーブラッサム",
+          "win": 0.136645,
+          "second": 0.105318,
+          "third": 0.089715,
+          "inTop3": 0.331679
+        },
+        {
+          "horseNo": 3,
+          "horse": "メイショウミリオレ",
+          "win": 0.025649,
+          "second": 0.063747,
+          "third": 0.054303,
+          "inTop3": 0.143699
+        },
+        {
+          "horseNo": 4,
+          "horse": "ジェニファー",
+          "win": 0.05785,
+          "second": 0.085298,
+          "third": 0.072662,
+          "inTop3": 0.21581
+        },
+        {
+          "horseNo": 5,
+          "horse": "オオナミコナミ",
+          "win": 0.05785,
+          "second": 0.085298,
+          "third": 0.072662,
+          "inTop3": 0.21581
+        },
+        {
+          "horseNo": 6,
+          "horse": "ヤマニンレセディ",
+          "win": 0.024845,
+          "second": 0.062955,
+          "third": 0.053628,
+          "inTop3": 0.141428
+        },
+        {
+          "horseNo": 7,
+          "horse": "スネーフリンガ",
+          "win": 0.101608,
+          "second": 0.099578,
+          "third": 0.084826,
+          "inTop3": 0.286012
+        },
+        {
+          "horseNo": 8,
+          "horse": "ロードトレゾール",
+          "win": 0.203216,
+          "second": 0.108684,
+          "third": 0.092582,
+          "inTop3": 0.404482
+        },
+        {
+          "horseNo": 9,
+          "horse": "ブリーズオンチーク",
+          "win": 0.010347,
+          "second": 0.043697,
+          "third": 0.037224,
+          "inTop3": 0.091268
+        },
+        {
+          "horseNo": 10,
+          "horse": "ルージュサウダージ",
+          "win": 0.074768,
+          "second": 0.092112,
+          "third": 0.078466,
+          "inTop3": 0.245346
+        },
+        {
+          "horseNo": 11,
+          "horse": "サディーク",
+          "win": 0.172292,
+          "second": 0.108078,
+          "third": 0.092067,
+          "inTop3": 0.372437
+        },
+        {
+          "horseNo": 12,
+          "horse": "クォーツァイト",
+          "win": 0.044276,
+          "second": 0.078044,
+          "third": 0.066482,
+          "inTop3": 0.188801
+        },
+        {
+          "horseNo": 13,
+          "horse": "シュブロンレーヴル",
+          "win": 0.072049,
+          "second": 0.091149,
+          "third": 0.077645,
+          "inTop3": 0.240844
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.00326912,
+          "odds": 63.5,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.2076,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00277538,
+          "odds": 177.6,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.4929,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 11,
+      "start": "15:30",
+      "grade": "3勝C",
+      "name": "薩摩ステークス",
+      "condition": "1700m(ダート・右) / 3歳以上 3勝C （混合）（特指） 定量",
+      "confidence": "検証",
+      "trifecta": [
+        2,
+        13,
+        9
+      ],
+      "trio": [
+        2,
+        3,
+        13
+      ],
+      "value": "C+",
+      "note": "ダート不良を前提に、ジューンエオスの軸力を取りつつテーオールビーの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ケイアイメキラ",
+          "win": 0.018574,
+          "second": 0.049922,
+          "third": 0.042526,
+          "inTop3": 0.111022
+        },
+        {
+          "horseNo": 2,
+          "horse": "ジューンエオス",
+          "win": 0.14756,
+          "second": 0.089298,
+          "third": 0.076068,
+          "inTop3": 0.312926
+        },
+        {
+          "horseNo": 3,
+          "horse": "テーオールビー",
+          "win": 0.048587,
+          "second": 0.070727,
+          "third": 0.060249,
+          "inTop3": 0.179563
+        },
+        {
+          "horseNo": 4,
+          "horse": "ハリーケーン",
+          "win": 0.079683,
+          "second": 0.081146,
+          "third": 0.069124,
+          "inTop3": 0.229953
+        },
+        {
+          "horseNo": 5,
+          "horse": "グランキングオー",
+          "win": 0.032391,
+          "second": 0.06168,
+          "third": 0.052542,
+          "inTop3": 0.146613
+        },
+        {
+          "horseNo": 6,
+          "horse": "メイショウミカワ",
+          "win": 0.032791,
+          "second": 0.061951,
+          "third": 0.052773,
+          "inTop3": 0.147515
+        },
+        {
+          "horseNo": 7,
+          "horse": "カネトシゴウト",
+          "win": 0.039643,
+          "second": 0.066179,
+          "third": 0.056374,
+          "inTop3": 0.162196
+        },
+        {
+          "horseNo": 8,
+          "horse": "プロミシングスター",
+          "win": 0.024979,
+          "second": 0.056036,
+          "third": 0.047734,
+          "inTop3": 0.128749
+        },
+        {
+          "horseNo": 9,
+          "horse": "ゴッドブルービー",
+          "win": 0.107679,
+          "second": 0.086203,
+          "third": 0.073432,
+          "inTop3": 0.267315
+        },
+        {
+          "horseNo": 10,
+          "horse": "マッシャーブルム",
+          "win": 0.04284,
+          "second": 0.067916,
+          "third": 0.057854,
+          "inTop3": 0.16861
+        },
+        {
+          "horseNo": 11,
+          "horse": "ストップヤーニング",
+          "win": 0.097174,
+          "second": 0.084654,
+          "third": 0.072113,
+          "inTop3": 0.253941
+        },
+        {
+          "horseNo": 12,
+          "horse": "アレナパラシオ",
+          "win": 0.097174,
+          "second": 0.084654,
+          "third": 0.072113,
+          "inTop3": 0.253941
+        },
+        {
+          "horseNo": 13,
+          "horse": "シンビリーブ",
+          "win": 0.130627,
+          "second": 0.088451,
+          "third": 0.075347,
+          "inTop3": 0.294425
+        },
+        {
+          "horseNo": 14,
+          "horse": "メイショウコガシラ",
+          "win": 0.018151,
+          "second": 0.049464,
+          "third": 0.042136,
+          "inTop3": 0.109751
+        },
+        {
+          "horseNo": 15,
+          "horse": "パフ",
+          "win": 0.082147,
+          "second": 0.081721,
+          "third": 0.069614,
+          "inTop3": 0.233482
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.45,
+          "memo": "脚抜きの良さで先行有利"
+        },
+        {
+          "name": "標準",
+          "probability": 0.35,
+          "memo": "隊列が落ち着く"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "前崩れ待ち"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
+        "trifecta": {
+          "probability": 0.00080958,
+          "odds": 195.3,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.1581,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00146115,
+          "odds": 349.9,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.5113,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "小倉",
+      "raceNo": 12,
+      "start": "16:15",
+      "grade": "1勝C",
+      "name": "3歳以上1勝クラス",
+      "condition": "1200m(芝・右) / 3歳以上 1勝C （混合）［指定］ 定量",
+      "confidence": "本命",
+      "trifecta": [
+        8,
+        2,
+        6
+      ],
+      "trio": [
+        4,
+        6,
+        8
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、タナスーペルノーバの軸力を取りつつリピの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ルブリアン",
+          "win": 0.092431,
+          "second": 0.140642,
+          "third": 0.119806,
+          "inTop3": 0.352879
+        },
+        {
+          "horseNo": 2,
+          "horse": "ピアストイヤーズ",
+          "win": 0.125229,
+          "second": 0.154177,
+          "third": 0.131336,
+          "inTop3": 0.410742
+        },
+        {
+          "horseNo": 3,
+          "horse": "ノリノリソックス",
+          "win": 0.048526,
+          "second": 0.111866,
+          "third": 0.095293,
+          "inTop3": 0.255685
+        },
+        {
+          "horseNo": 4,
+          "horse": "レインオンミー",
+          "win": 0.064702,
+          "second": 0.12449,
+          "third": 0.106047,
+          "inTop3": 0.29524
+        },
+        {
+          "horseNo": 5,
+          "horse": "スレッドザニードル",
+          "win": 0.050747,
+          "second": 0.11379,
+          "third": 0.096932,
+          "inTop3": 0.261469
+        },
+        {
+          "horseNo": 6,
+          "horse": "リピ",
+          "win": 0.119449,
+          "second": 0.152119,
+          "third": 0.129583,
+          "inTop3": 0.401152
+        },
+        {
+          "horseNo": 7,
+          "horse": "メイショウオオミネ",
+          "win": 0.042197,
+          "second": 0.105965,
+          "third": 0.090266,
+          "inTop3": 0.238428
+        },
+        {
+          "horseNo": 8,
+          "horse": "タナスーペルノーバ",
+          "win": 0.456719,
+          "second": 0.176951,
+          "third": 0.150736,
+          "inTop3": 0.784406
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.01383698,
+          "odds": 13.8,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.191,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.02343123,
+          "odds": 22.8,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.5342,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 1,
+      "start": "09:50",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1200m(芝・右) / 3歳 未勝利 [指定] 馬齢",
+      "confidence": "検証",
+      "trifecta": [
+        2,
+        15,
+        6
+      ],
+      "trio": [
+        6,
+        8,
+        13
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、アルサックの軸力を取りつつスーパーチャイルドの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ビアーレ",
+          "win": 0.03868,
+          "second": 0.071581,
+          "third": 0.060976,
+          "inTop3": 0.171237
+        },
+        {
+          "horseNo": 2,
+          "horse": "アルサック",
+          "win": 0.22766,
+          "second": 0.101396,
+          "third": 0.086374,
+          "inTop3": 0.41543
+        },
+        {
+          "horseNo": 3,
+          "horse": "フォークスアップ",
+          "win": 0.005837,
+          "second": 0.03277,
+          "third": 0.027915,
+          "inTop3": 0.066522
+        },
+        {
+          "horseNo": 4,
+          "horse": "グリニッジローズ",
+          "win": 0.02002,
+          "second": 0.055714,
+          "third": 0.04746,
+          "inTop3": 0.123194
+        },
+        {
+          "horseNo": 5,
+          "horse": "エフティヴェント",
+          "win": 0.009169,
+          "second": 0.04007,
+          "third": 0.034133,
+          "inTop3": 0.083372
+        },
+        {
+          "horseNo": 6,
+          "horse": "リネアベルタ",
+          "win": 0.144874,
+          "second": 0.100723,
+          "third": 0.085801,
+          "inTop3": 0.331399
+        },
+        {
+          "horseNo": 7,
+          "horse": "フリーダムスタイル",
+          "win": 0.039642,
+          "second": 0.072204,
+          "third": 0.061507,
+          "inTop3": 0.173354
+        },
+        {
+          "horseNo": 8,
+          "horse": "スノーガーネット",
+          "win": 0.028662,
+          "second": 0.064121,
+          "third": 0.054621,
+          "inTop3": 0.147404
+        },
+        {
+          "horseNo": 9,
+          "horse": "レースクイーン",
+          "win": 0.008699,
+          "second": 0.039154,
+          "third": 0.033353,
+          "inTop3": 0.081205
+        },
+        {
+          "horseNo": 10,
+          "horse": "ニシノオールワン",
+          "win": 0.124501,
+          "second": 0.098665,
+          "third": 0.084048,
+          "inTop3": 0.307215
+        },
+        {
+          "horseNo": 11,
+          "horse": "サンアイディール",
+          "win": 0.013302,
+          "second": 0.047043,
+          "third": 0.040074,
+          "inTop3": 0.10042
+        },
+        {
+          "horseNo": 12,
+          "horse": "ラブソング",
+          "win": 0.01245,
+          "second": 0.045738,
+          "third": 0.038962,
+          "inTop3": 0.09715
+        },
+        {
+          "horseNo": 13,
+          "horse": "スーパーチャイルド",
+          "win": 0.007426,
+          "second": 0.036506,
+          "third": 0.031098,
+          "inTop3": 0.07503
+        },
+        {
+          "horseNo": 14,
+          "horse": "アリアス",
+          "win": 0.045794,
+          "second": 0.075884,
+          "third": 0.064642,
+          "inTop3": 0.186319
+        },
+        {
+          "horseNo": 15,
+          "horse": "スイープセレニティ",
+          "win": 0.162614,
+          "second": 0.101784,
+          "third": 0.086705,
+          "inTop3": 0.351103
+        },
+        {
+          "horseNo": 16,
+          "horse": "ルージュアストレア",
+          "win": 0.110668,
+          "second": 0.096648,
+          "third": 0.082329,
+          "inTop3": 0.289645
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.0027334,
+          "odds": 81.5,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.2228,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 2.717e-05,
+          "odds": 18793.0,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.5106,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 2,
+      "start": "10:20",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1000m(ダート・右) / 3歳 未勝利 牝［指定］ 馬齢",
+      "confidence": "検証",
+      "trifecta": [
+        2,
+        10,
+        5
+      ],
+      "trio": [
+        1,
+        2,
+        5
+      ],
+      "value": "C",
+      "note": "ダート不良を前提に、スイーヴルの軸力を取りつつアイビーミャーオの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "サンタクローチェ",
+          "win": 0.043613,
+          "second": 0.080887,
+          "third": 0.068904,
+          "inTop3": 0.193404
+        },
+        {
+          "horseNo": 2,
+          "horse": "スイーヴル",
+          "win": 0.193599,
+          "second": 0.115497,
+          "third": 0.098386,
+          "inTop3": 0.407482
+        },
+        {
+          "horseNo": 3,
+          "horse": "シルフ",
+          "win": 0.021511,
+          "second": 0.061731,
+          "third": 0.052586,
+          "inTop3": 0.135827
+        },
+        {
+          "horseNo": 4,
+          "horse": "ロングフルスペック",
+          "win": 0.029729,
+          "second": 0.070173,
+          "third": 0.059777,
+          "inTop3": 0.159678
+        },
+        {
+          "horseNo": 5,
+          "horse": "アイビーミャーオ",
+          "win": 0.139255,
+          "second": 0.111421,
+          "third": 0.094915,
+          "inTop3": 0.345592
+        },
+        {
+          "horseNo": 6,
+          "horse": "クインズスズラン",
+          "win": 0.069022,
+          "second": 0.094113,
+          "third": 0.08017,
+          "inTop3": 0.243305
+        },
+        {
+          "horseNo": 7,
+          "horse": "ドリームガッサン",
+          "win": 0.136855,
+          "second": 0.111102,
+          "third": 0.094643,
+          "inTop3": 0.342599
+        },
+        {
+          "horseNo": 8,
+          "horse": "カレンココナ",
+          "win": 0.049302,
+          "second": 0.084418,
+          "third": 0.071911,
+          "inTop3": 0.205631
+        },
+        {
+          "horseNo": 9,
+          "horse": "チュラヴェール",
+          "win": 0.02504,
+          "second": 0.065613,
+          "third": 0.055892,
+          "inTop3": 0.146545
+        },
+        {
+          "horseNo": 10,
+          "horse": "マリブサーフ",
+          "win": 0.180399,
+          "second": 0.114991,
+          "third": 0.097955,
+          "inTop3": 0.393345
+        },
+        {
+          "horseNo": 11,
+          "horse": "アドバンスジェンヌ",
+          "win": 0.031498,
+          "second": 0.071746,
+          "third": 0.061117,
+          "inTop3": 0.164362
+        },
+        {
+          "horseNo": 12,
+          "horse": "セラサイト",
+          "win": 0.080177,
+          "second": 0.098309,
+          "third": 0.083744,
+          "inTop3": 0.26223
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.45,
+          "memo": "脚抜きの良さで先行有利"
+        },
+        {
+          "name": "標準",
+          "probability": 0.35,
+          "memo": "隊列が落ち着く"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "前崩れ待ち"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
+        "trifecta": {
+          "probability": 0.00327569,
+          "odds": 68.8,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.2254,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00262383,
+          "odds": 175.6,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.4607,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 3,
+      "start": "10:50",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1700m(ダート・右) / 3歳 未勝利 [指定] 馬齢",
+      "confidence": "本命",
+      "trifecta": [
+        9,
+        1,
+        12
+      ],
+      "trio": [
+        8,
+        9,
+        10
+      ],
+      "value": "C+",
+      "note": "ダート不良を前提に、コイオステソーロの軸力を取りつつチリンドリの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "キセログラフィカ",
+          "win": 0.069383,
+          "second": 0.119095,
+          "third": 0.101451,
+          "inTop3": 0.28993
+        },
+        {
+          "horseNo": 2,
+          "horse": "サクセスブルー",
+          "win": 0.040966,
+          "second": 0.09818,
+          "third": 0.083634,
+          "inTop3": 0.22278
+        },
+        {
+          "horseNo": 3,
+          "horse": "ハイランダー",
+          "win": 0.022004,
+          "second": 0.076286,
+          "third": 0.064985,
+          "inTop3": 0.163275
+        },
+        {
+          "horseNo": 4,
+          "horse": "ホウオウファラオ",
+          "win": 0.029851,
+          "second": 0.086573,
+          "third": 0.073747,
+          "inTop3": 0.190171
+        },
+        {
+          "horseNo": 5,
+          "horse": "トーレス",
+          "win": 0.014369,
+          "second": 0.063488,
+          "third": 0.054082,
+          "inTop3": 0.131939
+        },
+        {
+          "horseNo": 6,
+          "horse": "エコロアビス",
+          "win": 0.038701,
+          "second": 0.09603,
+          "third": 0.081804,
+          "inTop3": 0.216535
+        },
+        {
+          "horseNo": 7,
+          "horse": "ミスチヴマリアンヌ",
+          "win": 0.018784,
+          "second": 0.071319,
+          "third": 0.060753,
+          "inTop3": 0.150856
+        },
+        {
+          "horseNo": 8,
+          "horse": "ルージュアイラ",
+          "win": 0.035821,
+          "second": 0.093151,
+          "third": 0.07935,
+          "inTop3": 0.208322
+        },
+        {
+          "horseNo": 9,
+          "horse": "コイオステソーロ",
+          "win": 0.641795,
+          "second": 0.129596,
+          "third": 0.110396,
+          "inTop3": 0.881788
+        },
+        {
+          "horseNo": 10,
+          "horse": "チリンドリ",
+          "win": 0.023409,
+          "second": 0.078298,
+          "third": 0.066698,
+          "inTop3": 0.168406
+        },
+        {
+          "horseNo": 11,
+          "horse": "ホウオウバトラー",
+          "win": 0.012879,
+          "second": 0.060498,
+          "third": 0.051535,
+          "inTop3": 0.124912
+        },
+        {
+          "horseNo": 12,
+          "horse": "シンエンドーツダ",
+          "win": 0.052037,
+          "second": 0.107487,
+          "third": 0.091563,
+          "inTop3": 0.251087
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.45,
+          "memo": "脚抜きの良さで先行有利"
+        },
+        {
+          "name": "標準",
+          "probability": 0.35,
+          "memo": "隊列が落ち着く"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "前崩れ待ち"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
+        "trifecta": {
+          "probability": 0.01030302,
+          "odds": 12.7,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.1308,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00328901,
+          "odds": 194.0,
+          "oddsTime": "08:16 JST",
+          "expectedValue": 0.6381,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 4,
+      "start": "11:20",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1800m(芝・右) / 3歳 未勝利 [指定] 馬齢",
+      "confidence": "本命",
+      "trifecta": [
+        11,
+        2,
+        5
+      ],
+      "trio": [
+        5,
+        11,
+        16
+      ],
+      "value": "C",
+      "note": "芝重を前提に、エアヴァイブスの軸力を取りつつダンツアラームの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "インフィオラータ",
+          "win": 0.063094,
+          "second": 0.078762,
+          "third": 0.067094,
+          "inTop3": 0.20895
+        },
+        {
+          "horseNo": 2,
+          "horse": "ララニューディー",
+          "win": 0.104603,
+          "second": 0.088797,
+          "third": 0.075642,
+          "inTop3": 0.269042
+        },
+        {
+          "horseNo": 3,
+          "horse": "オケアノステソーロ",
+          "win": 0.010284,
+          "second": 0.040001,
+          "third": 0.034075,
+          "inTop3": 0.08436
+        },
+        {
+          "horseNo": 4,
+          "horse": "エグジスタンス",
+          "win": 0.049999,
+          "second": 0.073444,
+          "third": 0.062564,
+          "inTop3": 0.186007
+        },
+        {
+          "horseNo": 5,
+          "horse": "クールフィデル",
+          "win": 0.098146,
+          "second": 0.087728,
+          "third": 0.074731,
+          "inTop3": 0.260606
+        },
+        {
+          "horseNo": 6,
+          "horse": "ヘイマー",
+          "win": 0.010231,
+          "second": 0.039912,
+          "third": 0.033999,
+          "inTop3": 0.084143
+        },
+        {
+          "horseNo": 7,
+          "horse": "ゲフィオン",
+          "win": 0.051623,
+          "second": 0.074185,
+          "third": 0.063195,
+          "inTop3": 0.189002
+        },
+        {
+          "horseNo": 8,
+          "horse": "マンサニージャ",
+          "win": 0.094641,
+          "second": 0.087085,
+          "third": 0.074184,
+          "inTop3": 0.25591
+        },
+        {
+          "horseNo": 9,
+          "horse": "ラウターユーベル",
+          "win": 0.020811,
+          "second": 0.053564,
+          "third": 0.045629,
+          "inTop3": 0.120004
+        },
+        {
+          "horseNo": 10,
+          "horse": "アルケミラモリス",
+          "win": 0.009648,
+          "second": 0.038912,
+          "third": 0.033148,
+          "inTop3": 0.081708
+        },
+        {
+          "horseNo": 11,
+          "horse": "エアヴァイブス",
+          "win": 0.274133,
+          "second": 0.08716,
+          "third": 0.074247,
+          "inTop3": 0.43554
+        },
+        {
+          "horseNo": 12,
+          "horse": "ウインラファーガ",
+          "win": 0.059773,
+          "second": 0.077546,
+          "third": 0.066058,
+          "inTop3": 0.203377
+        },
+        {
+          "horseNo": 13,
+          "horse": "ケナゲ",
+          "win": 0.018973,
+          "second": 0.051629,
+          "third": 0.04398,
+          "inTop3": 0.114583
+        },
+        {
+          "horseNo": 14,
+          "horse": "アイムイン",
+          "win": 0.079499,
+          "second": 0.083725,
+          "third": 0.071322,
+          "inTop3": 0.234546
+        },
+        {
+          "horseNo": 15,
+          "horse": "ラップトップ",
+          "win": 0.034565,
+          "second": 0.064849,
+          "third": 0.055241,
+          "inTop3": 0.154655
+        },
+        {
+          "horseNo": 16,
+          "horse": "ダンツアラーム",
+          "win": 0.019975,
+          "second": 0.0527,
+          "third": 0.044893,
+          "inTop3": 0.117567
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.00149783,
+          "odds": 102.1,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.1529,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00094537,
+          "odds": 490.0,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.4632,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 5,
+      "start": "12:10",
+      "grade": "新馬",
+      "name": "メイクデビュー函館",
+      "condition": "1200m(芝・右) / 2歳 新馬 [指定] 馬齢",
+      "confidence": "本命",
+      "trifecta": [
+        1,
+        7,
+        5
+      ],
+      "trio": [
+        1,
+        3,
+        5
+      ],
+      "value": "C",
+      "note": "芝重を前提に、ステラトップガンの軸力を取りつつアゴルディーノの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ステラトップガン",
+          "win": 0.376304,
+          "second": 0.184007,
+          "third": 0.156747,
+          "inTop3": 0.717058
+        },
+        {
+          "horseNo": 2,
+          "horse": "ミハテヌユメ",
+          "win": 0.091888,
+          "second": 0.141722,
+          "third": 0.120726,
+          "inTop3": 0.354336
+        },
+        {
+          "horseNo": 3,
+          "horse": "ライーリーアース",
+          "win": 0.038548,
+          "second": 0.103115,
+          "third": 0.087839,
+          "inTop3": 0.229502
+        },
+        {
+          "horseNo": 4,
+          "horse": "サウンドエフォート",
+          "win": 0.026254,
+          "second": 0.088099,
+          "third": 0.075047,
+          "inTop3": 0.1894
+        },
+        {
+          "horseNo": 5,
+          "horse": "アゴルディーノ",
+          "win": 0.183776,
+          "second": 0.171358,
+          "third": 0.145972,
+          "inTop3": 0.501106
+        },
+        {
+          "horseNo": 6,
+          "horse": "ルギッドドランジュ",
+          "win": 0.053036,
+          "second": 0.116727,
+          "third": 0.099434,
+          "inTop3": 0.269198
+        },
+        {
+          "horseNo": 7,
+          "horse": "ヌーンベルク",
+          "win": 0.192741,
+          "second": 0.173039,
+          "third": 0.147403,
+          "inTop3": 0.513183
+        },
+        {
+          "horseNo": 8,
+          "horse": "マナベラ",
+          "win": 0.037452,
+          "second": 0.101932,
+          "third": 0.086831,
+          "inTop3": 0.226216
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.02281162,
+          "odds": 18.2,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.4152,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.01551834,
+          "odds": 29.7,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.4609,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 6,
+      "start": "12:40",
+      "grade": "未勝利",
+      "name": "3歳未勝利",
+      "condition": "1700m(ダート・右) / 3歳 未勝利 牝［指定］ 馬齢",
+      "confidence": "本命",
+      "trifecta": [
+        3,
+        5,
+        6
+      ],
+      "trio": [
+        3,
+        4,
+        5
+      ],
+      "value": "C+",
+      "note": "ダート不良を前提に、エリカビアリッツの軸力を取りつつサンエンジェルスの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "コサージュ",
+          "win": 0.030118,
+          "second": 0.078597,
+          "third": 0.066953,
+          "inTop3": 0.175669
+        },
+        {
+          "horseNo": 2,
+          "horse": "リアル",
+          "win": 0.033867,
+          "second": 0.082303,
+          "third": 0.07011,
+          "inTop3": 0.186281
+        },
+        {
+          "horseNo": 3,
+          "horse": "エリカビアリッツ",
+          "win": 0.303501,
+          "second": 0.137239,
+          "third": 0.116907,
+          "inTop3": 0.557647
+        },
+        {
+          "horseNo": 4,
+          "horse": "サンエンジェルス",
+          "win": 0.111141,
+          "second": 0.12221,
+          "third": 0.104105,
+          "inTop3": 0.337456
+        },
+        {
+          "horseNo": 5,
+          "horse": "プリンセスアツコ",
+          "win": 0.232089,
+          "second": 0.138002,
+          "third": 0.117557,
+          "inTop3": 0.487648
+        },
+        {
+          "horseNo": 6,
+          "horse": "コウソクユノ",
+          "win": 0.119561,
+          "second": 0.12444,
+          "third": 0.106004,
+          "inTop3": 0.350005
+        },
+        {
+          "horseNo": 7,
+          "horse": "コーリンクレア",
+          "win": 0.036533,
+          "second": 0.084748,
+          "third": 0.072192,
+          "inTop3": 0.193472
+        },
+        {
+          "horseNo": 8,
+          "horse": "ワンダーアスク",
+          "win": 0.026303,
+          "second": 0.074446,
+          "third": 0.063417,
+          "inTop3": 0.164167
+        },
+        {
+          "horseNo": 9,
+          "horse": "プルーフリーディン",
+          "win": 0.05677,
+          "second": 0.099581,
+          "third": 0.084828,
+          "inTop3": 0.241178
+        },
+        {
+          "horseNo": 10,
+          "horse": "ドンレミラピュセル",
+          "win": 0.039064,
+          "second": 0.08694,
+          "third": 0.07406,
+          "inTop3": 0.200065
+        },
+        {
+          "horseNo": 11,
+          "horse": "ファントムグレース",
+          "win": 0.011052,
+          "second": 0.051495,
+          "third": 0.043866,
+          "inTop3": 0.106413
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.45,
+          "memo": "脚抜きの良さで先行有利"
+        },
+        {
+          "name": "標準",
+          "probability": 0.35,
+          "memo": "隊列が落ち着く"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "前崩れ待ち"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
+        "trifecta": {
+          "probability": 0.01197678,
+          "odds": 16.0,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.1916,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.04592145,
+          "odds": 14.5,
+          "oddsTime": "08:17 JST",
+          "expectedValue": 0.6659,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 7,
+      "start": "13:10",
+      "grade": "1勝C",
+      "name": "3歳以上1勝クラス",
+      "condition": "2000m(芝・右) / 3歳以上 1勝C [指定] 定量",
+      "confidence": "本命",
+      "trifecta": [
+        11,
+        4,
+        6
+      ],
+      "trio": [
+        4,
+        5,
+        11
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、ドウアドバンテージの軸力を取りつつディーリライズの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ブランヴァンダイク",
+          "win": 0.072194,
+          "second": 0.101319,
+          "third": 0.086309,
+          "inTop3": 0.259822
+        },
+        {
+          "horseNo": 2,
+          "horse": "コスモナエマ",
+          "win": 0.074918,
+          "second": 0.10247,
+          "third": 0.08729,
+          "inTop3": 0.264678
+        },
+        {
+          "horseNo": 3,
+          "horse": "グランアルト",
+          "win": 0.034984,
+          "second": 0.078777,
+          "third": 0.067106,
+          "inTop3": 0.180867
+        },
+        {
+          "horseNo": 4,
+          "horse": "メイショウテンク",
+          "win": 0.168965,
+          "second": 0.123402,
+          "third": 0.10512,
+          "inTop3": 0.397487
+        },
+        {
+          "horseNo": 5,
+          "horse": "ディーリライズ",
+          "win": 0.065093,
+          "second": 0.098075,
+          "third": 0.083545,
+          "inTop3": 0.246713
+        },
+        {
+          "horseNo": 6,
+          "horse": "マカナアネラ",
+          "win": 0.09454,
+          "second": 0.109504,
+          "third": 0.093281,
+          "inTop3": 0.297325
+        },
+        {
+          "horseNo": 7,
+          "horse": "サウンドサンライズ",
+          "win": 0.064564,
+          "second": 0.097818,
+          "third": 0.083326,
+          "inTop3": 0.245708
+        },
+        {
+          "horseNo": 8,
+          "horse": "アイドクレース",
+          "win": 0.078627,
+          "second": 0.103963,
+          "third": 0.088561,
+          "inTop3": 0.271151
+        },
+        {
+          "horseNo": 9,
+          "horse": "エオアリイ",
+          "win": 0.026123,
+          "second": 0.070291,
+          "third": 0.059877,
+          "inTop3": 0.156291
+        },
+        {
+          "horseNo": 10,
+          "horse": "ゴガツノアマノガワ",
+          "win": 0.025868,
+          "second": 0.070015,
+          "third": 0.059643,
+          "inTop3": 0.155526
+        },
+        {
+          "horseNo": 11,
+          "horse": "ドウアドバンテージ",
+          "win": 0.294124,
+          "second": 0.124367,
+          "third": 0.105942,
+          "inTop3": 0.524433
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.00570256,
+          "odds": 22.0,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.1255,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.01213984,
+          "odds": 53.6,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.6507,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 8,
+      "start": "13:40",
+      "grade": "1勝C",
+      "name": "3歳以上1勝クラス",
+      "condition": "1000m(ダート・右) / 3歳以上 1勝C （混合）［指定］ 定量",
+      "confidence": "本命",
+      "trifecta": [
+        1,
+        7,
+        11
+      ],
+      "trio": [
+        1,
+        6,
+        9
+      ],
+      "value": "C+",
+      "note": "ダート不良を前提に、マメタンクの軸力を取りつつジュウオウの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "マメタンク",
+          "win": 0.27323,
+          "second": 0.121805,
+          "third": 0.10376,
+          "inTop3": 0.498794
+        },
+        {
+          "horseNo": 2,
+          "horse": "フレンズプラス",
+          "win": 0.063389,
+          "second": 0.095505,
+          "third": 0.081356,
+          "inTop3": 0.240251
+        },
+        {
+          "horseNo": 3,
+          "horse": "サツキレジーナ",
+          "win": 0.040844,
+          "second": 0.082083,
+          "third": 0.069923,
+          "inTop3": 0.19285
+        },
+        {
+          "horseNo": 4,
+          "horse": "ミサビスケッツ",
+          "win": 0.084294,
+          "second": 0.104088,
+          "third": 0.088667,
+          "inTop3": 0.277049
+        },
+        {
+          "horseNo": 5,
+          "horse": "ブラックトルネード",
+          "win": 0.020475,
+          "second": 0.062676,
+          "third": 0.053391,
+          "inTop3": 0.136542
+        },
+        {
+          "horseNo": 6,
+          "horse": "スパークルジョイ",
+          "win": 0.087073,
+          "second": 0.105033,
+          "third": 0.089473,
+          "inTop3": 0.281579
+        },
+        {
+          "horseNo": 7,
+          "horse": "カッタッパ",
+          "win": 0.129896,
+          "second": 0.115572,
+          "third": 0.09845,
+          "inTop3": 0.343919
+        },
+        {
+          "horseNo": 8,
+          "horse": "セイルロケット",
+          "win": 0.037027,
+          "second": 0.079159,
+          "third": 0.067432,
+          "inTop3": 0.183617
+        },
+        {
+          "horseNo": 9,
+          "horse": "ジュウオウ",
+          "win": 0.072033,
+          "second": 0.099401,
+          "third": 0.084675,
+          "inTop3": 0.256109
+        },
+        {
+          "horseNo": 10,
+          "horse": "マジェステラ",
+          "win": 0.081687,
+          "second": 0.103164,
+          "third": 0.08788,
+          "inTop3": 0.272731
+        },
+        {
+          "horseNo": 11,
+          "horse": "テーオーナタリー",
+          "win": 0.110051,
+          "second": 0.111514,
+          "third": 0.094994,
+          "inTop3": 0.316559
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.45,
+          "memo": "脚抜きの良さで先行有利"
+        },
+        {
+          "name": "標準",
+          "probability": 0.35,
+          "memo": "隊列が落ち着く"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "前崩れ待ち"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
+        "trifecta": {
+          "probability": 0.00306139,
+          "odds": 59.3,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.1815,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00314486,
+          "odds": 212.3,
+          "oddsTime": "08:18 JST",
+          "expectedValue": 0.6677,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 9,
+      "start": "14:10",
+      "grade": "1勝C",
+      "name": "長万部特別",
+      "condition": "1200m(芝・右) / 3歳以上 1勝C （混合）（特指） 定量",
+      "confidence": "検証",
+      "trifecta": [
+        4,
+        7,
+        8
+      ],
+      "trio": [
+        1,
+        4,
+        7
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、ララバニュルスの軸力を取りつつクワイエットアイの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "クワイエットアイ",
+          "win": 0.108504,
+          "second": 0.130172,
+          "third": 0.110888,
+          "inTop3": 0.349564
+        },
+        {
+          "horseNo": 2,
+          "horse": "ブライアーヒル",
+          "win": 0.029777,
+          "second": 0.082808,
+          "third": 0.07054,
+          "inTop3": 0.183125
+        },
+        {
+          "horseNo": 3,
+          "horse": "ナオミライトニング",
+          "win": 0.113154,
+          "second": 0.131664,
+          "third": 0.112158,
+          "inTop3": 0.356976
+        },
+        {
+          "horseNo": 4,
+          "horse": "ララバニュルス",
+          "win": 0.255509,
+          "second": 0.151693,
+          "third": 0.12922,
+          "inTop3": 0.536423
+        },
+        {
+          "horseNo": 5,
+          "horse": "トップオンザヒル",
+          "win": 0.029666,
+          "second": 0.082682,
+          "third": 0.070433,
+          "inTop3": 0.182782
+        },
+        {
+          "horseNo": 6,
+          "horse": "ファニーバニー",
+          "win": 0.101549,
+          "second": 0.127778,
+          "third": 0.108848,
+          "inTop3": 0.338174
+        },
+        {
+          "horseNo": 7,
+          "horse": "ドリーミングアップ",
+          "win": 0.18859,
+          "second": 0.147022,
+          "third": 0.125241,
+          "inTop3": 0.460854
+        },
+        {
+          "horseNo": 8,
+          "horse": "シュークリーム",
+          "win": 0.138961,
+          "second": 0.138582,
+          "third": 0.118051,
+          "inTop3": 0.395595
+        },
+        {
+          "horseNo": 9,
+          "horse": "ナンナンプー",
+          "win": 0.034289,
+          "second": 0.087599,
+          "third": 0.074621,
+          "inTop3": 0.196509
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.00744254,
+          "odds": 18.6,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.1384,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.02603975,
+          "odds": 22.0,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.5729,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 10,
+      "start": "14:45",
+      "grade": "2勝C",
+      "name": "洞爺湖特別",
+      "condition": "2000m(芝・右) / 3歳以上 2勝C （混合）（特指） 定量",
+      "confidence": "検証",
+      "trifecta": [
+        4,
+        3,
+        1
+      ],
+      "trio": [
+        2,
+        3,
+        11
+      ],
+      "value": "C+",
+      "note": "芝重を前提に、ウィルサヴァイブの軸力を取りつつドッビアーコの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ハートメテオ",
+          "win": 0.139361,
+          "second": 0.114266,
+          "third": 0.097338,
+          "inTop3": 0.350965
+        },
+        {
+          "horseNo": 2,
+          "horse": "ラブリーリディア",
+          "win": 0.077122,
+          "second": 0.09934,
+          "third": 0.084623,
+          "inTop3": 0.261085
+        },
+        {
+          "horseNo": 3,
+          "horse": "ヨヒーン",
+          "win": 0.149878,
+          "second": 0.115608,
+          "third": 0.098481,
+          "inTop3": 0.363968
+        },
+        {
+          "horseNo": 4,
+          "horse": "ウィルサヴァイブ",
+          "win": 0.198589,
+          "second": 0.119,
+          "third": 0.10137,
+          "inTop3": 0.418959
+        },
+        {
+          "horseNo": 5,
+          "horse": "リッチブラック",
+          "win": 0.030552,
+          "second": 0.07224,
+          "third": 0.061537,
+          "inTop3": 0.164329
+        },
+        {
+          "horseNo": 6,
+          "horse": "ロードマンハイム",
+          "win": 0.063044,
+          "second": 0.093427,
+          "third": 0.079586,
+          "inTop3": 0.236056
+        },
+        {
+          "horseNo": 7,
+          "horse": "レイヤードレッド",
+          "win": 0.051249,
+          "second": 0.087255,
+          "third": 0.074328,
+          "inTop3": 0.212831
+        },
+        {
+          "horseNo": 8,
+          "horse": "バルティカ",
+          "win": 0.105914,
+          "second": 0.108027,
+          "third": 0.092023,
+          "inTop3": 0.305964
+        },
+        {
+          "horseNo": 9,
+          "horse": "ウインアクトゥール",
+          "win": 0.095705,
+          "second": 0.105376,
+          "third": 0.089764,
+          "inTop3": 0.290845
+        },
+        {
+          "horseNo": 10,
+          "horse": "アメジストブラック",
+          "win": 0.049647,
+          "second": 0.086309,
+          "third": 0.073523,
+          "inTop3": 0.209479
+        },
+        {
+          "horseNo": 11,
+          "horse": "ドッビアーコ",
+          "win": 0.038939,
+          "second": 0.079153,
+          "third": 0.067426,
+          "inTop3": 0.185518
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.00270097,
+          "odds": 55.5,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.1499,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.00043529,
+          "odds": 1264.6,
+          "oddsTime": "08:19 JST",
+          "expectedValue": 0.5505,
+          "verdict": "検証買い"
+        }
+      }
     },
     {
       "venue": "函館",
       "raceNo": 11,
-      "start": "15:25",
+      "start": "15:20",
       "grade": "OP",
       "name": "青函ステークス",
-      "condition": "芝1200m / オープン",
-      "confidence": "穴",
-      "trifecta": [9, 1, 4],
-      "trio": [4, 9, 16],
-      "value": "A-",
-      "note": "洋芝適性"
+      "condition": "1200m(芝・右) / 3歳以上 オープン （国際）（特指） ハンデ",
+      "confidence": "検証",
+      "trifecta": [
+        2,
+        12,
+        11
+      ],
+      "trio": [
+        2,
+        5,
+        11
+      ],
+      "value": "C",
+      "note": "芝重を前提に、ブラックチャリスの軸力を取りつつナムラクララの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "ダンツエラン",
+          "win": 0.024253,
+          "second": 0.058336,
+          "third": 0.049693,
+          "inTop3": 0.132282
+        },
+        {
+          "horseNo": 2,
+          "horse": "ブラックチャリス",
+          "win": 0.169256,
+          "second": 0.097306,
+          "third": 0.082891,
+          "inTop3": 0.349453
+        },
+        {
+          "horseNo": 3,
+          "horse": "ジョーメッドヴィン",
+          "win": 0.069781,
+          "second": 0.083484,
+          "third": 0.071116,
+          "inTop3": 0.22438
+        },
+        {
+          "horseNo": 4,
+          "horse": "ステークホルダー",
+          "win": 0.015269,
+          "second": 0.048433,
+          "third": 0.041257,
+          "inTop3": 0.104959
+        },
+        {
+          "horseNo": 5,
+          "horse": "ティニア",
+          "win": 0.076491,
+          "second": 0.085552,
+          "third": 0.072878,
+          "inTop3": 0.23492
+        },
+        {
+          "horseNo": 6,
+          "horse": "クファシル",
+          "win": 0.023676,
+          "second": 0.057792,
+          "third": 0.04923,
+          "inTop3": 0.130698
+        },
+        {
+          "horseNo": 7,
+          "horse": "マイネルレノン",
+          "win": 0.03489,
+          "second": 0.066836,
+          "third": 0.056934,
+          "inTop3": 0.158661
+        },
+        {
+          "horseNo": 8,
+          "horse": "サウザンサニー",
+          "win": 0.034437,
+          "second": 0.066523,
+          "third": 0.056667,
+          "inTop3": 0.157627
+        },
+        {
+          "horseNo": 9,
+          "horse": "モリノドリーム",
+          "win": 0.058493,
+          "second": 0.079347,
+          "third": 0.067592,
+          "inTop3": 0.205432
+        },
+        {
+          "horseNo": 10,
+          "horse": "ナムラローズマリー",
+          "win": 0.031196,
+          "second": 0.064168,
+          "third": 0.054662,
+          "inTop3": 0.150026
+        },
+        {
+          "horseNo": 11,
+          "horse": "ナムラクララ",
+          "win": 0.118732,
+          "second": 0.093935,
+          "third": 0.080018,
+          "inTop3": 0.292684
+        },
+        {
+          "horseNo": 12,
+          "horse": "アメリカンステージ",
+          "win": 0.142054,
+          "second": 0.096168,
+          "third": 0.081921,
+          "inTop3": 0.320142
+        },
+        {
+          "horseNo": 13,
+          "horse": "ロードフォアエース",
+          "win": 0.0925,
+          "second": 0.089552,
+          "third": 0.076285,
+          "inTop3": 0.258338
+        },
+        {
+          "horseNo": 14,
+          "horse": "ルージュラナキラ",
+          "win": 0.108973,
+          "second": 0.09257,
+          "third": 0.078856,
+          "inTop3": 0.280398
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.26,
+          "memo": "内前の粘り込み"
+        },
+        {
+          "name": "標準",
+          "probability": 0.36,
+          "memo": "馬場適性の差"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.38,
+          "memo": "消耗して外差し"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "差し決着 0.38: 消耗して外差し",
+        "trifecta": {
+          "probability": 0.00119752,
+          "odds": 110.3,
+          "oddsTime": "08:15 JST",
+          "expectedValue": 0.1321,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.0044621,
+          "odds": 79.9,
+          "oddsTime": "08:15 JST",
+          "expectedValue": 0.3565,
+          "verdict": "検証買い"
+        }
+      }
+    },
+    {
+      "venue": "函館",
+      "raceNo": 12,
+      "start": "16:05",
+      "grade": "1勝C",
+      "name": "3歳以上1勝クラス",
+      "condition": "1700m(ダート・右) / 3歳以上 1勝C （特指） 定量",
+      "confidence": "本命",
+      "trifecta": [
+        2,
+        10,
+        4
+      ],
+      "trio": [
+        2,
+        9,
+        10
+      ],
+      "value": "B",
+      "note": "ダート不良を前提に、テイエムゴッホの軸力を取りつつフロウアンドライムの食い込みを押さえる。",
+      "probabilities": [
+        {
+          "horseNo": 1,
+          "horse": "マーベリックシチー",
+          "win": 0.071755,
+          "second": 0.110102,
+          "third": 0.093791,
+          "inTop3": 0.275647
+        },
+        {
+          "horseNo": 2,
+          "horse": "テイエムゴッホ",
+          "win": 0.303579,
+          "second": 0.142234,
+          "third": 0.121162,
+          "inTop3": 0.566975
+        },
+        {
+          "horseNo": 3,
+          "horse": "ビナハイバン",
+          "win": 0.033164,
+          "second": 0.083286,
+          "third": 0.070947,
+          "inTop3": 0.187397
+        },
+        {
+          "horseNo": 4,
+          "horse": "ストロングボーイ",
+          "win": 0.123329,
+          "second": 0.128546,
+          "third": 0.109502,
+          "inTop3": 0.361377
+        },
+        {
+          "horseNo": 5,
+          "horse": "グレイスフルマーチ",
+          "win": 0.084871,
+          "second": 0.116053,
+          "third": 0.09886,
+          "inTop3": 0.299784
+        },
+        {
+          "horseNo": 6,
+          "horse": "アイファーシャドー",
+          "win": 0.022812,
+          "second": 0.071609,
+          "third": 0.061,
+          "inTop3": 0.155422
+        },
+        {
+          "horseNo": 7,
+          "horse": "パシーヴ",
+          "win": 0.040271,
+          "second": 0.089764,
+          "third": 0.076466,
+          "inTop3": 0.206501
+        },
+        {
+          "horseNo": 8,
+          "horse": "ベイビールビオ",
+          "win": 0.025627,
+          "second": 0.075116,
+          "third": 0.063988,
+          "inTop3": 0.164731
+        },
+        {
+          "horseNo": 9,
+          "horse": "フロウアンドライム",
+          "win": 0.106663,
+          "second": 0.123882,
+          "third": 0.105529,
+          "inTop3": 0.336074
+        },
+        {
+          "horseNo": 10,
+          "horse": "メイショウソラリス",
+          "win": 0.18793,
+          "second": 0.139408,
+          "third": 0.118755,
+          "inTop3": 0.446093
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "逃げ残り",
+          "probability": 0.45,
+          "memo": "脚抜きの良さで先行有利"
+        },
+        {
+          "name": "標準",
+          "probability": 0.35,
+          "memo": "隊列が落ち着く"
+        },
+        {
+          "name": "差し決着",
+          "probability": 0.2,
+          "memo": "前崩れ待ち"
+        }
+      ],
+      "edge": {
+        "verdict": "検証買い",
+        "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
+        "trifecta": {
+          "probability": 0.00675545,
+          "odds": 37.4,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.2527,
+          "verdict": "検証買い"
+        },
+        "trio": {
+          "probability": 0.02514129,
+          "odds": 33.6,
+          "oddsTime": "08:20 JST",
+          "expectedValue": 0.8447,
+          "verdict": "検証買い"
+        }
+      }
     }
   ],
   "win5": {
-    "deadline": "14:45",
+    "available": true,
+    "deadline": "14:50",
+    "source": "JRA公式WIN5対象レース一覧",
+    "targets": [
+      "小倉10R",
+      "福島10R",
+      "函館11R",
+      "小倉11R",
+      "福島11R"
+    ],
     "routes": [
       {
         "name": "堅実",
-        "style": "軸を信じる",
+        "style": "人気軸を信じる",
         "legs": [
-          { "race": "東京10R", "pick": 4 },
-          { "race": "京都10R", "pick": 10 },
-          { "race": "函館11R", "pick": 9 },
-          { "race": "東京11R", "pick": 7 },
-          { "race": "京都11R", "pick": 5 }
+          {
+            "race": "小倉10R",
+            "pick": 8
+          },
+          {
+            "race": "福島10R",
+            "pick": 9
+          },
+          {
+            "race": "函館11R",
+            "pick": 2
+          },
+          {
+            "race": "小倉11R",
+            "pick": 2
+          },
+          {
+            "race": "福島11R",
+            "pick": 8
+          }
         ]
       },
       {
         "name": "妙味",
-        "style": "一つだけズラす",
+        "style": "一段だけズラす",
         "legs": [
-          { "race": "東京10R", "pick": 7 },
-          { "race": "京都10R", "pick": 3 },
-          { "race": "函館11R", "pick": 9 },
-          { "race": "東京11R", "pick": 11 },
-          { "race": "京都11R", "pick": 5 }
+          {
+            "race": "小倉10R",
+            "pick": 11
+          },
+          {
+            "race": "福島10R",
+            "pick": 1
+          },
+          {
+            "race": "函館11R",
+            "pick": 12
+          },
+          {
+            "race": "小倉11R",
+            "pick": 13
+          },
+          {
+            "race": "福島11R",
+            "pick": 4
+          }
         ]
       },
       {
         "name": "穴",
         "style": "荒れ筋を刺す",
         "legs": [
-          { "race": "東京10R", "pick": 1 },
-          { "race": "京都10R", "pick": 6 },
-          { "race": "函館11R", "pick": 16 },
-          { "race": "東京11R", "pick": 2 },
-          { "race": "京都11R", "pick": 8 }
+          {
+            "race": "小倉10R",
+            "pick": 2
+          },
+          {
+            "race": "福島10R",
+            "pick": 2
+          },
+          {
+            "race": "函館11R",
+            "pick": 11
+          },
+          {
+            "race": "小倉11R",
+            "pick": 9
+          },
+          {
+            "race": "福島11R",
+            "pick": 7
+          }
         ]
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "name": "JRA競馬番組",
+      "url": "https://www.jra.go.jp/keiba/calendar2026/2026/6/0627.html"
+    },
+    {
+      "name": "JRA開催お知らせ・出馬表・オッズ",
+      "url": "https://www.jra.go.jp/"
+    },
+    {
+      "name": "JRA馬場情報",
+      "url": "https://www.jra.go.jp/keiba/baba/"
+    },
+    {
+      "name": "JRA WIN5対象レース",
+      "url": "https://www.jra.go.jp/kouza/win5/info/racelist.html"
+    }
+  ]
 }
