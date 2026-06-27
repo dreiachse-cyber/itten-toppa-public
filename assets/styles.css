@@ -674,6 +674,214 @@ button {
   font-size: 1rem;
 }
 
+.review-table-area {
+  display: grid;
+  gap: 16px;
+  padding-top: 18px;
+}
+
+.review-table-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px;
+}
+
+.review-table-block {
+  min-width: 0;
+  background: rgba(255, 250, 240, 0.68);
+  border: 1px solid rgba(73, 51, 25, 0.16);
+}
+
+.review-table-block.full {
+  grid-column: 1 / -1;
+}
+
+.review-table-heading {
+  padding: 12px 14px 0;
+}
+
+.review-table-heading h3 {
+  margin: 0;
+  color: var(--red);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.08rem;
+}
+
+.review-type-summary {
+  min-width: 0;
+  background: rgba(255, 250, 240, 0.54);
+  border: 1px solid rgba(73, 51, 25, 0.16);
+}
+
+.review-type-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  padding: 14px;
+}
+
+.review-type-card {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  padding: 14px;
+  background: rgba(255, 250, 240, 0.72);
+  border: 1px solid rgba(73, 51, 25, 0.14);
+  border-top: 4px solid var(--gold);
+}
+
+.review-type-card.win5 {
+  border-top-color: var(--blue);
+}
+
+.review-type-card.trio {
+  border-top-color: #2a2a23;
+}
+
+.review-type-card.trifecta {
+  border-top-color: var(--red);
+}
+
+.review-type-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.review-type-top span {
+  color: rgba(11, 10, 8, 0.62);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.review-type-top strong {
+  color: var(--red);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.7rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.review-type-card p {
+  margin: 0;
+  color: rgba(11, 10, 8, 0.72);
+  font-size: 0.86rem;
+  line-height: 1.65;
+}
+
+.review-type-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(73, 51, 25, 0.14);
+}
+
+.review-type-metrics span {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  color: rgba(11, 10, 8, 0.58);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.review-type-metrics strong {
+  color: var(--ink);
+  font-size: 0.88rem;
+  overflow-wrap: anywhere;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.review-table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+}
+
+.review-table th,
+.review-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(73, 51, 25, 0.14);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.review-table th:first-child,
+.review-table td:first-child {
+  text-align: left;
+}
+
+.review-table thead th {
+  color: rgba(11, 10, 8, 0.58);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.review-table tbody th {
+  font-weight: 800;
+}
+
+.review-table tbody tr:last-child th,
+.review-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.review-table .is-total th,
+.review-table .is-total td {
+  color: var(--red);
+  font-weight: 900;
+  background: rgba(165, 22, 24, 0.06);
+}
+
+.review-table .is-positive {
+  color: var(--green);
+  font-weight: 900;
+}
+
+.review-table .is-negative {
+  color: var(--red);
+  font-weight: 900;
+}
+
+.review-table .empty-cell {
+  color: rgba(11, 10, 8, 0.58);
+  text-align: left;
+}
+
+.review-kv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  padding: 14px;
+}
+
+.review-kv-grid div {
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  background: rgba(255, 250, 240, 0.68);
+  border: 1px solid rgba(73, 51, 25, 0.12);
+}
+
+.review-kv-grid span {
+  color: rgba(11, 10, 8, 0.58);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.review-kv-grid strong {
+  color: var(--ink);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.08rem;
+  overflow-wrap: anywhere;
+}
+
 .daily-summary-row {
   display: grid;
   grid-template-columns: 132px 94px minmax(0, 1fr) 150px;
@@ -881,6 +1089,12 @@ button {
   }
 
   .edge-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-type-grid,
+  .review-table-grid,
+  .review-kv-grid {
     grid-template-columns: 1fr;
   }
 

@@ -15,6 +15,8 @@ const yen = new Intl.NumberFormat("ja-JP", {
   maximumFractionDigits: 0,
 });
 
+const integer = new Intl.NumberFormat("ja-JP");
+
 const byId = (id) => document.getElementById(id);
 
 async function loadJson(path) {
@@ -385,12 +387,252 @@ function renderReviews() {
     return;
   }
 
-  root.innerHTML = state.review.items.map((item) => `
+  const items = Array.isArray(state.review.items) ? state.review.items : [];
+  const reviewItems = items.map((item) => `
     <article class="review-item">
       <h3>${escapeHtml(item.title)}</h3>
       <p>${escapeHtml(item.body)}</p>
     </article>
   `).join("");
+
+  root.innerHTML = `${reviewItems}${renderReviewTables(state.review)}`;
+}
+
+function renderReviewTables(review) {
+  const typeSummaries = renderBetTypeSummaries(review);
+  const breakdownRows = buildReviewBreakdownRows(review);
+  const hits = Array.isArray(review.settlement?.hits) ? review.settlement.hits : [];
+  const breakdownTable = renderBreakdownTable(breakdownRows);
+  const hitTable = renderHitTable(hits);
+  const win5Table = renderWin5ResultTable(review.win5);
+
+  if (!typeSummaries && !breakdownTable && !hitTable && !win5Table) {
+    return "";
+  }
+
+  return `
+    <div class="review-table-area">
+      ${typeSummaries}
+      <div class="review-table-grid">
+        ${breakdownTable}
+        ${hitTable}
+      </div>
+      ${win5Table}
+    </div>
+  `;
+}
+
+function renderBetTypeSummaries(review) {
+  const summaries = buildBetTypeSummaries(review);
+  if (!summaries.length) {
+    return "";
+  }
+
+  return `
+    <section class="review-type-summary" aria-labelledby="reviewTypeSummaryTitle">
+      <div class="review-table-heading">
+        <h3 id="reviewTypeSummaryTitle">券種別サマリー</h3>
+      </div>
+      <div class="review-type-grid">
+        ${summaries.map((summary) => `
+          <article class="review-type-card ${summary.tone}">
+            <div class="review-type-top">
+              <span>${escapeHtml(summary.label)}</span>
+              <strong>${formatRoi(summary.roi)}</strong>
+            </div>
+            <p>${escapeHtml(summary.body)}</p>
+            <div class="review-type-metrics">
+              <span>投資 <strong>${formatYenOrDash(summary.stake)}</strong></span>
+              <span>払戻 <strong>${formatYenOrDash(summary.payout)}</strong></span>
+              <span>的中 <strong>${escapeHtml(`${summary.hits}本`)}</strong></span>
+            </div>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function buildBetTypeSummaries(review) {
+  const items = Array.isArray(review.items) ? review.items : [];
+  const configs = [
+    { key: "win5", label: "WIN5単体", itemTitle: "WIN5", tone: "win5" },
+    { key: "trio", label: "3連複単体", itemTitle: "穴3連複", tone: "trio" },
+    { key: "trifecta", label: "3連単単体", itemTitle: "本命3連単", tone: "trifecta" },
+  ];
+
+  return configs.map((config) => {
+    const item = review.breakdown?.[config.key];
+    if (!item) {
+      return null;
+    }
+
+    const stake = toFiniteNumber(item.stake);
+    const payout = toFiniteNumber(item.payout);
+    const body = items.find((candidate) => candidate.title === config.itemTitle)?.body || "サマリー未入力";
+
+    return {
+      label: config.label,
+      body,
+      stake,
+      payout,
+      roi: toFiniteNumber(item.roi),
+      hits: resolveHitCount(item.hits),
+      tone: config.tone,
+    };
+  }).filter(Boolean);
+}
+
+function buildReviewBreakdownRows(review) {
+  const labels = {
+    trifecta: "3連単",
+    trio: "3連複",
+    win5: "WIN5",
+  };
+
+  const rows = Object.entries(review.breakdown || {}).map(([key, item]) => {
+    const stake = toFiniteNumber(item.stake);
+    const payout = toFiniteNumber(item.payout);
+    const balance = stake !== null && payout !== null ? payout - stake : null;
+    return {
+      label: labels[key] || key,
+      stake,
+      payout,
+      balance,
+      roi: toFiniteNumber(item.roi),
+      hits: resolveHitCount(item.hits),
+      isTotal: false,
+    };
+  });
+
+  if (review.settlement) {
+    const stake = toFiniteNumber(review.settlement.stake);
+    const payout = toFiniteNumber(review.settlement.payout);
+    const fallbackBalance = stake !== null && payout !== null ? payout - stake : null;
+    rows.push({
+      label: "合計",
+      stake,
+      payout,
+      balance: toFiniteNumber(review.settlement.balance) ?? fallbackBalance,
+      roi: toFiniteNumber(review.settlement.roi),
+      hits: resolveHitCount(review.settlement.hits ?? review.settlement.hitCount),
+      isTotal: true,
+    });
+  }
+
+  return rows;
+}
+
+function renderBreakdownTable(rows) {
+  if (!rows.length) {
+    return "";
+  }
+
+  const body = rows.map((row) => {
+    const balanceTone = row.balance > 0 ? "is-positive" : row.balance < 0 ? "is-negative" : "";
+    return `
+      <tr class="${row.isTotal ? "is-total" : ""}">
+        <th scope="row">${escapeHtml(row.label)}</th>
+        <td>${formatYenOrDash(row.stake)}</td>
+        <td>${formatYenOrDash(row.payout)}</td>
+        <td class="${balanceTone}">${formatYenOrDash(row.balance)}</td>
+        <td>${formatRoi(row.roi)}</td>
+        <td>${escapeHtml(`${row.hits}本`)}</td>
+      </tr>
+    `;
+  }).join("");
+
+  return `
+    <section class="review-table-block" aria-labelledby="reviewBreakdownTitle">
+      <div class="review-table-heading">
+        <h3 id="reviewBreakdownTitle">収支内訳</h3>
+      </div>
+      <div class="table-scroll">
+        <table class="review-table">
+          <thead>
+            <tr>
+              <th scope="col">種別</th>
+              <th scope="col">投資</th>
+              <th scope="col">払戻</th>
+              <th scope="col">収支</th>
+              <th scope="col">回収率</th>
+              <th scope="col">的中</th>
+            </tr>
+          </thead>
+          <tbody>${body}</tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+function renderHitTable(hits) {
+  const body = hits.length
+    ? hits.map((hit) => `
+      <tr>
+        <th scope="row">${escapeHtml(hit.race || "--")}</th>
+        <td>${escapeHtml(hit.type || hit.betType || "--")}</td>
+        <td>${escapeHtml(formatTicket(hit.ticket))}</td>
+        <td>${formatYenOrDash(toFiniteNumber(hit.payout))}</td>
+      </tr>
+    `).join("")
+    : `<tr><td class="empty-cell" colspan="4">的中なし</td></tr>`;
+
+  return `
+    <section class="review-table-block" aria-labelledby="reviewHitsTitle">
+      <div class="review-table-heading">
+        <h3 id="reviewHitsTitle">的中一覧</h3>
+      </div>
+      <div class="table-scroll">
+        <table class="review-table">
+          <thead>
+            <tr>
+              <th scope="col">レース</th>
+              <th scope="col">種別</th>
+              <th scope="col">買い目</th>
+              <th scope="col">払戻</th>
+            </tr>
+          </thead>
+          <tbody>${body}</tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
+function renderWin5ResultTable(win5) {
+  if (!win5) {
+    return "";
+  }
+
+  const rows = [
+    ["結果", formatTicket(win5.result)],
+    ["払戻", formatYenOrDash(toFiniteNumber(win5.payout))],
+    ["的中票数", formatNumberOrDash(win5.hitCount)],
+    ["キャリーオーバー", formatYenOrDash(toFiniteNumber(win5.carryover))],
+    ["発売票数", formatNumberOrDash(win5.salesVotes)],
+    ["発売金額", formatYenOrDash(toFiniteNumber(win5.salesAmount))],
+  ];
+
+  return `
+    <section class="review-table-block full" aria-labelledby="reviewWin5Title">
+      <div class="review-table-heading">
+        <h3 id="reviewWin5Title">WIN5結果</h3>
+      </div>
+      <div class="review-kv-grid">
+        ${rows.map(([label, value]) => `
+          <div>
+            <span>${escapeHtml(label)}</span>
+            <strong>${escapeHtml(value)}</strong>
+          </div>
+        `).join("")}
+      </div>
+    </section>
+  `;
+}
+
+function formatTicket(ticket) {
+  return Array.isArray(ticket) && ticket.length ? ticket.join("-") : "--";
 }
 
 function renderDailySummaries() {
@@ -436,6 +678,10 @@ function formatRoi(value) {
 
 function formatYenOrDash(value) {
   return value === null ? "--" : yen.format(value);
+}
+
+function formatNumberOrDash(value) {
+  return value === null ? "--" : integer.format(value);
 }
 
 function renderVisibility() {
