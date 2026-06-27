@@ -1,18 +1,18 @@
 {
   "date": "2026-06-27",
   "weekday": "土曜",
-  "updatedAt": "2026-06-27 10:25 JST",
-  "headline": "福島・小倉・函館の全36Rを固定2点で検証する。",
-  "summary": "JRA公式の開催お知らせ、出馬表、オッズ、馬場、WIN5対象を確認し、全レースに本命3連単1点と穴3連複1点を設定。重い小倉・函館は馬場適性と先行力をやや重視する。WIN5は軸固定型に修正し、固定軸と崩し所を分けて3通りに整理。",
+  "updatedAt": "2026-06-27 11:41 JST",
+  "headline": "福島・小倉・函館の全36Rを固定2点で検証し、昼オッズで未発走EVを再評価。",
+  "summary": "JRA公式の開催お知らせ、出馬表、オッズ、馬場、WIN5対象を昼時点で再確認。発走済み・発走直前の12Rをロックし、福島5R以降・小倉5R以降・函館5R以降のedgeを最新オッズで更新。買い目は全レースで本命3連単1点と穴3連複1点、各100円のまま維持。",
   "venues": [
     "福島",
     "小倉",
     "函館"
   ],
-  "trackCondition": "福島 芝稍重 / ダート稍重、小倉 芝重 / ダート不良、函館 芝重 / ダート不良",
-  "scratches": "JRA開催お知らせ確認時点なし",
-  "expectedReturn": 3231,
-  "expectedRoi": 43,
+  "trackCondition": "福島 芝稍重 / ダート稍重、小倉 芝重 / ダート不良、函館 芝稍重 / ダート不良",
+  "scratches": "JRA開催お知らせ 11:41確認時点、取消・除外・騎手変更なし。発走時刻変更: 福島3R 11:10→11:15、福島4R 11:40→11:45、福島6R 13:00→13:01、福島8R 14:00→14:01。",
+  "expectedReturn": 2835,
+  "expectedRoi": 38,
   "races": [
     {
       "venue": "福島",
@@ -181,7 +181,8 @@
           "oddsTime": "08:19 JST",
           "expectedValue": 0.4629,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
@@ -359,13 +360,14 @@
           "oddsTime": "08:15 JST",
           "expectedValue": 0.5526,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
       "venue": "福島",
       "raceNo": 3,
-      "start": "11:10",
+      "start": "11:15",
       "grade": "1勝C",
       "name": "3歳以上1勝クラス",
       "condition": "1700m(ダート・右) / 3歳以上 1勝C （混合）［指定］ 定量",
@@ -537,13 +539,14 @@
           "oddsTime": "08:16 JST",
           "expectedValue": 0.5134,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
       "venue": "福島",
       "raceNo": 4,
-      "start": "11:40",
+      "start": "11:45",
       "grade": "障害",
       "name": "障害3歳以上オープン",
       "condition": "2750m(芝) / 障害3歳以上 オープン （混合） 別定",
@@ -675,7 +678,8 @@
           "oddsTime": "08:16 JST",
           "expectedValue": 0.5276,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（公式オッズ取得時に発走まで10分未満）。"
       }
     },
     {
@@ -810,18 +814,19 @@
         "scenario": "逃げ残り 0.41: 短距離で先行力重視",
         "trifecta": {
           "probability": 0.01366191,
-          "odds": 19.2,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.2623,
+          "odds": 17.5,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.2391,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.00691022,
-          "odds": 93.8,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.6482,
+          "odds": 99.0,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.6841,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:39 JST"
       }
     },
     {
@@ -948,18 +953,19 @@
         "scenario": "逃げ残り 0.41: 短距離で先行力重視",
         "trifecta": {
           "probability": 0.01189715,
-          "odds": 17.9,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.213,
+          "odds": 17.3,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.2058,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.03754023,
-          "odds": 12.0,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.4505,
+          "odds": 12.1,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.4542,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:39 JST"
       }
     },
     {
@@ -1130,22 +1136,23 @@
         }
       ],
       "edge": {
-        "verdict": "勝負",
+        "verdict": "検証買い",
         "scenario": "標準 0.44: 能力順に近い決着",
         "trifecta": {
           "probability": 0.00724482,
-          "odds": 28.0,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.2029,
+          "odds": 27.0,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.1956,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.00029197,
-          "odds": 3984.7,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 1.1634,
-          "verdict": "勝負"
-        }
+          "odds": 2298.2,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.671,
+          "verdict": "検証買い"
+        },
+        "updatedAt": "11:40 JST"
       }
     },
     {
@@ -1316,22 +1323,23 @@
         }
       ],
       "edge": {
-        "verdict": "勝負",
+        "verdict": "検証買い",
         "scenario": "標準 0.44: 能力順に近い決着",
         "trifecta": {
           "probability": 0.00190212,
-          "odds": 110.5,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.2102,
+          "odds": 104.7,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.1992,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 4.386e-05,
-          "odds": 24405.0,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 1.0703,
-          "verdict": "勝負"
-        }
+          "odds": 4004.0,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.1756,
+          "verdict": "検証買い"
+        },
+        "updatedAt": "11:40 JST"
       }
     },
     {
@@ -1506,18 +1514,19 @@
         "scenario": "逃げ残り 0.41: 短距離で先行力重視",
         "trifecta": {
           "probability": 0.0029674,
-          "odds": 31.6,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.0938,
+          "odds": 32.6,
+          "oddsTime": "11:41 JST",
+          "expectedValue": 0.0967,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 6.172e-05,
-          "odds": 8480.7,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.5234,
+          "odds": 3897.2,
+          "oddsTime": "11:37 JST",
+          "expectedValue": 0.2405,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:41 JST"
       }
     },
     {
@@ -1652,18 +1661,19 @@
         "scenario": "標準 0.44: 能力順に近い決着",
         "trifecta": {
           "probability": 0.00840618,
-          "odds": 22.8,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.1917,
+          "odds": 21.3,
+          "oddsTime": "11:37 JST",
+          "expectedValue": 0.1791,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.02357596,
-          "odds": 27.8,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.6554,
+          "odds": 27.4,
+          "oddsTime": "11:37 JST",
+          "expectedValue": 0.646,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:37 JST"
       }
     },
     {
@@ -1782,18 +1792,19 @@
         "scenario": "標準 0.44: 能力順に近い決着",
         "trifecta": {
           "probability": 0.00633815,
-          "odds": 41.6,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.2637,
+          "odds": 42.5,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.2694,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.02999564,
-          "odds": 17.9,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.5369,
+          "odds": 18.6,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.5579,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:38 JST"
       }
     },
     {
@@ -1968,18 +1979,19 @@
         "scenario": "逃げ残り 0.41: 短距離で先行力重視",
         "trifecta": {
           "probability": 0.00050609,
-          "odds": 276.8,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.1401,
+          "odds": 301.2,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.1524,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.00015049,
-          "odds": 3829.5,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.5763,
+          "odds": 2894.2,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.4355,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:38 JST"
       }
     },
     {
@@ -2085,7 +2097,8 @@
           "oddsTime": "08:20 JST",
           "expectedValue": 0.5224,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
@@ -2255,7 +2268,8 @@
           "oddsTime": "08:15 JST",
           "expectedValue": 0.575,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
@@ -2441,7 +2455,8 @@
           "oddsTime": "08:16 JST",
           "expectedValue": 0.67,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
@@ -2627,7 +2642,8 @@
           "oddsTime": "08:16 JST",
           "expectedValue": 0.7124,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
@@ -2754,18 +2770,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.01289519,
-          "odds": 29.5,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.3804,
+          "odds": 28.0,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.3611,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.023518,
-          "odds": 27.9,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.6562,
+          "odds": 30.2,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.7102,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:40 JST"
       }
     },
     {
@@ -2948,18 +2965,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.00102635,
-          "odds": 41.4,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.0425,
+          "odds": 41.8,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.0429,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 6.502e-05,
-          "odds": 10115.7,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.6577,
+          "odds": 9596.4,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.624,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:38 JST"
       }
     },
     {
@@ -3134,18 +3152,19 @@
         "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
         "trifecta": {
           "probability": 0.00249571,
-          "odds": 69.5,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.1735,
+          "odds": 57.8,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.1443,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.00018703,
-          "odds": 3558.1,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.6655,
+          "odds": 3372.0,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.6307,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:39 JST"
       }
     },
     {
@@ -3264,18 +3283,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.00404072,
-          "odds": 77.2,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.3119,
+          "odds": 79.4,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.3208,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.02445911,
-          "odds": 29.0,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.7093,
+          "odds": 35.7,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.8732,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:39 JST"
       }
     },
     {
@@ -3386,18 +3406,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.02381625,
-          "odds": 19.2,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.4573,
+          "odds": 18.7,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.4454,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.034801,
-          "odds": 19.0,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.6612,
+          "odds": 17.4,
+          "oddsTime": "11:36 JST",
+          "expectedValue": 0.6055,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:40 JST"
       }
     },
     {
@@ -3548,18 +3569,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.00326912,
-          "odds": 63.5,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.2076,
+          "odds": 60.5,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.1978,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.00277538,
-          "odds": 177.6,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.4929,
+          "odds": 193.1,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.5359,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:40 JST"
       }
     },
     {
@@ -3726,18 +3748,19 @@
         "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
         "trifecta": {
           "probability": 0.00080958,
-          "odds": 195.3,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.1581,
+          "odds": 179.1,
+          "oddsTime": "11:37 JST",
+          "expectedValue": 0.145,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.00146115,
-          "odds": 349.9,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.5113,
+          "odds": 326.6,
+          "oddsTime": "11:37 JST",
+          "expectedValue": 0.4772,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:37 JST"
       }
     },
     {
@@ -3848,18 +3871,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.01383698,
-          "odds": 13.8,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.191,
+          "odds": 13.1,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.1813,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.02343123,
-          "odds": 22.8,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.5342,
+          "odds": 20.5,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.4803,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:38 JST"
       }
     },
     {
@@ -3881,7 +3905,7 @@
         13
       ],
       "value": "C+",
-      "note": "芝重を前提に、アルサックの軸力を取りつつスーパーチャイルドの食い込みを押さえる。",
+      "note": "芝稍重を前提に、アルサックの軸力を取りつつスーパーチャイルドの食い込みを押さえる。",
       "probabilities": [
         {
           "horseNo": 1,
@@ -4045,7 +4069,8 @@
           "oddsTime": "08:19 JST",
           "expectedValue": 0.5106,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
@@ -4199,7 +4224,8 @@
           "oddsTime": "08:16 JST",
           "expectedValue": 0.4607,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
@@ -4353,7 +4379,8 @@
           "oddsTime": "08:16 JST",
           "expectedValue": 0.6381,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
@@ -4375,7 +4402,7 @@
         16
       ],
       "value": "C",
-      "note": "芝重を前提に、エアヴァイブスの軸力を取りつつダンツアラームの食い込みを押さえる。",
+      "note": "芝稍重を前提に、エアヴァイブスの軸力を取りつつダンツアラームの食い込みを押さえる。",
       "probabilities": [
         {
           "horseNo": 1,
@@ -4539,7 +4566,8 @@
           "oddsTime": "08:17 JST",
           "expectedValue": 0.4632,
           "verdict": "検証買い"
-        }
+        },
+        "lockNote": "昼時点ではロック済み（発走済みまたは発走まで10分未満）。"
       }
     },
     {
@@ -4561,7 +4589,7 @@
         5
       ],
       "value": "C",
-      "note": "芝重を前提に、ステラトップガンの軸力を取りつつアゴルディーノの食い込みを押さえる。",
+      "note": "芝稍重を前提に、ステラトップガンの軸力を取りつつアゴルディーノの食い込みを押さえる。",
       "probabilities": [
         {
           "horseNo": 1,
@@ -4650,18 +4678,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.02281162,
-          "odds": 18.2,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.4152,
+          "odds": 16.1,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.3673,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.01551834,
-          "odds": 29.7,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.4609,
+          "odds": 31.2,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.4842,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:40 JST"
       }
     },
     {
@@ -4796,18 +4825,19 @@
         "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
         "trifecta": {
           "probability": 0.01197678,
-          "odds": 16.0,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.1916,
+          "odds": 15.7,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.188,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.04592145,
-          "odds": 14.5,
-          "oddsTime": "08:17 JST",
-          "expectedValue": 0.6659,
+          "odds": 12.0,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.5511,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:38 JST"
       }
     },
     {
@@ -4829,7 +4859,7 @@
         11
       ],
       "value": "C+",
-      "note": "芝重を前提に、ドウアドバンテージの軸力を取りつつディーリライズの食い込みを押さえる。",
+      "note": "芝稍重を前提に、ドウアドバンテージの軸力を取りつつディーリライズの食い込みを押さえる。",
       "probabilities": [
         {
           "horseNo": 1,
@@ -4942,18 +4972,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.00570256,
-          "odds": 22.0,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.1255,
+          "odds": 24.4,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.1391,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.01213984,
-          "odds": 53.6,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.6507,
+          "odds": 61.7,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.749,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:38 JST"
       }
     },
     {
@@ -5088,18 +5119,19 @@
         "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
         "trifecta": {
           "probability": 0.00306139,
-          "odds": 59.3,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.1815,
+          "odds": 52.7,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.1613,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.00314486,
-          "odds": 212.3,
-          "oddsTime": "08:18 JST",
-          "expectedValue": 0.6677,
+          "odds": 197.1,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.6199,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:39 JST"
       }
     },
     {
@@ -5121,7 +5153,7 @@
         7
       ],
       "value": "C+",
-      "note": "芝重を前提に、ララバニュルスの軸力を取りつつクワイエットアイの食い込みを押さえる。",
+      "note": "芝稍重を前提に、ララバニュルスの軸力を取りつつクワイエットアイの食い込みを押さえる。",
       "probabilities": [
         {
           "horseNo": 1,
@@ -5218,18 +5250,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.00744254,
-          "odds": 18.6,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.1384,
+          "odds": 17.6,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.131,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.02603975,
-          "odds": 22.0,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.5729,
+          "odds": 19.3,
+          "oddsTime": "11:39 JST",
+          "expectedValue": 0.5026,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:39 JST"
       }
     },
     {
@@ -5251,7 +5284,7 @@
         11
       ],
       "value": "C+",
-      "note": "芝重を前提に、ウィルサヴァイブの軸力を取りつつドッビアーコの食い込みを押さえる。",
+      "note": "芝稍重を前提に、ウィルサヴァイブの軸力を取りつつドッビアーコの食い込みを押さえる。",
       "probabilities": [
         {
           "horseNo": 1,
@@ -5364,18 +5397,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.00270097,
-          "odds": 55.5,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.1499,
+          "odds": 51.7,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.1396,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.00043529,
-          "odds": 1264.6,
-          "oddsTime": "08:19 JST",
-          "expectedValue": 0.5505,
+          "odds": 1184.3,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.5155,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:40 JST"
       }
     },
     {
@@ -5397,7 +5431,7 @@
         11
       ],
       "value": "C",
-      "note": "芝重を前提に、ブラックチャリスの軸力を取りつつナムラクララの食い込みを押さえる。",
+      "note": "芝稍重を前提に、ブラックチャリスの軸力を取りつつナムラクララの食い込みを押さえる。",
       "probabilities": [
         {
           "horseNo": 1,
@@ -5534,18 +5568,19 @@
         "scenario": "差し決着 0.38: 消耗して外差し",
         "trifecta": {
           "probability": 0.00119752,
-          "odds": 110.3,
-          "oddsTime": "08:15 JST",
-          "expectedValue": 0.1321,
+          "odds": 103.8,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.1243,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.0044621,
-          "odds": 79.9,
-          "oddsTime": "08:15 JST",
-          "expectedValue": 0.3565,
+          "odds": 76.4,
+          "oddsTime": "11:40 JST",
+          "expectedValue": 0.3409,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:40 JST"
       }
     },
     {
@@ -5672,18 +5707,19 @@
         "scenario": "逃げ残り 0.45: 脚抜きの良さで先行有利",
         "trifecta": {
           "probability": 0.00675545,
-          "odds": 37.4,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.2527,
+          "odds": 40.3,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.2722,
           "verdict": "検証買い"
         },
         "trio": {
           "probability": 0.02514129,
-          "odds": 33.6,
-          "oddsTime": "08:20 JST",
-          "expectedValue": 0.8447,
+          "odds": 35.3,
+          "oddsTime": "11:38 JST",
+          "expectedValue": 0.8875,
           "verdict": "検証買い"
-        }
+        },
+        "updatedAt": "11:38 JST"
       }
     }
   ],
@@ -5731,7 +5767,48 @@
             "race": "福島11R",
             "pick": 8
           }
-        ]
+        ],
+        "edge": {
+          "probability": 0.00027558,
+          "odds": 1138.5,
+          "oddsType": "単勝連乗近似",
+          "oddsTime": "11:41 JST",
+          "expectedValue": 0.3137,
+          "verdict": "検証買い",
+          "memo": "固定軸設計を維持し、最新単勝オッズ連乗で近似EVを再評価",
+          "legs": [
+            {
+              "race": "小倉10R",
+              "pick": 8,
+              "winProbability": 0.203216,
+              "winOdds": 3.6
+            },
+            {
+              "race": "福島10R",
+              "pick": 9,
+              "winProbability": 0.219724,
+              "winOdds": 2.5
+            },
+            {
+              "race": "函館11R",
+              "pick": 2,
+              "winProbability": 0.169256,
+              "winOdds": 4.6
+            },
+            {
+              "race": "小倉11R",
+              "pick": 2,
+              "winProbability": 0.14756,
+              "winOdds": 5.5
+            },
+            {
+              "race": "福島11R",
+              "pick": 8,
+              "winProbability": 0.247112,
+              "winOdds": 5.0
+            }
+          ]
+        }
       },
       {
         "name": "妙味",
@@ -5766,7 +5843,48 @@
             "race": "福島11R",
             "pick": 4
           }
-        ]
+        ],
+        "edge": {
+          "probability": 0.00026,
+          "odds": 983.7,
+          "oddsType": "単勝連乗近似",
+          "oddsTime": "11:41 JST",
+          "expectedValue": 0.2558,
+          "verdict": "検証買い",
+          "memo": "固定軸設計を維持し、最新単勝オッズ連乗で近似EVを再評価",
+          "legs": [
+            {
+              "race": "小倉10R",
+              "pick": 8,
+              "winProbability": 0.203216,
+              "winOdds": 3.6
+            },
+            {
+              "race": "福島10R",
+              "pick": 1,
+              "winProbability": 0.213786,
+              "winOdds": 4.5
+            },
+            {
+              "race": "函館11R",
+              "pick": 2,
+              "winProbability": 0.169256,
+              "winOdds": 4.6
+            },
+            {
+              "race": "小倉11R",
+              "pick": 2,
+              "winProbability": 0.14756,
+              "winOdds": 5.5
+            },
+            {
+              "race": "福島11R",
+              "pick": 4,
+              "winProbability": 0.239624,
+              "winOdds": 2.4
+            }
+          ]
+        }
       },
       {
         "name": "穴",
@@ -5801,14 +5919,56 @@
             "race": "福島11R",
             "pick": 7
           }
-        ]
+        ],
+        "edge": {
+          "probability": 6.945e-05,
+          "odds": 2676.8,
+          "oddsType": "単勝連乗近似",
+          "oddsTime": "11:41 JST",
+          "expectedValue": 0.1859,
+          "verdict": "検証買い",
+          "memo": "固定軸設計を維持し、最新単勝オッズ連乗で近似EVを再評価",
+          "legs": [
+            {
+              "race": "小倉10R",
+              "pick": 8,
+              "winProbability": 0.203216,
+              "winOdds": 3.6
+            },
+            {
+              "race": "福島10R",
+              "pick": 9,
+              "winProbability": 0.219724,
+              "winOdds": 2.5
+            },
+            {
+              "race": "函館11R",
+              "pick": 11,
+              "winProbability": 0.118732,
+              "winOdds": 5.9
+            },
+            {
+              "race": "小倉11R",
+              "pick": 9,
+              "winProbability": 0.107679,
+              "winOdds": 7.1
+            },
+            {
+              "race": "福島11R",
+              "pick": 7,
+              "winProbability": 0.121655,
+              "winOdds": 7.1
+            }
+          ]
+        }
       }
     ],
     "strategy": {
       "method": "軸固定型",
       "rule": "堅実は5戦本線、妙味は3〜4軸固定、穴でも2〜3軸を残して荒れやすいレースだけ替える。",
       "fixedAxisPolicy": "全レースを1番手、2番手、3番手へ機械的に横滑りさせない。",
-      "updatedAt": "2026-06-27 10:25 JST"
+      "updatedAt": "2026-06-27 11:41 JST",
+      "middayMemo": "締切前のため3ルートを再評価。WIN5に事前固定オッズはないため単勝連乗近似でedgeを記録。"
     }
   },
   "sources": [
@@ -5828,5 +5988,433 @@
       "name": "JRA WIN5対象レース",
       "url": "https://www.jra.go.jp/kouza/win5/info/racelist.html"
     }
-  ]
+  ],
+  "middayUpdate": {
+    "type": "土曜昼オッズEV再評価",
+    "updatedAt": "2026-06-27 11:41 JST",
+    "evaluationTime": "11:31 JST",
+    "lockedRaces": [
+      "福島1R",
+      "福島2R",
+      "福島3R",
+      "福島4R",
+      "小倉1R",
+      "小倉2R",
+      "小倉3R",
+      "小倉4R",
+      "函館1R",
+      "函館2R",
+      "函館3R",
+      "函館4R"
+    ],
+    "updatedRaces": [
+      "福島5R",
+      "福島6R",
+      "福島7R",
+      "福島8R",
+      "福島9R",
+      "福島10R",
+      "福島11R",
+      "福島12R",
+      "小倉5R",
+      "小倉6R",
+      "小倉7R",
+      "小倉8R",
+      "小倉9R",
+      "小倉10R",
+      "小倉11R",
+      "小倉12R",
+      "函館5R",
+      "函館6R",
+      "函館7R",
+      "函館8R",
+      "函館9R",
+      "函館10R",
+      "函館11R",
+      "函館12R"
+    ],
+    "trackCondition": "福島 芝稍重 / ダート稍重、小倉 芝重 / ダート不良、函館 芝稍重 / ダート不良",
+    "scratches": "JRA開催お知らせ 11:41確認時点、取消・除外・騎手変更なし。発走時刻変更: 福島3R 11:10→11:15、福島4R 11:40→11:45、福島6R 13:00→13:01、福島8R 14:00→14:01。",
+    "startChanges": [
+      {
+        "race": "福島3R",
+        "before": "11:10",
+        "after": "11:15",
+        "reason": "JRA開催お知らせ。発走済みのため買い目とedgeはロック。"
+      },
+      {
+        "race": "福島4R",
+        "before": "11:40",
+        "after": "11:45",
+        "reason": "JRA開催お知らせ。公式オッズ取得時に発走まで10分未満のため買い目とedgeはロック。"
+      },
+      {
+        "race": "福島6R",
+        "before": "13:00",
+        "after": "13:01",
+        "reason": "JRA開催お知らせ。朝予想側は反映済み。"
+      },
+      {
+        "race": "福島8R",
+        "before": "14:00",
+        "after": "14:01",
+        "reason": "JRA開催お知らせ。朝予想側は反映済み。"
+      }
+    ],
+    "betChanges": [],
+    "edgeChanges": [
+      {
+        "race": "福島3R",
+        "type": "発走時刻",
+        "before": "11:10",
+        "after": "11:15",
+        "reason": "JRA開催お知らせ。買い目とedgeはロック。"
+      },
+      {
+        "race": "福島5R",
+        "type": "edge",
+        "before": {
+          "trifecta": 19.2,
+          "trio": 93.8
+        },
+        "after": {
+          "trifecta": 17.5,
+          "trio": 99.0
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:39 JST"
+      },
+      {
+        "race": "福島6R",
+        "type": "edge",
+        "before": {
+          "trifecta": 17.9,
+          "trio": 12.0
+        },
+        "after": {
+          "trifecta": 17.3,
+          "trio": 12.1
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:39 JST"
+      },
+      {
+        "race": "福島7R",
+        "type": "edge",
+        "before": {
+          "trifecta": 28.0,
+          "trio": 3984.7
+        },
+        "after": {
+          "trifecta": 27.0,
+          "trio": 2298.2
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:40 JST"
+      },
+      {
+        "race": "福島8R",
+        "type": "edge",
+        "before": {
+          "trifecta": 110.5,
+          "trio": 24405.0
+        },
+        "after": {
+          "trifecta": 104.7,
+          "trio": 4004.0
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:40 JST"
+      },
+      {
+        "race": "福島9R",
+        "type": "edge",
+        "before": {
+          "trifecta": 31.6,
+          "trio": 8480.7
+        },
+        "after": {
+          "trifecta": 32.6,
+          "trio": 3897.2
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:41 JST"
+      },
+      {
+        "race": "福島10R",
+        "type": "edge",
+        "before": {
+          "trifecta": 22.8,
+          "trio": 27.8
+        },
+        "after": {
+          "trifecta": 21.3,
+          "trio": 27.4
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:37 JST"
+      },
+      {
+        "race": "福島11R",
+        "type": "edge",
+        "before": {
+          "trifecta": 41.6,
+          "trio": 17.9
+        },
+        "after": {
+          "trifecta": 42.5,
+          "trio": 18.6
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:38 JST"
+      },
+      {
+        "race": "福島12R",
+        "type": "edge",
+        "before": {
+          "trifecta": 276.8,
+          "trio": 3829.5
+        },
+        "after": {
+          "trifecta": 301.2,
+          "trio": 2894.2
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:38 JST"
+      },
+      {
+        "race": "小倉5R",
+        "type": "edge",
+        "before": {
+          "trifecta": 29.5,
+          "trio": 27.9
+        },
+        "after": {
+          "trifecta": 28.0,
+          "trio": 30.2
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:40 JST"
+      },
+      {
+        "race": "小倉6R",
+        "type": "edge",
+        "before": {
+          "trifecta": 41.4,
+          "trio": 10115.7
+        },
+        "after": {
+          "trifecta": 41.8,
+          "trio": 9596.4
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:38 JST"
+      },
+      {
+        "race": "小倉7R",
+        "type": "edge",
+        "before": {
+          "trifecta": 69.5,
+          "trio": 3558.1
+        },
+        "after": {
+          "trifecta": 57.8,
+          "trio": 3372.0
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:39 JST"
+      },
+      {
+        "race": "小倉8R",
+        "type": "edge",
+        "before": {
+          "trifecta": 77.2,
+          "trio": 29.0
+        },
+        "after": {
+          "trifecta": 79.4,
+          "trio": 35.7
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:39 JST"
+      },
+      {
+        "race": "小倉9R",
+        "type": "edge",
+        "before": {
+          "trifecta": 19.2,
+          "trio": 19.0
+        },
+        "after": {
+          "trifecta": 18.7,
+          "trio": 17.4
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:40 JST"
+      },
+      {
+        "race": "小倉10R",
+        "type": "edge",
+        "before": {
+          "trifecta": 63.5,
+          "trio": 177.6
+        },
+        "after": {
+          "trifecta": 60.5,
+          "trio": 193.1
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:40 JST"
+      },
+      {
+        "race": "小倉11R",
+        "type": "edge",
+        "before": {
+          "trifecta": 195.3,
+          "trio": 349.9
+        },
+        "after": {
+          "trifecta": 179.1,
+          "trio": 326.6
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:37 JST"
+      },
+      {
+        "race": "小倉12R",
+        "type": "edge",
+        "before": {
+          "trifecta": 13.8,
+          "trio": 22.8
+        },
+        "after": {
+          "trifecta": 13.1,
+          "trio": 20.5
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:38 JST"
+      },
+      {
+        "race": "函館5R",
+        "type": "edge",
+        "before": {
+          "trifecta": 18.2,
+          "trio": 29.7
+        },
+        "after": {
+          "trifecta": 16.1,
+          "trio": 31.2
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:40 JST"
+      },
+      {
+        "race": "函館6R",
+        "type": "edge",
+        "before": {
+          "trifecta": 16.0,
+          "trio": 14.5
+        },
+        "after": {
+          "trifecta": 15.7,
+          "trio": 12.0
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:38 JST"
+      },
+      {
+        "race": "函館7R",
+        "type": "edge",
+        "before": {
+          "trifecta": 22.0,
+          "trio": 53.6
+        },
+        "after": {
+          "trifecta": 24.4,
+          "trio": 61.7
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:38 JST"
+      },
+      {
+        "race": "函館8R",
+        "type": "edge",
+        "before": {
+          "trifecta": 59.3,
+          "trio": 212.3
+        },
+        "after": {
+          "trifecta": 52.7,
+          "trio": 197.1
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:39 JST"
+      },
+      {
+        "race": "函館9R",
+        "type": "edge",
+        "before": {
+          "trifecta": 18.6,
+          "trio": 22.0
+        },
+        "after": {
+          "trifecta": 17.6,
+          "trio": 19.3
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:39 JST"
+      },
+      {
+        "race": "函館10R",
+        "type": "edge",
+        "before": {
+          "trifecta": 55.5,
+          "trio": 1264.6
+        },
+        "after": {
+          "trifecta": 51.7,
+          "trio": 1184.3
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:40 JST"
+      },
+      {
+        "race": "函館11R",
+        "type": "edge",
+        "before": {
+          "trifecta": 110.3,
+          "trio": 79.9
+        },
+        "after": {
+          "trifecta": 103.8,
+          "trio": 76.4
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:40 JST"
+      },
+      {
+        "race": "函館12R",
+        "type": "edge",
+        "before": {
+          "trifecta": 37.4,
+          "trio": 33.6
+        },
+        "after": {
+          "trifecta": 40.3,
+          "trio": 35.3
+        },
+        "reason": "JRA公式オッズで昼EV再計算。買い目は固定。",
+        "updatedAt": "11:38 JST"
+      },
+      {
+        "race": "福島4R",
+        "type": "発走時刻",
+        "before": "11:40",
+        "after": "11:45",
+        "reason": "JRA開催お知らせ。公式オッズ取得時に発走まで10分未満のため買い目とedgeはロック。"
+      }
+    ],
+    "win5Note": "WIN5は締切前のため、固定軸と崩し所を維持して3ルートを再評価。"
+  },
+  "weather": "福島 晴 / 小倉 曇 / 函館 晴"
 }
