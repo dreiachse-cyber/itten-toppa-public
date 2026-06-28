@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-28",
+  "weekday": "日曜",
+  "updatedAt": "2026-06-29 01:12 JST",
+  "status": "settled",
+  "summary": "本命3連単1本的中。穴3連複とWIN5は不的中で、回収率14.4%。",
+  "settlement": {
+    "stake": 7500,
+    "payout": 1080,
+    "hits": [
+      {
+        "race": "函館3R",
+        "type": "本命3連単",
+        "ticket": [
+          7,
+          8,
+          1
+        ],
+        "payout": 1080
+      }
+    ],
+    "result": "hit",
+    "balance": -6420,
+    "roi": 14.4
+  },
+  "breakdown": {
+    "trifecta": {
+      "stake": 3600,
+      "payout": 1080,
+      "hits": 1,
+      "roi": 30.0
+    },
+    "trio": {
+      "stake": 3600,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0.0
+    },
+    "win5": {
+      "stake": 300,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0.0
+    }
+  },
+  "win5": {
+    "carryover": 0,
+    "salesVotes": 7639253,
+    "salesAmount": 763925300,
+    "result": [
+      9,
+      4,
+      2,
+      5,
+      13
+    ],
+    "payout": 53474770,
+    "hitCount": 10,
+    "nextCarryover": 0,
+    "remainingVotes": [
+      376089,
+      192382,
+      119,
+      1852,
+      10
+    ],
+    "targets": [
+      {
+        "race": "小倉10R",
+        "raceName": "西部日刊スポ",
+        "winner": 9,
+        "winnerName": "カルパ"
+      },
+      {
+        "race": "福島10R",
+        "raceName": "鶴ヶ城S",
+        "winner": 4,
+        "winnerName": "エクリプスルバン"
+      },
+      {
+        "race": "函館11R",
+        "raceName": "函館記念",
+        "winner": 2,
+        "winnerName": "ファウストラーゼン"
+      },
+      {
+        "race": "小倉11R",
+        "raceName": "紫川S",
+        "winner": 5,
+        "winnerName": "テーオーダヴィンチ"
+      },
+      {
+        "race": "福島11R",
+        "raceName": "ラジNIK賞",
+        "winner": 13,
+        "winnerName": "サノノグレーター"
+      }
+    ],
+    "source": "https://www.jra.go.jp/JRADB/access5.html",
+    "detailCname": "pw17hde01202606281/9F"
+  },
+  "items": [
+    {
+      "title": "本命3連単",
+      "body": "函館3Rが的中。低EV扱いだったが、上位3頭の順序が素直に出た。"
+    },
+    {
+      "title": "穴3連複",
+      "body": "勝負判定の高EV候補も全敗。荒れ筋3頭の同時成立を強く見すぎた。"
+    },
+    {
+      "title": "WIN5",
+      "body": "公式結果は9-4-2-5-13。3ルートとも不的中、次回キャリーオーバーは0円。"
+    }
+  ],
+  "sources": [
+    {
+      "name": "JRA公式 レース結果 福島",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde1003202602020120260628/8A"
+    },
+    {
+      "name": "JRA公式 レース結果 小倉",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde1010202602020120260628/D5"
+    },
+    {
+      "name": "JRA公式 レース結果 函館",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde1002202601060120260628/DB"
+    },
+    {
+      "name": "JRA公式 WIN5詳細",
+      "url": "https://www.jra.go.jp/JRADB/access5.html",
+      "detailCname": "pw17hde01202606281/9F"
+    }
+  ]
+}
