@@ -17,6 +17,12 @@ const yen = new Intl.NumberFormat("ja-JP", {
 
 const integer = new Intl.NumberFormat("ja-JP");
 
+const breakdownRoiTypes = [
+  { key: "trio", label: "3連複", shortLabel: "3複" },
+  { key: "trifecta", label: "3連単", shortLabel: "3単" },
+  { key: "win5", label: "WIN5", shortLabel: "W5" },
+];
+
 const byId = (id) => document.getElementById(id);
 
 async function loadJson(path) {
@@ -58,6 +64,8 @@ async function loadDailySummaries() {
         resultTone: "pending",
         raceCount: 0,
         reviewLead: "朝予想のJSONがまだありません。",
+        typeRois: resolveBreakdownRois(null),
+        canOpen: false,
       };
     }
 
@@ -77,6 +85,8 @@ async function loadDailySummaries() {
       resultTone: settlement.tone,
       raceCount: prediction.races.length,
       reviewLead: firstReview || "夕方の自動更新後に日別レビューが入ります。",
+      typeRois: resolveBreakdownRois(review),
+      canOpen: true,
     };
   }));
 
@@ -149,6 +159,20 @@ function resolveDailySettlement(prediction, review) {
   };
 }
 
+function resolveBreakdownRois(review) {
+  const breakdown = review?.breakdown || {};
+  return breakdownRoiTypes.map((type) => {
+    const item = breakdown[type.key];
+    return {
+      ...type,
+      roi: toFiniteNumber(item?.roi),
+      stake: toFiniteNumber(item?.stake),
+      payout: toFiniteNumber(item?.payout),
+      hits: resolveHitCount(item?.hits),
+    };
+  });
+}
+
 async function loadDay(date) {
   state.date = date;
   const [prediction, review] = await Promise.all([
@@ -168,6 +192,19 @@ function bindStaticControls() {
     renderModeTabs();
     renderVisibility();
   });
+
+  const reviewCalendar = byId("reviewCalendar");
+  if (!reviewCalendar) {
+    return;
+  }
+
+  reviewCalendar.addEventListener("click", async (event) => {
+    const button = event.target.closest("button[data-calendar-date]");
+    if (!button || button.disabled) return;
+    await loadDay(button.dataset.calendarDate);
+    renderAll();
+    byId("review").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
 }
 
 function renderAll() {
@@ -180,6 +217,7 @@ function renderAll() {
   renderWin5();
   renderReviews();
   renderDailySummaries();
+  renderReviewCalendar();
   renderVisibility();
   byId("lastUpdated").textContent = state.prediction.updatedAt;
 }
@@ -661,10 +699,100 @@ function renderDailySummaries() {
           <span>${escapeHtml(String(item.raceCount))}R / 投資 ${yen.format(item.stake)}</span>
           <strong>回収率 ${formatRoi(item.roi)}</strong>
           <span>払戻 ${formatYenOrDash(item.payout)}</span>
+          <div class="daily-type-rois" aria-label="券種別回収率">
+            ${renderTypeRoiPills(item.typeRois)}
+          </div>
         </div>
       </article>
     `;
   }).join("");
+}
+
+function renderTypeRoiPills(typeRois) {
+  if (!Array.isArray(typeRois)) {
+    return "";
+  }
+
+  return typeRois.map((item) => `
+    <span>${escapeHtml(item.label)} <strong>${formatRoi(item.roi)}</strong></span>
+  `).join("");
+}
+
+function renderCompactTypeRois(typeRois) {
+  if (!Array.isArray(typeRois)) {
+    return "";
+  }
+
+  return typeRois.map((item) => `
+    <span>${escapeHtml(item.shortLabel)} ${formatRoi(item.roi)}</span>
+  `).join("");
+}
+
+function renderReviewCalendar() {
+  const root = byId("reviewCalendar");
+  if (!root) {
+    return;
+  }
+
+  const entries = [...state.dailySummaries].sort((a, b) => a.date.localeCompare(b.date));
+  const monthKeys = [...new Set(entries.map((item) => item.date.slice(0, 7)))].sort().reverse();
+
+  if (!monthKeys.length) {
+    root.innerHTML = "";
+    return;
+  }
+
+  root.innerHTML = monthKeys.map((monthKey) => {
+    const monthEntries = entries.filter((item) => item.date.startsWith(monthKey));
+    return renderCalendarMonth(monthKey, monthEntries);
+  }).join("");
+}
+
+function renderCalendarMonth(monthKey, entries) {
+  const [year, month] = monthKey.split("-").map(Number);
+  const itemByDate = new Map(entries.map((item) => [item.date, item]));
+  const firstWeekday = new Date(year, month - 1, 1).getDay();
+  const daysInMonth = new Date(year, month, 0).getDate();
+  const blanks = Array.from({ length: firstWeekday }, () => `<div class="calendar-day is-blank" aria-hidden="true"></div>`);
+  const dayCells = Array.from({ length: daysInMonth }, (_, index) => {
+    const day = index + 1;
+    const date = `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+    const item = itemByDate.get(date);
+    return item ? renderCalendarDay(day, item) : `
+      <div class="calendar-day is-empty">
+        <span class="calendar-daynum">${escapeHtml(String(day))}</span>
+      </div>
+    `;
+  });
+
+  return `
+    <section class="calendar-month" aria-label="${escapeHtml(`${year}年${month}月`)}">
+      <h3>${escapeHtml(`${year}年${month}月`)}</h3>
+      <div class="calendar-scroll">
+        <div class="calendar-grid">
+          ${["日", "月", "火", "水", "木", "金", "土"].map((label) => `
+            <div class="calendar-weekday">${escapeHtml(label)}</div>
+          `).join("")}
+          ${blanks.join("")}
+          ${dayCells.join("")}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+function renderCalendarDay(day, item) {
+  const currentClass = item.date === state.date ? " is-current" : "";
+  const disabled = item.canOpen ? "" : " disabled";
+  return `
+    <button class="calendar-day ${escapeHtml(item.resultTone)}${currentClass}" type="button" data-calendar-date="${escapeHtml(item.date)}"${disabled}>
+      <span class="calendar-daynum">${escapeHtml(String(day))}</span>
+      <span class="calendar-status">${escapeHtml(item.stamp)}</span>
+      <strong>${formatRoi(item.roi)}</strong>
+      <span class="calendar-date-label">${escapeHtml(item.label)}</span>
+      <span class="calendar-type-rois">${renderCompactTypeRois(item.typeRois)}</span>
+    </button>
+  `;
 }
 
 function formatRoi(value) {

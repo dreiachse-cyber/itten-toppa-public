@@ -429,7 +429,8 @@ button {
 .ticket-list,
 .win5-routes,
 .review-list,
-.daily-summary-list {
+.daily-summary-list,
+.calendar-list {
   padding: 0 24px 24px;
 }
 
@@ -982,6 +983,161 @@ button {
   font-size: 1.45rem;
 }
 
+.daily-type-rois {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+  margin-top: 4px;
+}
+
+.daily-type-rois span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 24px;
+  padding: 0 7px;
+  color: rgba(11, 10, 8, 0.62);
+  background: rgba(255, 250, 240, 0.62);
+  border: 1px solid rgba(73, 51, 25, 0.14);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.daily-type-rois strong {
+  color: var(--ink);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+
+.calendar-list {
+  display: grid;
+  gap: 20px;
+}
+
+.calendar-month {
+  display: grid;
+  gap: 12px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(73, 51, 25, 0.18);
+}
+
+.calendar-month:first-child {
+  border-top: 0;
+}
+
+.calendar-month h3 {
+  margin: 0;
+  color: var(--red);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.18rem;
+}
+
+.calendar-scroll {
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 6px;
+  min-width: 680px;
+}
+
+.calendar-weekday {
+  padding: 6px 8px;
+  color: rgba(11, 10, 8, 0.58);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.calendar-day {
+  display: grid;
+  align-content: start;
+  gap: 5px;
+  min-height: 118px;
+  min-width: 0;
+  padding: 9px;
+  color: var(--ink);
+  background: rgba(255, 250, 240, 0.72);
+  border: 1px solid rgba(73, 51, 25, 0.16);
+  text-align: left;
+}
+
+button.calendar-day {
+  width: 100%;
+}
+
+button.calendar-day:hover,
+button.calendar-day:focus {
+  border-color: var(--red);
+  box-shadow: inset 0 0 0 1px rgba(165, 22, 24, 0.22);
+}
+
+.calendar-day.is-current {
+  border-color: var(--red);
+  box-shadow: inset 0 0 0 2px rgba(165, 22, 24, 0.2);
+}
+
+.calendar-day.hit {
+  background: rgba(255, 250, 240, 0.86);
+}
+
+.calendar-day.miss {
+  background: rgba(255, 250, 240, 0.66);
+}
+
+.calendar-day.pending {
+  background: rgba(255, 250, 240, 0.42);
+}
+
+.calendar-day.is-empty,
+.calendar-day.is-blank {
+  min-height: 72px;
+  background: rgba(255, 250, 240, 0.26);
+  border-style: dashed;
+}
+
+.calendar-day.is-blank {
+  visibility: hidden;
+}
+
+.calendar-daynum {
+  color: var(--red);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.calendar-status,
+.calendar-date-label {
+  color: rgba(11, 10, 8, 0.58);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.calendar-day > strong {
+  color: var(--red);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.18rem;
+  line-height: 1;
+}
+
+.calendar-type-rois {
+  display: grid;
+  gap: 2px;
+  margin-top: 2px;
+}
+
+.calendar-type-rois span {
+  color: rgba(11, 10, 8, 0.68);
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
 .site-footer {
   padding: 22px 34px;
   color: var(--muted);
@@ -1101,6 +1257,10 @@ button {
   .daily-stats {
     justify-items: start;
     text-align: left;
+  }
+
+  .daily-type-rois {
+    justify-content: flex-start;
   }
 
   .route-grid {
