@@ -605,13 +605,14 @@ button {
 
 .bet-line {
   display: grid;
-  grid-template-columns: 86px minmax(0, 1fr);
+  grid-template-columns: minmax(86px, max-content) minmax(0, 1fr);
   align-items: center;
   gap: 10px;
 }
 
 .bet-type {
   background: var(--red);
+  white-space: nowrap;
 }
 
 .bet-type.trio {

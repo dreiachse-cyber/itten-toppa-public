@@ -334,6 +334,7 @@ function renderRaces() {
   });
 
   root.innerHTML = races.map((race) => {
+    const betLabels = resolveRaceBetLabels(race);
     return `
       <article class="race-ticket">
         <div class="race-time">
@@ -347,8 +348,8 @@ function renderRaces() {
           <span class="tag ${race.confidence === "本命" ? "red" : ""}">${escapeHtml(race.confidence)}</span>
         </div>
         <div class="bets">
-          ${renderBetLine("本命3連単", race.trifecta, false)}
-          ${renderBetLine("穴3連複", race.trio, true)}
+          ${renderBetLine(betLabels.trifecta, race.trifecta, false)}
+          ${renderBetLine(betLabels.trio, race.trio, true)}
           ${renderRaceEdge(race)}
         </div>
         <div class="race-side">
@@ -361,14 +362,25 @@ function renderRaces() {
   }).join("");
 }
 
+function resolveRaceBetLabels(race) {
+  const labels = race.betLabels || {};
+  return {
+    trifecta: race.trifectaLabel || labels.trifecta || "本命3連単",
+    trio: race.trioLabel || labels.trio || "穴3連複",
+    trifectaEdge: race.trifectaEdgeLabel || labels.trifectaEdge || "本命EV",
+    trioEdge: race.trioEdgeLabel || labels.trioEdge || "穴EV",
+  };
+}
+
 function renderRaceEdge(race) {
   if (!race.edge) {
     return "";
   }
 
+  const betLabels = resolveRaceBetLabels(race);
   const rows = [
-    ["本命EV", race.edge.trifecta],
-    ["穴EV", race.edge.trio],
+    [betLabels.trifectaEdge, race.edge.trifecta],
+    [betLabels.trioEdge, race.edge.trio],
   ].filter(([, item]) => item);
 
   const cells = rows.map(([label, item]) => `
@@ -535,9 +547,9 @@ function renderBetTypeSummaries(review) {
 function buildBetTypeSummaries(review) {
   const items = Array.isArray(review.items) ? review.items : [];
   const configs = [
-    { key: "win5", label: "WIN5単体", itemTitle: "WIN5", tone: "win5" },
-    { key: "trio", label: "3連複単体", itemTitle: "穴3連複", tone: "trio" },
-    { key: "trifecta", label: "3連単単体", itemTitle: "本命3連単", tone: "trifecta" },
+    { key: "win5", label: "WIN5単体", itemTitles: ["WIN5"], tone: "win5" },
+    { key: "trio", label: "3連複単体", itemTitles: ["同一3頭3連複", "穴3連複"], tone: "trio" },
+    { key: "trifecta", label: "3連単単体", itemTitles: ["本命3連単"], tone: "trifecta" },
   ];
 
   return configs.map((config) => {
@@ -548,10 +560,10 @@ function buildBetTypeSummaries(review) {
 
     const stake = toFiniteNumber(item.stake);
     const payout = toFiniteNumber(item.payout);
-    const body = items.find((candidate) => candidate.title === config.itemTitle)?.body || "サマリー未入力";
+    const body = items.find((candidate) => config.itemTitles.includes(candidate.title))?.body || "サマリー未入力";
 
     return {
-      label: config.label,
+      label: item.label || config.label,
       body,
       stake,
       payout,
@@ -574,7 +586,7 @@ function buildReviewBreakdownRows(review) {
     const payout = toFiniteNumber(item.payout);
     const balance = stake !== null && payout !== null ? payout - stake : null;
     return {
-      label: labels[key] || key,
+      label: item.label || labels[key] || key,
       stake,
       payout,
       balance,
