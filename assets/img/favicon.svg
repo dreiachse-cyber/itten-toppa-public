@@ -1,16 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="一点突破">
-  <rect width="64" height="64" rx="12" fill="#0b0a08"/>
-  <circle cx="32" cy="32" r="24" fill="#a51618"/>
-  <circle cx="25" cy="22" r="10" fill="#d04031" opacity="0.5"/>
-  <circle cx="32" cy="32" r="24" fill="none" stroke="#c7a65a" stroke-width="2"/>
-  <text x="32" y="43"
+  <text x="32" y="52"
         text-anchor="middle"
         font-family="Yu Mincho, Hiragino Mincho ProN, serif"
-        font-size="34"
+        font-size="55"
         font-weight="900"
-        fill="#f2eadb"
-        stroke="#0b0a08"
-        stroke-width="1.2"
-        paint-order="stroke">突</text>
-  <path d="M14 48c10-4 25-4 36 0" fill="none" stroke="#c7a65a" stroke-width="3" stroke-linecap="round"/>
+        fill="#050505">突</text>
 </svg>
