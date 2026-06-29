@@ -4,6 +4,13 @@
   "updatedAt": "2026-06-27 17:29 JST",
   "status": "settled",
   "summary": "本命3連単2本的中、穴3連複とWIN5は不的中。回収率42.1%。",
+  "axisStats": {
+    "label": "軸馬3着内率",
+    "definition": "本命3連単の1頭目が実際に3着以内",
+    "races": 36,
+    "hits": 25,
+    "rate": 69.4
+  },
   "settlement": {
     "stake": 7500,
     "payout": 3160,

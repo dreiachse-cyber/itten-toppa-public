@@ -26,7 +26,7 @@ const breakdownRoiTypes = [
 const byId = (id) => document.getElementById(id);
 
 async function loadJson(path) {
-  const response = await fetch(path);
+  const response = await fetch(path, { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`${path} を読み込めませんでした`);
   }
@@ -65,6 +65,7 @@ async function loadDailySummaries() {
         raceCount: 0,
         reviewLead: "朝予想のJSONがまだありません。",
         typeRois: resolveBreakdownRois(null),
+        axisStats: null,
         canOpen: false,
       };
     }
@@ -86,6 +87,7 @@ async function loadDailySummaries() {
       raceCount: prediction.races.length,
       reviewLead: firstReview || "夕方の自動更新後に日別レビューが入ります。",
       typeRois: resolveBreakdownRois(review),
+      axisStats: resolveAxisStats(review),
       canOpen: true,
     };
   }));
@@ -173,6 +175,26 @@ function resolveBreakdownRois(review) {
   });
 }
 
+function resolveAxisStats(source) {
+  const stats = source?.axisStats;
+  if (!stats) {
+    return null;
+  }
+
+  const races = toFiniteNumber(stats.races);
+  const hits = toFiniteNumber(stats.hits);
+  const fallbackRate = races && hits !== null ? (hits / races) * 100 : null;
+  return {
+    label: stats.label || "軸馬3着内率",
+    definition: stats.definition || "本命3連単の1頭目が実際に3着以内",
+    scope: stats.scope || "",
+    updatedAt: stats.updatedAt || "",
+    races,
+    hits,
+    rate: toFiniteNumber(stats.rate) ?? fallbackRate,
+  };
+}
+
 async function loadDay(date) {
   state.date = date;
   const [prediction, review] = await Promise.all([
@@ -212,6 +234,7 @@ function renderAll() {
   renderVenueFilters();
   renderModeTabs();
   renderHero();
+  renderAxisProof();
   renderSummary();
   renderRaces();
   renderWin5();
@@ -273,6 +296,24 @@ function renderHero() {
     `取消: ${state.prediction.scratches}`,
     `WIN5締切: ${state.prediction.win5.deadline}`,
   ].map((text) => `<span>${escapeHtml(text)}</span>`).join("");
+}
+
+function renderAxisProof() {
+  const stats = resolveAxisStats(state.ledger);
+  if (!stats) {
+    byId("axisPlaceRate").textContent = "--";
+    byId("axisPlaceHits").textContent = "--";
+    byId("axisPlaceTotal").textContent = "--";
+    byId("axisProofScope").textContent = "--";
+    return;
+  }
+
+  byId("axisProofLabel").textContent = stats.label;
+  byId("axisPlaceRate").textContent = formatRoi(stats.rate);
+  byId("axisProofCopy").textContent = stats.definition;
+  byId("axisPlaceHits").textContent = stats.hits === null ? "--" : `${integer.format(stats.hits)}R`;
+  byId("axisPlaceTotal").textContent = stats.races === null ? "--" : `${integer.format(stats.races)}R`;
+  byId("axisProofScope").textContent = stats.scope || stats.updatedAt || "--";
 }
 
 function renderSummary() {
@@ -678,6 +719,9 @@ function renderDailySummaries() {
   root.innerHTML = state.dailySummaries.map((item) => {
     const activeClass = item.date === state.date ? " is-current" : "";
     const hitText = item.resultTone === "pending" ? "結果未入力" : item.hitCount > 0 ? `${item.hitCount}本的中` : "的中なし";
+    const axisText = item.axisStats
+      ? `軸馬 ${item.axisStats.hits}/${item.axisStats.races}R ${formatRoi(item.axisStats.rate)}`
+      : "軸馬 集計待ち";
     return `
       <article class="daily-summary-row${activeClass}">
         <div class="daily-date">
@@ -699,6 +743,7 @@ function renderDailySummaries() {
           <span>${escapeHtml(String(item.raceCount))}R / 投資 ${yen.format(item.stake)}</span>
           <strong>回収率 ${formatRoi(item.roi)}</strong>
           <span>払戻 ${formatYenOrDash(item.payout)}</span>
+          <span>${escapeHtml(axisText)}</span>
           <div class="daily-type-rois" aria-label="券種別回収率">
             ${renderTypeRoiPills(item.typeRois)}
           </div>

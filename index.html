@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="一点突破 - 本命3連単1点と穴3連複1点、WIN5で勝負する競馬予想サイト。">
     <title>一点突破 | 競馬予想</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/styles.css?v=20260629-axis">
   </head>
   <body>
     <a class="skip-link" href="#main">本文へ移動</a>
@@ -91,19 +91,26 @@
             <p id="summary">データを読み込んでいます。</p>
             <div class="hero-meta" id="heroMeta"></div>
           </div>
-          <div class="hero-stakes" aria-label="投資サマリー">
-            <div>
-              <span>1R投資</span>
-              <strong>200円</strong>
-            </div>
-            <div>
-              <span>WIN5</span>
-              <strong>3通り</strong>
-            </div>
-            <div>
-              <span>勝負姿勢</span>
-              <strong>一点突破</strong>
-            </div>
+          <div class="hero-stakes" aria-label="軸馬実績">
+            <article class="axis-proof">
+              <span id="axisProofLabel">軸馬3着内率</span>
+              <strong id="axisPlaceRate">--</strong>
+              <p id="axisProofCopy">本命3連単の1頭目が3着以内に入った割合を集計中。</p>
+              <div class="axis-proof-metrics">
+                <div>
+                  <span>的中</span>
+                  <b id="axisPlaceHits">--</b>
+                </div>
+                <div>
+                  <span>対象</span>
+                  <b id="axisPlaceTotal">--</b>
+                </div>
+                <div>
+                  <span>範囲</span>
+                  <b id="axisProofScope">--</b>
+                </div>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -185,6 +192,6 @@
       <p>一点突破は予想と検証の記録サイトです。馬券の自動購入は行いません。</p>
     </footer>
 
-    <script src="assets/app.js" defer></script>
+    <script src="assets/app.js?v=20260629-axis" defer></script>
   </body>
 </html>

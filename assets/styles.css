@@ -345,15 +345,53 @@ button {
   border: 1px solid rgba(199, 166, 90, 0.35);
 }
 
-.hero-stakes div {
+.axis-proof {
   display: grid;
-  gap: 5px;
-  padding: 16px;
-  border-bottom: 1px solid rgba(199, 166, 90, 0.2);
+  align-content: center;
+  gap: 14px;
+  padding: clamp(18px, 2.8vw, 28px);
+  background:
+    linear-gradient(160deg, rgba(165, 22, 24, 0.18), rgba(199, 166, 90, 0.08)),
+    rgba(8, 7, 6, 0.72);
 }
 
-.hero-stakes div:last-child {
-  border-bottom: 0;
+.axis-proof > span {
+  color: var(--gold);
+  font-size: 0.86rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.axis-proof > strong {
+  color: var(--paper);
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: clamp(4.2rem, 8vw, 7.2rem);
+  line-height: 0.86;
+  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.35);
+}
+
+.axis-proof p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.axis-proof-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border: 1px solid rgba(199, 166, 90, 0.28);
+}
+
+.axis-proof-metrics div {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  padding: 12px;
+  border-right: 1px solid rgba(199, 166, 90, 0.2);
+}
+
+.axis-proof-metrics div:last-child {
+  border-right: 0;
 }
 
 .hero-stakes span,
@@ -362,7 +400,12 @@ button {
   font-size: 0.86rem;
 }
 
-.hero-stakes strong,
+.axis-proof-metrics b {
+  color: var(--paper);
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
 .summary-strip strong {
   color: var(--paper);
   font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
