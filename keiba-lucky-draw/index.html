@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="一点突破のランダム予想コンテンツ。頭数と選出数を指定して、馬番をランダム抽選できます。">
+    <meta name="theme-color" content="#146B4A">
+    <title>ラッキードロー | 一点突破</title>
+    <link rel="icon" href="./assets/icons/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32.png">
+    <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="topbar-title">
+          <div>
+            <p class="eyebrow">Uma Draw</p>
+            <h1 id="setTitle">18頭立て</h1>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <a class="home-link" href="../">一点突破</a>
+          <button class="icon-button" id="soundButton" type="button" aria-pressed="true" aria-label="サウンド">
+            <span aria-hidden="true">♪</span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <div class="draw-view" id="drawView">
+          <section class="setup-band" aria-labelledby="setupTitle">
+            <h2 id="setupTitle">抽選セット</h2>
+            <div class="control-grid">
+              <label class="field">
+                <span>立て数</span>
+                <input id="entryCountInput" type="number" inputmode="numeric" min="1" max="18" value="18">
+              </label>
+              <label class="field">
+                <span>選ぶ</span>
+                <input id="pickCountInput" type="number" inputmode="numeric" min="1" max="18" value="18">
+              </label>
+              <label class="field">
+                <span>1点</span>
+                <input id="stakeInput" type="number" inputmode="numeric" min="100" step="100" value="100">
+              </label>
+            </div>
+            <div class="preset-row" aria-label="頭数プリセット">
+              <button type="button" class="preset" data-heads="5">5</button>
+              <button type="button" class="preset" data-heads="6">6</button>
+              <button type="button" class="preset" data-heads="7">7</button>
+              <button type="button" class="preset" data-heads="8">8</button>
+              <button type="button" class="preset" data-heads="9">9</button>
+              <button type="button" class="preset" data-heads="10">10</button>
+              <button type="button" class="preset" data-heads="11">11</button>
+              <button type="button" class="preset" data-heads="12">12</button>
+              <button type="button" class="preset" data-heads="13">13</button>
+              <button type="button" class="preset" data-heads="14">14</button>
+              <button type="button" class="preset" data-heads="15">15</button>
+              <button type="button" class="preset" data-heads="16">16</button>
+              <button type="button" class="preset" data-heads="17">17</button>
+              <button type="button" class="preset is-active" data-heads="18">18</button>
+            </div>
+          </section>
+
+          <section class="draw-stage" aria-labelledby="drawTitle">
+            <div class="stage-header">
+              <h2 id="drawTitle">抽選</h2>
+              <span id="poolSummary">10頭中10頭</span>
+            </div>
+            <div class="track-stage" id="trackStage">
+              <div class="track-lanes" aria-hidden="true"></div>
+              <div class="speed-lines" aria-hidden="true"></div>
+              <div class="runner" id="runner" aria-live="polite">
+                <img id="runnerImage" src="./assets/horses/horse_01.png" alt="">
+                <span class="runner-badge" id="runnerBadge">1</span>
+              </div>
+              <div class="reveal-copy" id="revealCopy">READY</div>
+            </div>
+            <div class="action-row">
+              <button class="primary-action" id="drawButton" type="button">START</button>
+              <button class="secondary-action" id="resultLinkButton" type="button" hidden>結果ページへ</button>
+            </div>
+            <div class="picked-panel" id="pickedPanel">
+              <div class="picked-head">
+                <span id="drawProgress">0/18 選出済み</span>
+                <span class="save-status" id="saveStatus">未保存</span>
+                <button class="text-action reset-draw" id="resetDrawButton" type="button" hidden>リセット</button>
+              </div>
+              <div class="picked-strip" id="pickedStrip" aria-live="polite">
+                <span class="empty-picks">未選出</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="horse-band" id="horseBand" aria-labelledby="horseTitle" hidden>
+            <div class="section-row">
+              <h2 id="horseTitle">出走馬</h2>
+              <button class="text-action" id="enableAllButton" type="button">全頭ON</button>
+            </div>
+            <div class="horse-grid" id="horseGrid"></div>
+          </section>
+
+          <section class="result-band" id="resultPanel" aria-labelledby="resultTitle" hidden>
+            <div class="section-row">
+              <h2 id="resultTitle">結果ページ</h2>
+              <button class="text-action" id="copyButton" type="button">コピー</button>
+            </div>
+            <div class="selected-strip" id="selectedStrip"></div>
+            <div class="axis-row" aria-label="軸馬数">
+              <button type="button" class="axis is-active" data-axis="0">BOX</button>
+              <button type="button" class="axis" data-axis="1">軸1</button>
+              <button type="button" class="axis" data-axis="2">軸2</button>
+              <button type="button" class="axis" data-axis="3">軸3</button>
+            </div>
+            <div class="ticket-table" id="ticketTable"></div>
+          </section>
+
+          <section class="support-band" aria-labelledby="supportTitle">
+            <div>
+              <p class="support-kicker">THANKS</p>
+              <h2 id="supportTitle">当たったら、よかったら投げ銭してね</h2>
+              <p>この抽選がちょっと役に立ったら、BOOTHショップ「江戸屋」の投げ銭ページから応援してもらえるとうれしいです。BOOST大歓迎！</p>
+            </div>
+            <a class="support-link" href="https://oyakoya.booth.pm/items/8365558" target="_blank" rel="noopener noreferrer">
+              BOOTHで投げ銭
+            </a>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
