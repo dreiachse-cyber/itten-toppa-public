@@ -96,7 +96,8 @@ async function loadDailySummaries() {
 }
 
 function calcDailyStake(prediction) {
-  const raceStake = prediction.races.length * 200;
+  const stakePerRace = toFiniteNumber(prediction.stakePerRace) ?? 200;
+  const raceStake = toFiniteNumber(prediction.raceStake) ?? prediction.races.length * stakePerRace;
   const win5Stake = prediction.win5.routes.length * 100;
   return raceStake + win5Stake;
 }
@@ -186,7 +187,7 @@ function resolveAxisStats(source) {
   const fallbackRate = races && hits !== null ? (hits / races) * 100 : null;
   return {
     label: stats.label || "軸馬3着内率",
-    definition: stats.definition || "本命3連単の1頭目が実際に3着以内",
+    definition: stats.definition || "◎にした馬が実際に3着以内",
     scope: stats.scope || "",
     updatedAt: stats.updatedAt || "",
     races,
@@ -318,7 +319,8 @@ function renderAxisProof() {
 
 function renderSummary() {
   const races = state.prediction.races.length;
-  const raceStake = races * 200;
+  const stakePerRace = toFiniteNumber(state.prediction.stakePerRace) ?? 200;
+  const raceStake = toFiniteNumber(state.prediction.raceStake) ?? races * stakePerRace;
   const win5Stake = state.prediction.win5.routes.length * 100;
   const totalStake = raceStake + win5Stake;
   byId("stakeTotal").textContent = yen.format(totalStake);
@@ -348,7 +350,7 @@ function renderRaces() {
           <span class="tag ${race.confidence === "本命" ? "red" : ""}">${escapeHtml(race.confidence)}</span>
         </div>
         <div class="bets">
-          ${renderBetLine(betLabels.trifecta, race.trifecta, false)}
+          ${race.trifectaPublic === false ? "" : renderBetLine(betLabels.trifecta, race.trifecta, false)}
           ${renderBetLine(betLabels.trio, race.trio, true)}
           ${renderRaceEdge(race)}
         </div>
@@ -364,11 +366,12 @@ function renderRaces() {
 
 function resolveRaceBetLabels(race) {
   const labels = race.betLabels || {};
+  const defaultTrioLabel = toFiniteNumber(state.prediction?.stakePerRace) === 100 ? "同一3頭3連複" : "穴3連複";
   return {
     trifecta: race.trifectaLabel || labels.trifecta || "本命3連単",
-    trio: race.trioLabel || labels.trio || "穴3連複",
+    trio: race.trioLabel || labels.trio || defaultTrioLabel,
     trifectaEdge: race.trifectaEdgeLabel || labels.trifectaEdge || "本命EV",
-    trioEdge: race.trioEdgeLabel || labels.trioEdge || "穴EV",
+    trioEdge: race.trioEdgeLabel || labels.trioEdge || "3複EV",
   };
 }
 
@@ -379,7 +382,7 @@ function renderRaceEdge(race) {
 
   const betLabels = resolveRaceBetLabels(race);
   const rows = [
-    [betLabels.trifectaEdge, race.edge.trifecta],
+    [betLabels.trifectaEdge, race.trifectaPublic === false ? null : race.edge.trifecta],
     [betLabels.trioEdge, race.edge.trio],
   ].filter(([, item]) => item);
 
@@ -438,6 +441,10 @@ function formatOddsTime(value) {
 }
 
 function renderBetLine(label, numbers, isTrio) {
+  if (!Array.isArray(numbers) || !numbers.length) {
+    return "";
+  }
+
   const joined = numbers.map((number, index) => {
     const separator = isTrio || index === numbers.length - 1 ? "" : `<span class="arrow">&gt;</span>`;
     return `<span class="num">${escapeHtml(String(number))}</span>${separator}`;
