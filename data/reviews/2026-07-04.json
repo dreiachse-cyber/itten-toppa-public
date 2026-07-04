@@ -1,0 +1,136 @@
+{
+  "date": "2026-07-04",
+  "weekday": "土曜",
+  "updatedAt": "2026-07-04 17:29 JST",
+  "status": "settled",
+  "summary": "同一3頭3連複は33Rすべて不的中、WIN5も3ルート不的中。回収率0.0%。",
+  "axisStats": {
+    "label": "軸馬3着内率",
+    "definition": "◎にした馬が実際に3着以内",
+    "races": 33,
+    "hits": 19,
+    "rate": 57.6
+  },
+  "settlement": {
+    "stake": 3600,
+    "payout": 0,
+    "hits": [],
+    "result": "miss",
+    "balance": -3600,
+    "roi": 0.0
+  },
+  "breakdown": {
+    "trio": {
+      "label": "同一3頭3連複",
+      "stake": 3300,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0.0
+    },
+    "win5": {
+      "stake": 300,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0.0
+    }
+  },
+  "win5": {
+    "carryover": 0,
+    "salesVotes": 4722162,
+    "salesAmount": 472216200,
+    "result": [
+      6,
+      4,
+      8,
+      3,
+      9
+    ],
+    "payout": 28600,
+    "hitCount": 11557,
+    "nextCarryover": 0,
+    "remainingVotes": [
+      877615,
+      305158,
+      54086,
+      19052,
+      11557
+    ],
+    "targets": [
+      {
+        "race": "小倉10R",
+        "raceName": "雲仙特別",
+        "winner": 6,
+        "winnerName": "ローズカリス",
+        "popularity": 2,
+        "remainingVotes": 877615
+      },
+      {
+        "race": "福島10R",
+        "raceName": "横手特別",
+        "winner": 4,
+        "winnerName": "ディーズゴールド",
+        "popularity": 1,
+        "remainingVotes": 305158
+      },
+      {
+        "race": "函館11R",
+        "raceName": "TVh杯",
+        "winner": 8,
+        "winnerName": "マーブルパレス",
+        "popularity": 3,
+        "remainingVotes": 54086
+      },
+      {
+        "race": "小倉11R",
+        "raceName": "博多S",
+        "winner": 3,
+        "winnerName": "ネブラディスク",
+        "popularity": 2,
+        "remainingVotes": 19052
+      },
+      {
+        "race": "福島11R",
+        "raceName": "TUF杯",
+        "winner": 9,
+        "winnerName": "ゲイルライダー",
+        "popularity": 1,
+        "remainingVotes": 11557
+      }
+    ],
+    "source": "https://www.jra.go.jp/JRADB/access5.html",
+    "detailCname": "pw17hde01202607041/CB"
+  },
+  "items": [
+    {
+      "title": "同一3頭3連複",
+      "body": "33Rすべて不的中。軸は残っても相手2頭まで揃わなかった。"
+    },
+    {
+      "title": "軸馬",
+      "body": "◎は19/33Rで3着内。軸より相手同時成立が課題。"
+    },
+    {
+      "title": "WIN5",
+      "body": "公式結果は6-4-8-3-9。3ルートとも不的中、キャリーオーバーは0円。"
+    }
+  ],
+  "sources": [
+    {
+      "name": "JRA公式 レース結果 福島",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0103202602030120260704/F1"
+    },
+    {
+      "name": "JRA公式 レース結果 小倉",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0110202602030120260704/3C"
+    },
+    {
+      "name": "JRA公式 レース結果 函館",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0102202601070120260704/42"
+    },
+    {
+      "name": "JRA公式 WIN5詳細",
+      "url": "https://www.jra.go.jp/JRADB/access5.html",
+      "detailCname": "pw17hde01202607041/CB"
+    }
+  ]
+}

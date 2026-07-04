@@ -1,16 +1,16 @@
 {
   "year": 2026,
-  "yearStake": 15000,
+  "yearStake": 18600,
   "yearReturn": 4240,
-  "yearBalance": -10760,
-  "yearRoi": 28.3,
+  "yearBalance": -14360,
+  "yearRoi": 22.8,
   "axisStats": {
     "label": "軸馬3着内率",
-    "definition": "本命3連単の1頭目が実際に3着以内",
-    "scope": "2026-06-27〜2026-06-28",
-    "races": 72,
-    "hits": 50,
-    "rate": 69.4,
-    "updatedAt": "2026-06-29 16:23 JST"
+    "definition": "◎にした馬が実際に3着以内",
+    "scope": "2026-06-27〜2026-07-04",
+    "races": 105,
+    "hits": 69,
+    "rate": 65.7,
+    "updatedAt": "2026-07-04 17:28 JST"
   }
 }
