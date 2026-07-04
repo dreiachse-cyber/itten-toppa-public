@@ -237,6 +237,7 @@ function renderAll() {
   renderHero();
   renderAxisProof();
   renderSummary();
+  renderTicketHeading();
   renderRaces();
   renderWin5();
   renderReviews();
@@ -327,6 +328,43 @@ function renderSummary() {
   byId("expectedReturn").textContent = yen.format(state.prediction.expectedReturn);
   byId("roi").textContent = `${state.prediction.expectedRoi}%`;
   byId("yearBalance").textContent = yen.format(state.ledger.yearBalance);
+}
+
+function renderTicketHeading() {
+  const races = Array.isArray(state.prediction?.races) ? state.prediction.races : [];
+  const hasTrifecta = races.some((race) => {
+    return race.trifectaPublic !== false && Array.isArray(race.trifecta) && race.trifecta.length > 0;
+  });
+  const hasTrio = races.some((race) => {
+    return race.trioPublic !== false && Array.isArray(race.trio) && race.trio.length > 0;
+  });
+  const heading = byId("ticketHeading");
+  const note = byId("ticketNote");
+
+  if (!heading || !note) {
+    return;
+  }
+
+  if (hasTrifecta && !hasTrio) {
+    heading.textContent = "3連単1点";
+    note.textContent = "◎→○→▲で対象レース1点、1R 100円。新馬戦は一旦残す。";
+    return;
+  }
+
+  if (hasTrio && !hasTrifecta) {
+    heading.textContent = "同一3頭3連複";
+    note.textContent = "履歴データの買い目。対象レース1点、1R 100円。";
+    return;
+  }
+
+  if (hasTrifecta && hasTrio) {
+    heading.textContent = "一点勝負";
+    note.textContent = "表示中の日付の予想JSONに沿って買い目を表示。";
+    return;
+  }
+
+  heading.textContent = "一点勝負";
+  note.textContent = "対象レースの買い目を読み込み中。";
 }
 
 function renderRaces() {
