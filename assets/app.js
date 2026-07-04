@@ -18,8 +18,8 @@ const yen = new Intl.NumberFormat("ja-JP", {
 const integer = new Intl.NumberFormat("ja-JP");
 
 const breakdownRoiTypes = [
-  { key: "trio", label: "3連複", shortLabel: "3複" },
   { key: "trifecta", label: "3連単", shortLabel: "3単" },
+  { key: "trio", label: "3連複", shortLabel: "3複" },
   { key: "win5", label: "WIN5", shortLabel: "W5" },
 ];
 
@@ -351,7 +351,7 @@ function renderRaces() {
         </div>
         <div class="bets">
           ${race.trifectaPublic === false ? "" : renderBetLine(betLabels.trifecta, race.trifecta, false)}
-          ${renderBetLine(betLabels.trio, race.trio, true)}
+          ${race.trioPublic === false ? "" : renderBetLine(betLabels.trio, race.trio, true)}
           ${renderRaceEdge(race)}
         </div>
         <div class="race-side">
@@ -366,11 +366,12 @@ function renderRaces() {
 
 function resolveRaceBetLabels(race) {
   const labels = race.betLabels || {};
-  const defaultTrioLabel = toFiniteNumber(state.prediction?.stakePerRace) === 100 ? "同一3頭3連複" : "穴3連複";
+  const isSingleStake = toFiniteNumber(state.prediction?.stakePerRace) === 100;
+  const defaultTrioLabel = isSingleStake ? "同一3頭3連複" : "穴3連複";
   return {
-    trifecta: race.trifectaLabel || labels.trifecta || "本命3連単",
+    trifecta: race.trifectaLabel || labels.trifecta || (isSingleStake ? "3連単" : "本命3連単"),
     trio: race.trioLabel || labels.trio || defaultTrioLabel,
-    trifectaEdge: race.trifectaEdgeLabel || labels.trifectaEdge || "本命EV",
+    trifectaEdge: race.trifectaEdgeLabel || labels.trifectaEdge || (isSingleStake ? "3単EV" : "本命EV"),
     trioEdge: race.trioEdgeLabel || labels.trioEdge || "3複EV",
   };
 }
@@ -383,7 +384,7 @@ function renderRaceEdge(race) {
   const betLabels = resolveRaceBetLabels(race);
   const rows = [
     [betLabels.trifectaEdge, race.trifectaPublic === false ? null : race.edge.trifecta],
-    [betLabels.trioEdge, race.edge.trio],
+    [betLabels.trioEdge, race.trioPublic === false ? null : race.edge.trio],
   ].filter(([, item]) => item);
 
   const cells = rows.map(([label, item]) => `
@@ -554,9 +555,9 @@ function renderBetTypeSummaries(review) {
 function buildBetTypeSummaries(review) {
   const items = Array.isArray(review.items) ? review.items : [];
   const configs = [
+    { key: "trifecta", label: "3連単単体", itemTitles: ["3連単", "本命3連単"], tone: "trifecta" },
     { key: "win5", label: "WIN5単体", itemTitles: ["WIN5"], tone: "win5" },
     { key: "trio", label: "3連複単体", itemTitles: ["同一3頭3連複", "穴3連複"], tone: "trio" },
-    { key: "trifecta", label: "3連単単体", itemTitles: ["本命3連単"], tone: "trifecta" },
   ];
 
   return configs.map((config) => {
