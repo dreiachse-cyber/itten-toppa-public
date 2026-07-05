@@ -1,0 +1,150 @@
+{
+  "date": "2026-07-05",
+  "weekday": "日曜",
+  "updatedAt": "2026-07-05 17:34 JST",
+  "status": "settled",
+  "summary": "3連単は33R中2本的中、WIN5は3ルート不的中。回収率36.7%。",
+  "axisStats": {
+    "label": "軸馬3着内率",
+    "definition": "◎にした馬が実際に3着以内",
+    "races": 33,
+    "hits": 20,
+    "rate": 60.6
+  },
+  "settlement": {
+    "stake": 3600,
+    "payout": 1320,
+    "hits": [
+      {
+        "race": "小倉9R",
+        "type": "3連単",
+        "ticket": "5-2-6",
+        "payout": 610
+      },
+      {
+        "race": "函館5R",
+        "type": "3連単",
+        "ticket": "1-2-3",
+        "payout": 710
+      }
+    ],
+    "result": "hit",
+    "balance": -2280,
+    "roi": 36.7
+  },
+  "breakdown": {
+    "trifecta": {
+      "label": "3連単",
+      "stake": 3300,
+      "payout": 1320,
+      "hits": 2,
+      "roi": 40.0
+    },
+    "win5": {
+      "label": "WIN5",
+      "stake": 300,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0.0
+    }
+  },
+  "win5": {
+    "carryover": 0,
+    "salesVotes": 7697860,
+    "salesAmount": 769786000,
+    "result": [
+      5,
+      9,
+      11,
+      7,
+      12
+    ],
+    "payout": 205580,
+    "hitCount": 2621,
+    "nextCarryover": 0,
+    "remainingVotes": [
+      5285945,
+      1340644,
+      157883,
+      9385,
+      2621
+    ],
+    "targets": [
+      {
+        "race": "福島10R",
+        "raceName": "白河特別",
+        "winner": 5,
+        "winnerName": "ベストミーエヴァー",
+        "popularity": 1,
+        "remainingVotes": 5285945
+      },
+      {
+        "race": "小倉10R",
+        "raceName": "九スポ杯",
+        "winner": 9,
+        "winnerName": "マジックローズ",
+        "popularity": 1,
+        "remainingVotes": 1340644
+      },
+      {
+        "race": "函館11R",
+        "raceName": "大沼S",
+        "winner": 11,
+        "winnerName": "ワイドブリザード",
+        "popularity": 4,
+        "remainingVotes": 157883
+      },
+      {
+        "race": "福島11R",
+        "raceName": "ジュライS",
+        "winner": 7,
+        "winnerName": "ストレングス",
+        "popularity": 6,
+        "remainingVotes": 9385
+      },
+      {
+        "race": "小倉11R",
+        "raceName": "北九州記念",
+        "winner": 12,
+        "winnerName": "フリッカージャブ",
+        "popularity": 1,
+        "remainingVotes": 2621
+      }
+    ],
+    "source": "https://www.jra.go.jp/JRADB/access5.html",
+    "detailCname": "pw17hde01202607051/FC"
+  },
+  "items": [
+    {
+      "title": "3連単",
+      "body": "小倉9R 5→2→6と函館5R 1→2→3が的中。どちらも検証買い判定で、低EV側の過小評価を残す。"
+    },
+    {
+      "title": "軸馬",
+      "body": "◎は20/33Rで3着内。軸は戻ったが順序違いが残った。"
+    },
+    {
+      "title": "WIN5",
+      "body": "公式結果は5-9-11-7-12。3ルートとも不的中、キャリーオーバーは0円。"
+    }
+  ],
+  "sources": [
+    {
+      "name": "JRA公式 レース結果 福島",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0103202602040120260705/21"
+    },
+    {
+      "name": "JRA公式 レース結果 小倉",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0110202602040120260705/6C"
+    },
+    {
+      "name": "JRA公式 レース結果 函館",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0102202601080120260705/72"
+    },
+    {
+      "name": "JRA公式 WIN5詳細",
+      "url": "https://www.jra.go.jp/JRADB/access5.html",
+      "detailCname": "pw17hde01202607051/FC"
+    }
+  ]
+}
