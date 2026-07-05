@@ -498,11 +498,14 @@ function renderBetLine(label, numbers, isTrio) {
 
 function renderWin5() {
   const root = byId("win5Routes");
-  root.innerHTML = state.prediction.win5.routes.map((route) => {
+  const win5 = state.prediction.win5 || {};
+  const routes = Array.isArray(win5.routes) ? win5.routes : [];
+  const routeCards = routes.map((route) => {
     const cells = route.legs.map((leg) => `
       <div class="route-cell">
         <span>${escapeHtml(leg.race)}</span>
         <strong>${escapeHtml(String(leg.pick))}</strong>
+        <small>${escapeHtml(leg.horse || "")}</small>
       </div>
     `).join("");
     return `
@@ -512,9 +515,60 @@ function renderWin5() {
           <span class="tag ${route.name === "穴" ? "red" : ""}">${escapeHtml(route.style)}</span>
         </div>
         <div class="route-grid">${cells}</div>
+        ${renderWin5RouteEdge(route.edge)}
       </article>
     `;
   }).join("");
+  root.innerHTML = `${renderWin5Reassessment(win5.reassessment)}${routeCards}`;
+}
+
+function renderWin5Reassessment(reassessment) {
+  if (!reassessment) {
+    return "";
+  }
+
+  const items = Array.isArray(reassessment.targetAnalysis) ? reassessment.targetAnalysis : [];
+  const rows = items.map((item) => {
+    const candidates = Array.isArray(item.topCandidates) ? item.topCandidates.slice(0, 3) : [];
+    const candidateText = candidates.map((candidate) => {
+      return `${candidate.horseNo} ${candidate.horse} ${formatProbability(candidate.winProbability)}`;
+    }).join(" / ");
+    return `
+      <li>
+        <span>${escapeHtml(item.race)}</span>
+        <strong>${escapeHtml(candidateText || "--")}</strong>
+        <small>${escapeHtml(item.risk || "--")}リスク: ${escapeHtml(item.memo || "")}</small>
+      </li>
+    `;
+  }).join("");
+
+  return `
+    <article class="win5-update">
+      <div class="win5-update-head">
+        <div>
+          <span>WIN5再評価</span>
+          <h3>${escapeHtml(reassessment.statusLabel || "更新")}</h3>
+        </div>
+        <time>${escapeHtml(reassessment.updatedAt || "")}</time>
+      </div>
+      <p>${escapeHtml(reassessment.changeSummary || reassessment.summary || "")}</p>
+      ${rows ? `<ul>${rows}</ul>` : ""}
+    </article>
+  `;
+}
+
+function renderWin5RouteEdge(edge) {
+  if (!edge) {
+    return "";
+  }
+
+  return `
+    <p class="route-edge">
+      <span>EV ${formatExpectedValue(edge.expectedValue)}</span>
+      <span>p ${formatProbability(edge.probability)}</span>
+      <span>${formatOdds(edge.odds)}${formatOddsTime(edge.oddsTime)}</span>
+    </p>
+  `;
 }
 
 function renderReviews() {

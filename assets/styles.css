@@ -664,6 +664,74 @@ button {
   border-bottom: 1px solid rgba(73, 51, 25, 0.2);
 }
 
+.win5-update {
+  display: grid;
+  gap: 12px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(73, 51, 25, 0.2);
+}
+
+.win5-update-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.win5-update-head span,
+.win5-update time,
+.win5-update li small,
+.route-edge {
+  color: rgba(11, 10, 8, 0.62);
+  font-size: 0.78rem;
+}
+
+.win5-update h3 {
+  margin: 0;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+  font-size: 1.35rem;
+}
+
+.win5-update p {
+  margin: 0;
+  color: rgba(11, 10, 8, 0.72);
+  line-height: 1.7;
+}
+
+.win5-update ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.win5-update li {
+  display: grid;
+  grid-template-columns: 86px minmax(0, 1fr);
+  gap: 4px 10px;
+  padding: 10px;
+  background: rgba(255, 250, 240, 0.72);
+  border: 1px solid rgba(73, 51, 25, 0.14);
+}
+
+.win5-update li span {
+  color: var(--red);
+  font-weight: 900;
+}
+
+.win5-update li strong {
+  min-width: 0;
+  color: var(--ink);
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+}
+
+.win5-update li small {
+  grid-column: 2;
+  line-height: 1.55;
+}
+
 .route:last-child {
   border-bottom: 0;
 }
@@ -703,6 +771,24 @@ button {
 
 .route-cell strong {
   font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+
+.route-cell small {
+  color: rgba(11, 10, 8, 0.7);
+  font-size: 0.74rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.route-edge {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin: 10px 0 0;
+}
+
+.route-edge span {
+  white-space: nowrap;
 }
 
 .review-item {
@@ -1309,6 +1395,14 @@ button.calendar-day:focus {
 
   .route-grid {
     grid-template-columns: 1fr;
+  }
+
+  .win5-update li {
+    grid-template-columns: 1fr;
+  }
+
+  .win5-update li small {
+    grid-column: auto;
   }
 
   .panel-heading {
