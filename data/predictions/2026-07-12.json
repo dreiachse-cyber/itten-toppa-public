@@ -1,21 +1,21 @@
 {
   "date": "2026-07-12",
   "weekday": "日曜",
-  "updatedAt": "2026-07-12 08:05 JST",
-  "headline": "日曜朝予想を更新。対象35Rは3連単1点、WIN5は軸固定型3通り。",
-  "summary": "JRA公式の出馬表、オッズ、馬場、変更情報、WIN5対象を朝時点で確認。",
+  "updatedAt": "2026-07-12 11:39 JST",
+  "headline": "日曜昼オッズEV再評価を反映。対象35Rは3連単1点を維持し、未発走24Rの3単EVとWIN5を更新。",
+  "summary": "JRA公式の出馬表、オッズ、馬場、変更情報、前半結果、WIN5対象を昼時点で再確認。公式オッズ取得時に発走済み・発走10分未満の11Rはロック。",
   "venues": [
     "福島",
     "小倉",
     "函館"
   ],
   "trackCondition": "福島 芝稍重 / ダート稍重、小倉 芝良 / ダート良、函館 芝重 / ダート不良",
-  "weather": "福島 曇 / 小倉 曇 / 函館 雨",
-  "scratches": "JRA開催お知らせ・出馬表・オッズを2026-07-12 08:05 JST確認: 取消・除外・騎手変更の掲載なし。予想対象外: 福島1R（障害戦）。",
+  "weather": "福島 小雨 / 小倉 晴 / 函館 小雨",
+  "scratches": "JRA開催お知らせ・出馬表・オッズを2026-07-12 11:39 JST確認: 福島6R 発走時刻13:00から13:01へ変更。取消・除外・騎手変更の掲載なし。未発走買い目に影響する変更なし。予想対象外: 福島1R（障害戦）。",
   "stakePerRace": 100,
   "raceStake": 3500,
-  "expectedReturn": 3060,
-  "expectedRoi": 80.5,
+  "expectedReturn": 2979,
+  "expectedRoi": 78.4,
   "races": [
     {
       "venue": "福島",
@@ -35,7 +35,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "C",
-      "note": "8時03分現在の単勝支持とダート稍重を前提に、15 クリムゾンリーフを1着軸にして相手順を2→14へ固定。 天候は曇。",
+      "note": "8時03分現在の単勝支持とダート稍重を前提に、15 クリムゾンリーフを1着軸にして相手順を2→14へ固定。 天候は曇。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎15 クリムゾンリーフ / ○2 ヒロイックヴァース / ▲14 サングラント / △6 アーティキュレート / ☆3 ゴットタレント",
       "probabilities": [
         {
@@ -237,7 +237,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "B",
-      "note": "8時04分現在の単勝支持と芝稍重を前提に、9 ヴァルカンテソーロを1着軸にして相手順を6→7へ固定。 天候は曇。",
+      "note": "8時04分現在の単勝支持と芝稍重を前提に、9 ヴァルカンテソーロを1着軸にして相手順を6→7へ固定。 天候は曇。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎9 ヴァルカンテソーロ / ○6 ミナヅキ / ▲7 オーブレーヌ / △15 チャンピオンホープ / ☆11 ギリーカラム",
       "probabilities": [
         {
@@ -449,7 +449,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "B",
-      "note": "8時04分現在の単勝支持と芝稍重を前提に、8 サンヴァンガードを1着軸にして相手順を2→5へ固定。 天候は曇。",
+      "note": "8時04分現在の単勝支持と芝稍重を前提に、8 サンヴァンガードを1着軸にして相手順を2→5へ固定。 天候は曇。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎8 サンヴァンガード / ○2 エコロテラ / ▲5 ワレモコウ / △6 ラヴィサンエール / ☆10 トム",
       "probabilities": [
         {
@@ -787,9 +787,9 @@
         "scenario": "標準 0.40: 単勝支持に近い地力決着",
         "trifecta": {
           "probability": 0.02117869,
-          "odds": 23.2,
-          "oddsTime": "8時05分現在",
-          "expectedValue": 0.4913,
+          "odds": 23.9,
+          "oddsTime": "11時39分現在",
+          "expectedValue": 0.5062,
           "verdict": "検証買い"
         }
       },
@@ -798,7 +798,7 @@
     {
       "venue": "福島",
       "raceNo": 6,
-      "start": "13:00",
+      "start": "13:01",
       "grade": "3歳未勝利",
       "name": "3歳未勝利",
       "condition": "1,150メートル（ダート・右） / 3歳 未勝利 （混合）［指定］ 馬齢",
@@ -812,8 +812,8 @@
         "trifecta": "3連単",
         "trifectaEdge": "3単EV"
       },
-      "value": "A",
-      "note": "8時05分現在の単勝支持とダート稍重を前提に、11 ツクバヴァンガードを1着軸にして相手順を1→8へ固定。 天候は曇。",
+      "value": "B",
+      "note": "8時05分現在の単勝支持とダート稍重を前提に、11 ツクバヴァンガードを1着軸にして相手順を1→8へ固定。 天候は曇。 昼再評価: 公式発走時刻13:01へ変更。買い目変更なし。",
       "markText": "◎11 ツクバヴァンガード / ○1 ピコランド / ▲8 フォワードシャッセ / △7 イイクニパッション / ☆6 ミスタートントン",
       "probabilities": [
         {
@@ -995,14 +995,14 @@
         }
       ],
       "edge": {
-        "verdict": "勝負",
+        "verdict": "検証買い",
         "scenario": "先行持続 0.42: 短距離ダートで位置取りを重視",
         "trifecta": {
           "probability": 0.00425946,
-          "odds": 267.5,
-          "oddsTime": "8時05分現在",
-          "expectedValue": 1.1394,
-          "verdict": "勝負"
+          "odds": 163.2,
+          "oddsTime": "11時37分現在",
+          "expectedValue": 0.6951,
+          "verdict": "検証買い"
         }
       },
       "trioPublic": false
@@ -1024,7 +1024,7 @@
         "trifecta": "3連単",
         "trifectaEdge": "3単EV"
       },
-      "value": "A",
+      "value": "B",
       "note": "8時01分現在の単勝支持と芝稍重を前提に、11 キッショウダラニを1着軸にして相手順を14→9へ固定。 天候は曇。",
       "markText": "◎11 キッショウダラニ / ○14 ベルオーシャン / ▲9 ウインディナナコ / △4 シャインフォーミー / ☆10 ノーブルクロンヌ",
       "probabilities": [
@@ -1207,14 +1207,14 @@
         }
       ],
       "edge": {
-        "verdict": "勝負",
+        "verdict": "検証買い",
         "scenario": "逃げ残り 0.39: 短距離で内前の粘りを重視",
         "trifecta": {
           "probability": 0.00631587,
-          "odds": 158.4,
-          "oddsTime": "8時05分現在",
-          "expectedValue": 1.0004,
-          "verdict": "勝負"
+          "odds": 133.2,
+          "oddsTime": "11時37分現在",
+          "expectedValue": 0.8413,
+          "verdict": "検証買い"
         }
       },
       "trioPublic": false
@@ -1383,9 +1383,9 @@
         "scenario": "逃げ残り 0.39: 短距離で内前の粘りを重視",
         "trifecta": {
           "probability": 0.01507075,
-          "odds": 28.9,
-          "oddsTime": "8時02分現在",
-          "expectedValue": 0.4355,
+          "odds": 25.4,
+          "oddsTime": "11時38分現在",
+          "expectedValue": 0.3828,
           "verdict": "検証買い"
         }
       },
@@ -1575,9 +1575,9 @@
         "scenario": "標準 0.40: 単勝支持に近い地力決着",
         "trifecta": {
           "probability": 0.01118411,
-          "odds": 44.5,
-          "oddsTime": "8時02分現在",
-          "expectedValue": 0.4977,
+          "odds": 45,
+          "oddsTime": "11時38分現在",
+          "expectedValue": 0.5033,
           "verdict": "検証買い"
         }
       },
@@ -1737,9 +1737,9 @@
         "scenario": "標準 0.40: 能力順に近い決着",
         "trifecta": {
           "probability": 0.00630001,
-          "odds": 88.7,
-          "oddsTime": "8時02分現在",
-          "expectedValue": 0.5588,
+          "odds": 90.5,
+          "oddsTime": "11時38分現在",
+          "expectedValue": 0.5702,
           "verdict": "検証買い"
         }
       },
@@ -1762,7 +1762,7 @@
         "trifecta": "3連単",
         "trifectaEdge": "3単EV"
       },
-      "value": "B",
+      "value": "C",
       "note": "8時03分現在の単勝支持と芝稍重を前提に、4 カラマティアノスを1着軸にして相手順を11→13へ固定。 天候は曇。",
       "markText": "◎4 カラマティアノス / ○11 アスクナイスショー / ▲13 バトルボーン / △16 サヴォーナ / ☆15 ヤマニンブークリエ",
       "probabilities": [
@@ -1949,9 +1949,9 @@
         "scenario": "標準 0.40: 単勝支持に近い地力決着",
         "trifecta": {
           "probability": 0.00526283,
-          "odds": 120.2,
-          "oddsTime": "8時03分現在",
-          "expectedValue": 0.6326,
+          "odds": 108.8,
+          "oddsTime": "11時38分現在",
+          "expectedValue": 0.5726,
           "verdict": "検証買い"
         }
       },
@@ -2161,9 +2161,9 @@
         "scenario": "先行持続 0.42: 短距離ダートで位置取りを重視",
         "trifecta": {
           "probability": 0.00556241,
-          "odds": 51.4,
-          "oddsTime": "8時03分現在",
-          "expectedValue": 0.2859,
+          "odds": 52.3,
+          "oddsTime": "11時39分現在",
+          "expectedValue": 0.2909,
           "verdict": "検証買い"
         }
       },
@@ -2187,7 +2187,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "C",
-      "note": "8時05分現在の単勝支持と芝良を前提に、15 ベルセクレトを1着軸にして相手順を16→10へ固定。 天候は曇。",
+      "note": "8時05分現在の単勝支持と芝良を前提に、15 ベルセクレトを1着軸にして相手順を16→10へ固定。 天候は曇。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎15 ベルセクレト / ○16 ティグリス / ▲10 ホーリーステップ / △8 ブライトエンジェル / ☆6 シャンデリュイーズ",
       "probabilities": [
         {
@@ -2409,7 +2409,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "B",
-      "note": "8時04分現在の単勝支持とダート良を前提に、3 タガノプディングを1着軸にして相手順を13→9へ固定。 天候は曇。",
+      "note": "8時04分現在の単勝支持とダート良を前提に、3 タガノプディングを1着軸にして相手順を13→9へ固定。 天候は曇。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎3 タガノプディング / ○13 キタノプレミアム / ▲9 キャッチアシーフ / △6 クロカミジョウ / ☆1 ゼンノトヨタマヒメ",
       "probabilities": [
         {
@@ -2601,7 +2601,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "C",
-      "note": "8時04分現在の単勝支持と芝良を前提に、5 チェファルーを1着軸にして相手順を2→7へ固定。 天候は曇。",
+      "note": "8時04分現在の単勝支持と芝良を前提に、5 チェファルーを1着軸にして相手順を2→7へ固定。 天候は曇。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎5 チェファルー / ○2 ラルヴァンダード / ▲7 ブルーザー / △15 ヴィスメンティス / ☆3 ロイドウェバー",
       "probabilities": [
         {
@@ -2803,7 +2803,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "C",
-      "note": "8時04分現在の単勝支持と芝良を前提に、7 レッドパラジウムを1着軸にして相手順を11→6へ固定。 天候は曇。",
+      "note": "8時04分現在の単勝支持と芝良を前提に、7 レッドパラジウムを1着軸にして相手順を11→6へ固定。 天候は曇。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎7 レッドパラジウム / ○11 タイムレスフレアー / ▲6 ブランチアウト / △8 ラミエルノムスコ / ☆12 セルヴァジオ",
       "probabilities": [
         {
@@ -3091,9 +3091,9 @@
         "scenario": "標準 0.40: 単勝支持に近い地力決着",
         "trifecta": {
           "probability": 0.07258737,
-          "odds": 25.1,
-          "oddsTime": "8時05分現在",
-          "expectedValue": 1.8219,
+          "odds": 19.2,
+          "oddsTime": "11時38分現在",
+          "expectedValue": 1.3937,
           "verdict": "勝負"
         }
       },
@@ -3233,9 +3233,9 @@
         "scenario": "逃げ残り 0.39: 短距離で内前の粘りを重視",
         "trifecta": {
           "probability": 0.03031491,
-          "odds": 21.7,
-          "oddsTime": "8時05分現在",
-          "expectedValue": 0.6578,
+          "odds": 25.3,
+          "oddsTime": "11時39分現在",
+          "expectedValue": 0.767,
           "verdict": "検証買い"
         }
       },
@@ -3435,9 +3435,9 @@
         "scenario": "標準 0.40: 能力順に近い決着",
         "trifecta": {
           "probability": 0.00906828,
-          "odds": 123.8,
-          "oddsTime": "8時01分現在",
-          "expectedValue": 1.1227,
+          "odds": 111,
+          "oddsTime": "11時39分現在",
+          "expectedValue": 1.0066,
           "verdict": "勝負"
         }
       },
@@ -3460,7 +3460,7 @@
         "trifecta": "3連単",
         "trifectaEdge": "3単EV"
       },
-      "value": "A",
+      "value": "B",
       "note": "8時02分現在の単勝支持と芝良を前提に、1 ミリタリータトゥーを1着軸にして相手順を2→9へ固定。 天候は曇。",
       "markText": "◎1 ミリタリータトゥー / ○2 ペイシャシス / ▲9 ミッキーマーメイド / △5 メイショウピリカ / ☆4 エレガンシア",
       "probabilities": [
@@ -3573,14 +3573,14 @@
         }
       ],
       "edge": {
-        "verdict": "勝負",
+        "verdict": "検証買い",
         "scenario": "標準 0.40: 単勝支持に近い地力決着",
         "trifecta": {
           "probability": 0.04296166,
-          "odds": 29.4,
-          "oddsTime": "8時02分現在",
-          "expectedValue": 1.2631,
-          "verdict": "勝負"
+          "odds": 19.2,
+          "oddsTime": "11時36分現在",
+          "expectedValue": 0.8249,
+          "verdict": "検証買い"
         }
       },
       "trioPublic": false
@@ -3729,9 +3729,9 @@
         "scenario": "標準 0.40: 能力順に近い決着",
         "trifecta": {
           "probability": 0.04677464,
-          "odds": 22.1,
-          "oddsTime": "8時02分現在",
-          "expectedValue": 1.0337,
+          "odds": 22.4,
+          "oddsTime": "11時37分現在",
+          "expectedValue": 1.0478,
           "verdict": "勝負"
         }
       },
@@ -3891,9 +3891,9 @@
         "scenario": "標準 0.40: 単勝支持に近い地力決着",
         "trifecta": {
           "probability": 0.02623203,
-          "odds": 119.8,
-          "oddsTime": "8時03分現在",
-          "expectedValue": 3.1426,
+          "odds": 174,
+          "oddsTime": "11時37分現在",
+          "expectedValue": 4.5644,
           "verdict": "勝負"
         }
       },
@@ -4053,9 +4053,9 @@
         "scenario": "標準 0.40: 能力順に近い決着",
         "trifecta": {
           "probability": 0.01053512,
-          "odds": 41.7,
-          "oddsTime": "8時03分現在",
-          "expectedValue": 0.4393,
+          "odds": 40.9,
+          "oddsTime": "11時38分現在",
+          "expectedValue": 0.4309,
           "verdict": "検証買い"
         }
       },
@@ -4275,9 +4275,9 @@
         "scenario": "逃げ残り 0.39: 短距離で内前の粘りを重視",
         "trifecta": {
           "probability": 0.0043942,
-          "odds": 173.2,
-          "oddsTime": "8時03分現在",
-          "expectedValue": 0.7611,
+          "odds": 187.4,
+          "oddsTime": "11時38分現在",
+          "expectedValue": 0.8235,
           "verdict": "検証買い"
         }
       },
@@ -4301,7 +4301,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "C",
-      "note": "8時05分現在の単勝支持とダート不良を前提に、6 スイーヴルを1着軸にして相手順を4→7へ固定。 天候は雨。",
+      "note": "8時05分現在の単勝支持とダート不良を前提に、6 スイーヴルを1着軸にして相手順を4→7へ固定。 天候は雨。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎6 スイーヴル / ○4 ビタミンドロップ / ▲7 マーゴットオネイロ / △12 サンライズロイ / ☆10 スプリングドリーム",
       "probabilities": [
         {
@@ -4473,7 +4473,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "C",
-      "note": "8時04分現在の単勝支持と芝重を前提に、9 エアヴァイブスを1着軸にして相手順を7→2へ固定。 天候は雨。",
+      "note": "8時04分現在の単勝支持と芝重を前提に、9 エアヴァイブスを1着軸にして相手順を7→2へ固定。 天候は雨。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎9 エアヴァイブス / ○7 ベネディクション / ▲2 ボーントゥラブユー / △6 プリュイドール / ☆8 アルケミラモリス",
       "probabilities": [
         {
@@ -4655,7 +4655,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "B",
-      "note": "8時04分現在の単勝支持とダート不良を前提に、12 ビンバラを1着軸にして相手順を10→9へ固定。 天候は雨。",
+      "note": "8時04分現在の単勝支持とダート不良を前提に、12 ビンバラを1着軸にして相手順を10→9へ固定。 天候は雨。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎12 ビンバラ / ○10 ホウオウロレンシア / ▲9 エクラドット / △5 セラサイト / ☆8 ハイテイラオユエ",
       "probabilities": [
         {
@@ -4847,7 +4847,7 @@
         "trifectaEdge": "3単EV"
       },
       "value": "B",
-      "note": "8時05分現在の単勝支持と芝重を前提に、13 ヴィラジョヴィスを1着軸にして相手順を3→4へ固定。 天候は雨。",
+      "note": "8時05分現在の単勝支持と芝重を前提に、13 ヴィラジョヴィスを1着軸にして相手順を3→4へ固定。 天候は雨。 昼再評価: JRA公式オッズ取得時点で発走済み、または発走10分未満のため、買い目とedgeをロック。",
       "markText": "◎13 ヴィラジョヴィス / ○3 ラッキーシグネチャ / ▲4 タケルフォーカス / △15 ハルノアメ / ☆14 ダディーズソード",
       "probabilities": [
         {
@@ -5185,9 +5185,9 @@
         "scenario": "標準 0.40: 単勝支持に近い地力決着",
         "trifecta": {
           "probability": 0.02437529,
-          "odds": 37.6,
-          "oddsTime": "8時05分現在",
-          "expectedValue": 0.9165,
+          "odds": 31.5,
+          "oddsTime": "11時39分現在",
+          "expectedValue": 0.7678,
           "verdict": "検証買い"
         }
       },
@@ -5397,9 +5397,9 @@
         "scenario": "逃げ残り 0.39: 短距離で内前の粘りを重視",
         "trifecta": {
           "probability": 0.0251189,
-          "odds": 54.4,
-          "oddsTime": "8時01分現在",
-          "expectedValue": 1.3665,
+          "odds": 62.2,
+          "oddsTime": "11時38分現在",
+          "expectedValue": 1.5624,
           "verdict": "勝負"
         }
       },
@@ -5539,9 +5539,9 @@
         "scenario": "標準 0.40: 能力順に近い決着",
         "trifecta": {
           "probability": 0.01596866,
-          "odds": 83.7,
-          "oddsTime": "8時02分現在",
-          "expectedValue": 1.3366,
+          "odds": 66,
+          "oddsTime": "11時38分現在",
+          "expectedValue": 1.0539,
           "verdict": "勝負"
         }
       },
@@ -5701,9 +5701,9 @@
         "scenario": "標準 0.40: 能力順に近い決着",
         "trifecta": {
           "probability": 0.02149038,
-          "odds": 24,
-          "oddsTime": "8時02分現在",
-          "expectedValue": 0.5158,
+          "odds": 25.7,
+          "oddsTime": "11時39分現在",
+          "expectedValue": 0.5523,
           "verdict": "検証買い"
         }
       },
@@ -5893,9 +5893,9 @@
         "scenario": "標準 0.40: 単勝支持に近い地力決着",
         "trifecta": {
           "probability": 0.02699441,
-          "odds": 47.6,
-          "oddsTime": "8時02分現在",
-          "expectedValue": 1.2849,
+          "odds": 39.1,
+          "oddsTime": "11時37分現在",
+          "expectedValue": 1.0555,
           "verdict": "勝負"
         }
       },
@@ -5918,7 +5918,7 @@
         "trifecta": "3連単",
         "trifectaEdge": "3単EV"
       },
-      "value": "B",
+      "value": "C",
       "note": "8時03分現在の単勝支持とダート不良を前提に、9 マメタンクを1着軸にして相手順を4→3へ固定。 天候は雨。",
       "markText": "◎9 マメタンク / ○4 エコロレバン / ▲3 デアプリームス / △11 ルイステソーロ / ☆5 ヒットミー",
       "probabilities": [
@@ -6065,9 +6065,9 @@
         "scenario": "先行持続 0.42: 短距離ダートで位置取りを重視",
         "trifecta": {
           "probability": 0.01364479,
-          "odds": 60.7,
-          "oddsTime": "8時03分現在",
-          "expectedValue": 0.8282,
+          "odds": 42.5,
+          "oddsTime": "11時37分現在",
+          "expectedValue": 0.5799,
           "verdict": "検証買い"
         }
       },
@@ -6257,9 +6257,9 @@
         "scenario": "標準 0.40: 単勝支持に近い地力決着",
         "trifecta": {
           "probability": 0.00509237,
-          "odds": 216.2,
-          "oddsTime": "8時03分現在",
-          "expectedValue": 1.101,
+          "odds": 204.6,
+          "oddsTime": "11時37分現在",
+          "expectedValue": 1.0419,
           "verdict": "勝負"
         }
       },
@@ -6389,9 +6389,9 @@
         "scenario": "逃げ残り 0.39: 短距離で内前の粘りを重視",
         "trifecta": {
           "probability": 0.03083602,
-          "odds": 10.9,
-          "oddsTime": "8時04分現在",
-          "expectedValue": 0.3361,
+          "odds": 9.9,
+          "oddsTime": "11時37分現在",
+          "expectedValue": 0.3053,
           "verdict": "検証買い"
         }
       },
@@ -6417,7 +6417,7 @@
     "routes": [
       {
         "name": "堅実",
-        "style": "5戦とも本線の1着候補",
+        "style": "4戦は朝本線を維持し、福島10Rだけ最新首位へ変更",
         "fixedLegs": [
           "小倉10R",
           "福島10R",
@@ -6431,6 +6431,97 @@
             "race": "小倉10R",
             "pick": 8,
             "horse": "コリカンチャ"
+          },
+          {
+            "race": "福島10R",
+            "pick": 3,
+            "horse": "リフレックス"
+          },
+          {
+            "race": "函館11R",
+            "pick": 4,
+            "horse": "シルトホルン"
+          },
+          {
+            "race": "小倉11R",
+            "pick": 11,
+            "horse": "モックモック"
+          },
+          {
+            "race": "福島11R",
+            "pick": 4,
+            "horse": "カラマティアノス"
+          }
+        ],
+        "edge": {
+          "probability": 0.00039514,
+          "odds": 798.2,
+          "oddsType": "単勝連乗近似",
+          "oddsTime": "2026-07-12 11:39 JST",
+          "expectedValue": 0.3154,
+          "verdict": "検証買い",
+          "memo": "WIN5に事前固定オッズはないため、11:36〜11:39現在のJRA公式単勝オッズの連乗で近似評価",
+          "legs": [
+            {
+              "race": "小倉10R",
+              "pick": 8,
+              "horse": "コリカンチャ",
+              "winProbability": 0.21436445,
+              "winOdds": 3.7,
+              "oddsTime": "11時37分現在"
+            },
+            {
+              "race": "福島10R",
+              "pick": 3,
+              "horse": "リフレックス",
+              "winProbability": 0.16913286,
+              "winOdds": 4.7,
+              "oddsTime": "11時38分現在"
+            },
+            {
+              "race": "函館11R",
+              "pick": 4,
+              "horse": "シルトホルン",
+              "winProbability": 0.15589637,
+              "winOdds": 5.1,
+              "oddsTime": "11時37分現在"
+            },
+            {
+              "race": "小倉11R",
+              "pick": 11,
+              "horse": "モックモック",
+              "winProbability": 0.39496578,
+              "winOdds": 2,
+              "oddsTime": "11時38分現在"
+            },
+            {
+              "race": "福島11R",
+              "pick": 4,
+              "horse": "カラマティアノス",
+              "winProbability": 0.17699969,
+              "winOdds": 4.5,
+              "oddsTime": "11時38分現在"
+            }
+          ]
+        }
+      },
+      {
+        "name": "妙味",
+        "style": "3軸固定・同率首位と朝評価を2レースだけ崩す",
+        "fixedLegs": [
+          "函館11R",
+          "小倉11R",
+          "福島11R"
+        ],
+        "changedLegs": [
+          "小倉10R",
+          "福島10R"
+        ],
+        "legs": [
+          {
+            "race": "小倉10R",
+            "pick": 5,
+            "horse": "フォーチュンライド"
           },
           {
             "race": "福島10R",
@@ -6454,165 +6545,74 @@
           }
         ],
         "edge": {
-          "probability": 0.00049504,
-          "odds": 629.4,
+          "probability": 0.00028572,
+          "odds": 1103.9,
           "oddsType": "単勝連乗近似",
-          "oddsTime": "2026-07-12 08:05 JST",
-          "expectedValue": 0.3116,
+          "oddsTime": "2026-07-12 11:39 JST",
+          "expectedValue": 0.3154,
           "verdict": "検証買い",
-          "memo": "WIN5に事前固定オッズはないため、最新単勝オッズの連乗で近似評価",
+          "memo": "WIN5に事前固定オッズはないため、11:36〜11:39現在のJRA公式単勝オッズの連乗で近似評価",
           "legs": [
             {
               "race": "小倉10R",
-              "pick": 8,
-              "horse": "コリカンチャ",
-              "winProbability": 0.39227804,
-              "winOdds": 2,
-              "oddsTime": "8時03分現在"
+              "pick": 5,
+              "horse": "フォーチュンライド",
+              "winProbability": 0.21436445,
+              "winOdds": 3.7,
+              "oddsTime": "11時37分現在"
             },
             {
               "race": "福島10R",
               "pick": 2,
               "horse": "ジェイエルマスター",
-              "winProbability": 0.16559805,
-              "winOdds": 4.8,
-              "oddsTime": "8時02分現在"
+              "winProbability": 0.12229607,
+              "winOdds": 6.5,
+              "oddsTime": "11時38分現在"
             },
             {
               "race": "函館11R",
               "pick": 4,
               "horse": "シルトホルン",
-              "winProbability": 0.16884775,
-              "winOdds": 4.7,
-              "oddsTime": "8時03分現在"
+              "winProbability": 0.15589637,
+              "winOdds": 5.1,
+              "oddsTime": "11時37分現在"
             },
             {
               "race": "小倉11R",
               "pick": 11,
               "horse": "モックモック",
-              "winProbability": 0.2554923,
-              "winOdds": 3.1,
-              "oddsTime": "8時03分現在"
-            },
-            {
-              "race": "福島11R",
-              "pick": 4,
-              "horse": "カラマティアノス",
-              "winProbability": 0.17665037,
-              "winOdds": 4.5,
-              "oddsTime": "8時03分現在"
-            }
-          ]
-        }
-      },
-      {
-        "name": "妙味",
-        "style": "3軸固定・上位差が小さい2レースを崩す",
-        "fixedLegs": [
-          "小倉10R",
-          "小倉11R",
-          "福島11R"
-        ],
-        "changedLegs": [
-          "福島10R",
-          "函館11R"
-        ],
-        "legs": [
-          {
-            "race": "小倉10R",
-            "pick": 8,
-            "horse": "コリカンチャ"
-          },
-          {
-            "race": "福島10R",
-            "pick": 3,
-            "horse": "リフレックス"
-          },
-          {
-            "race": "函館11R",
-            "pick": 9,
-            "horse": "レディネス"
-          },
-          {
-            "race": "小倉11R",
-            "pick": 11,
-            "horse": "モックモック"
-          },
-          {
-            "race": "福島11R",
-            "pick": 4,
-            "horse": "カラマティアノス"
-          }
-        ],
-        "edge": {
-          "probability": 0.00043086,
-          "odds": 723.2,
-          "oddsType": "単勝連乗近似",
-          "oddsTime": "2026-07-12 08:05 JST",
-          "expectedValue": 0.3116,
-          "verdict": "検証買い",
-          "memo": "WIN5に事前固定オッズはないため、最新単勝オッズの連乗で近似評価",
-          "legs": [
-            {
-              "race": "小倉10R",
-              "pick": 8,
-              "horse": "コリカンチャ",
-              "winProbability": 0.39227804,
+              "winProbability": 0.39496578,
               "winOdds": 2,
-              "oddsTime": "8時03分現在"
-            },
-            {
-              "race": "福島10R",
-              "pick": 3,
-              "horse": "リフレックス",
-              "winProbability": 0.16559805,
-              "winOdds": 4.8,
-              "oddsTime": "8時02分現在"
-            },
-            {
-              "race": "函館11R",
-              "pick": 9,
-              "horse": "レディネス",
-              "winProbability": 0.14696008,
-              "winOdds": 5.4,
-              "oddsTime": "8時03分現在"
-            },
-            {
-              "race": "小倉11R",
-              "pick": 11,
-              "horse": "モックモック",
-              "winProbability": 0.2554923,
-              "winOdds": 3.1,
-              "oddsTime": "8時03分現在"
+              "oddsTime": "11時38分現在"
             },
             {
               "race": "福島11R",
               "pick": 4,
               "horse": "カラマティアノス",
-              "winProbability": 0.17665037,
+              "winProbability": 0.17699969,
               "winOdds": 4.5,
-              "oddsTime": "8時03分現在"
+              "oddsTime": "11時38分現在"
             }
           ]
         }
       },
       {
         "name": "穴",
-        "style": "2軸固定・不確実な3レースを大きめに崩す",
+        "style": "2軸固定・不確実な3レースだけを大きめに崩す",
         "fixedLegs": [
-          "小倉10R",
-          "小倉11R"
+          "小倉11R",
+          "福島11R"
         ],
         "changedLegs": [
+          "小倉10R",
           "福島10R",
-          "函館11R",
-          "福島11R"
+          "函館11R"
         ],
         "legs": [
           {
             "race": "小倉10R",
-            "pick": 8,
-            "horse": "コリカンチャ"
+            "pick": 7,
+            "horse": "レイピカケ"
           },
           {
             "race": "福島10R",
@@ -6631,64 +6631,490 @@
           },
           {
             "race": "福島11R",
-            "pick": 13,
-            "horse": "バトルボーン"
+            "pick": 4,
+            "horse": "カラマティアノス"
           }
         ],
         "edge": {
-          "probability": 0.00021755,
-          "odds": 1432.3,
+          "probability": 0.00016718,
+          "odds": 1886.6,
           "oddsType": "単勝連乗近似",
-          "oddsTime": "2026-07-12 08:05 JST",
-          "expectedValue": 0.3116,
+          "oddsTime": "2026-07-12 11:39 JST",
+          "expectedValue": 0.3154,
           "verdict": "検証買い",
-          "memo": "WIN5に事前固定オッズはないため、最新単勝オッズの連乗で近似評価",
+          "memo": "WIN5に事前固定オッズはないため、11:36〜11:39現在のJRA公式単勝オッズの連乗で近似評価",
           "legs": [
             {
               "race": "小倉10R",
-              "pick": 8,
-              "horse": "コリカンチャ",
-              "winProbability": 0.39227804,
-              "winOdds": 2,
-              "oddsTime": "8時03分現在"
+              "pick": 7,
+              "horse": "レイピカケ",
+              "winProbability": 0.11494906,
+              "winOdds": 6.9,
+              "oddsTime": "11時37分現在"
             },
             {
               "race": "福島10R",
               "pick": 11,
               "horse": "ドバイブルース",
-              "winProbability": 0.12820494,
-              "winOdds": 6.2,
-              "oddsTime": "8時02分現在"
+              "winProbability": 0.16222948,
+              "winOdds": 4.9,
+              "oddsTime": "11時38分現在"
             },
             {
               "race": "函館11R",
               "pick": 9,
               "horse": "レディネス",
-              "winProbability": 0.14696008,
-              "winOdds": 5.4,
-              "oddsTime": "8時03分現在"
+              "winProbability": 0.12823733,
+              "winOdds": 6.2,
+              "oddsTime": "11時37分現在"
             },
             {
               "race": "小倉11R",
               "pick": 11,
               "horse": "モックモック",
-              "winProbability": 0.2554923,
-              "winOdds": 3.1,
-              "oddsTime": "8時03分現在"
+              "winProbability": 0.39496578,
+              "winOdds": 2,
+              "oddsTime": "11時38分現在"
             },
             {
               "race": "福島11R",
-              "pick": 13,
-              "horse": "バトルボーン",
-              "winProbability": 0.11520676,
-              "winOdds": 6.9,
-              "oddsTime": "8時03分現在"
+              "pick": 4,
+              "horse": "カラマティアノス",
+              "winProbability": 0.17699969,
+              "winOdds": 4.5,
+              "oddsTime": "11時38分現在"
             }
           ]
         }
       }
     ],
-    "strategy": "各対象レースの1着推定確率と上位差を見て、堅実は全本線、妙味は上位差が小さい2レース、穴は不確実な3レースだけを崩す。"
+    "strategy": "堅実は小倉10R・函館11R・小倉11R・福島11Rの朝軸を維持し、福島10Rだけ最新首位3へ変更。妙味は小倉10Rと福島10R、穴は小倉10R・福島10R・函館11Rだけを崩し、小倉11Rと福島11Rを固定軸にする。",
+    "reassessment": {
+      "status": "reassessed",
+      "statusLabel": "11:30再評価済み",
+      "updatedAt": "2026-07-12 11:39 JST",
+      "source": "JRA公式開催お知らせ・出馬表・単勝オッズ・3連単オッズ・レース結果・WIN5対象レース",
+      "sourceUrl": "https://www.jra.go.jp/kouza/win5/info/racelist.html",
+      "summary": "JRA公式オッズを11:36〜11:39現在で再取得し、未発走24Rの3連単edgeとWIN5対象5Rを再評価。JRA-VAN Data Lab.は端末にJV-Linkが見つからず未使用。馬券購入操作は行わず、検証用の仮想投資として扱う。",
+      "changeSummary": "小倉10Rは朝軸8と5が同率首位のため堅実8を維持。福島10Rは朝軸2が4番手へ後退したため堅実を3へ変更。妙味は小倉10R・福島10R、穴は小倉10R・福島10R・函館11Rを崩す固定軸設計へ更新し、朝3ルート比6脚を変更。",
+      "routeChangeCount": 6,
+      "rules": [
+        "WIN5締切14:50前のため3ルートを再評価する",
+        "朝本線と最新上位が僅差なら堅実ルートは朝軸を維持する",
+        "朝軸が最新上位から明確に後退した場合だけ堅実ルートの変更を検討する",
+        "僅差の入れ替わりは妙味/穴ルートの崩し候補で扱う",
+        "前半レース傾向はサンプルが少ないため過剰補正しない",
+        "全5Rを機械的に横滑りさせない"
+      ],
+      "routeChanges": [
+        {
+          "route": "堅実",
+          "race": "福島10R",
+          "before": {
+            "pick": 2,
+            "horse": "ジェイエルマスター"
+          },
+          "after": {
+            "pick": 3,
+            "horse": "リフレックス"
+          },
+          "reason": "朝は2と3が単勝4.8で同率だったが、昼は3が4.7で首位、2は6.5の4番手へ後退。朝軸維持の僅差条件から外れたため堅実軸を3へ変更。",
+          "updatedAt": "2026-07-12 11:39 JST"
+        },
+        {
+          "route": "妙味",
+          "race": "小倉10R",
+          "before": {
+            "pick": 8,
+            "horse": "コリカンチャ"
+          },
+          "after": {
+            "pick": 5,
+            "horse": "フォーチュンライド"
+          },
+          "reason": "朝軸8と5が単勝3.7で同率首位。堅実は8を維持し、妙味だけ5へ崩して同率首位を分ける。",
+          "updatedAt": "2026-07-12 11:39 JST"
+        },
+        {
+          "route": "妙味",
+          "race": "福島10R",
+          "before": {
+            "pick": 3,
+            "horse": "リフレックス"
+          },
+          "after": {
+            "pick": 2,
+            "horse": "ジェイエルマスター"
+          },
+          "reason": "堅実を最新首位3へ寄せたため、朝の堅実軸だった2の事前評価を妙味側に残す。",
+          "updatedAt": "2026-07-12 11:39 JST"
+        },
+        {
+          "route": "妙味",
+          "race": "函館11R",
+          "before": {
+            "pick": 9,
+            "horse": "レディネス"
+          },
+          "after": {
+            "pick": 4,
+            "horse": "シルトホルン"
+          },
+          "reason": "崩し所を小倉10Rと福島10Rへ集中し、朝本線4が最新首位を維持した函館11Rは4へ戻す。",
+          "updatedAt": "2026-07-12 11:39 JST"
+        },
+        {
+          "route": "穴",
+          "race": "小倉10R",
+          "before": {
+            "pick": 8,
+            "horse": "コリカンチャ"
+          },
+          "after": {
+            "pick": 7,
+            "horse": "レイピカケ"
+          },
+          "reason": "8と5が同率首位まで接近した高リスク戦のため、穴では4番手7まで崩してルート差を確保する。",
+          "updatedAt": "2026-07-12 11:39 JST"
+        },
+        {
+          "route": "穴",
+          "race": "福島11R",
+          "before": {
+            "pick": 13,
+            "horse": "バトルボーン"
+          },
+          "after": {
+            "pick": 4,
+            "horse": "カラマティアノス"
+          },
+          "reason": "穴の崩しを小倉10R・福島10R・函館11Rへ集中し、朝本線4が最新首位を維持した福島11Rは4へ戻して固定する。",
+          "updatedAt": "2026-07-12 11:39 JST"
+        }
+      ],
+      "targetAnalysis": [
+        {
+          "race": "小倉10R",
+          "raceName": "西部スポニチ賞",
+          "start": "14:55",
+          "morningMain": {
+            "horseNo": 8,
+            "horse": "コリカンチャ",
+            "winProbability": 0.39227804,
+            "winOdds": 2
+          },
+          "topCandidates": [
+            {
+              "horseNo": 5,
+              "horse": "フォーチュンライド",
+              "winOdds": 3.7,
+              "winProbability": 0.21436445,
+              "popularity": 1,
+              "morningWinProbability": 0.19613902,
+              "morningWinOdds": 4
+            },
+            {
+              "horseNo": 8,
+              "horse": "コリカンチャ",
+              "winOdds": 3.7,
+              "winProbability": 0.21436445,
+              "popularity": 1,
+              "morningWinProbability": 0.39227804,
+              "morningWinOdds": 2
+            },
+            {
+              "horseNo": 10,
+              "horse": "ジャスティンガルフ",
+              "winOdds": 6.3,
+              "winProbability": 0.12589658,
+              "popularity": 3,
+              "morningWinProbability": 0.06226635,
+              "morningWinOdds": 12.6
+            },
+            {
+              "horseNo": 7,
+              "horse": "レイピカケ",
+              "winOdds": 6.9,
+              "winProbability": 0.11494906,
+              "popularity": 4,
+              "morningWinProbability": 0.08527783,
+              "morningWinOdds": 9.2
+            },
+            {
+              "horseNo": 3,
+              "horse": "プリズマジコ",
+              "winOdds": 7.7,
+              "winProbability": 0.1030063,
+              "popularity": 5,
+              "morningWinProbability": 0.0509452,
+              "morningWinOdds": 15.4
+            }
+          ],
+          "risk": "高",
+          "fixedInRoutes": [
+            8,
+            5,
+            7
+          ],
+          "memo": "朝は8が単勝2.0で抜けていたが、昼は8と5が3.7で同率首位。堅実は朝軸8を維持し、妙味は5、穴は4番手7へ限定して崩す。"
+        },
+        {
+          "race": "福島10R",
+          "raceName": "天の川ステークス",
+          "start": "15:10",
+          "morningMain": {
+            "horseNo": 2,
+            "horse": "ジェイエルマスター",
+            "winProbability": 0.16559805,
+            "winOdds": 4.8
+          },
+          "topCandidates": [
+            {
+              "horseNo": 3,
+              "horse": "リフレックス",
+              "winOdds": 4.7,
+              "winProbability": 0.16913286,
+              "popularity": 1,
+              "morningWinProbability": 0.16559805,
+              "morningWinOdds": 4.8
+            },
+            {
+              "horseNo": 10,
+              "horse": "スマートケープ",
+              "winOdds": 4.8,
+              "winProbability": 0.16560926,
+              "popularity": 2,
+              "morningWinProbability": 0.11689274,
+              "morningWinOdds": 6.8
+            },
+            {
+              "horseNo": 11,
+              "horse": "ドバイブルース",
+              "winOdds": 4.9,
+              "winProbability": 0.16222948,
+              "popularity": 3,
+              "morningWinProbability": 0.12820494,
+              "morningWinOdds": 6.2
+            },
+            {
+              "horseNo": 2,
+              "horse": "ジェイエルマスター",
+              "winOdds": 6.5,
+              "winProbability": 0.12229607,
+              "popularity": 4,
+              "morningWinProbability": 0.16559805,
+              "morningWinOdds": 4.8
+            },
+            {
+              "horseNo": 9,
+              "horse": "チギリ",
+              "winOdds": 7.2,
+              "winProbability": 0.11040617,
+              "popularity": 5,
+              "morningWinProbability": 0.10741495,
+              "morningWinOdds": 7.4
+            }
+          ],
+          "risk": "高",
+          "fixedInRoutes": [
+            3,
+            2,
+            11
+          ],
+          "memo": "朝は2と3が4.8で同率首位、昼は3・10・11が4.7〜4.9に集まり、朝軸2は6.5の4番手へ後退。堅実は3へ変更し、妙味で2、穴で11を使う。"
+        },
+        {
+          "race": "函館11R",
+          "raceName": "巴賞",
+          "start": "15:20",
+          "morningMain": {
+            "horseNo": 4,
+            "horse": "シルトホルン",
+            "winProbability": 0.16884775,
+            "winOdds": 4.7
+          },
+          "topCandidates": [
+            {
+              "horseNo": 4,
+              "horse": "シルトホルン",
+              "winOdds": 5.1,
+              "winProbability": 0.15589637,
+              "popularity": 1,
+              "morningWinProbability": 0.16884775,
+              "morningWinOdds": 4.7
+            },
+            {
+              "horseNo": 12,
+              "horse": "レディーヴァリュー",
+              "winOdds": 5.6,
+              "winProbability": 0.14197705,
+              "popularity": 2,
+              "morningWinProbability": 0.11670359,
+              "morningWinOdds": 6.8
+            },
+            {
+              "horseNo": 9,
+              "horse": "レディネス",
+              "winOdds": 6.2,
+              "winProbability": 0.12823733,
+              "popularity": 3,
+              "morningWinProbability": 0.14696008,
+              "morningWinOdds": 5.4
+            },
+            {
+              "horseNo": 2,
+              "horse": "パレハ",
+              "winOdds": 6.5,
+              "winProbability": 0.12231869,
+              "popularity": 4,
+              "morningWinProbability": 0.11501224,
+              "morningWinOdds": 6.9
+            },
+            {
+              "horseNo": 8,
+              "horse": "ストレイトトーカー",
+              "winOdds": 9,
+              "winProbability": 0.08834127,
+              "popularity": 5,
+              "morningWinProbability": 0.10045373,
+              "morningWinOdds": 7.9
+            }
+          ],
+          "risk": "中",
+          "fixedInRoutes": [
+            4,
+            9
+          ],
+          "memo": "朝軸4が5.1で首位を維持する一方、12・9・2が5.6〜6.5で続く。堅実/妙味は4、穴だけ朝の崩し候補9を維持。"
+        },
+        {
+          "race": "小倉11R",
+          "raceName": "阿蘇ステークス",
+          "start": "15:30",
+          "morningMain": {
+            "horseNo": 11,
+            "horse": "モックモック",
+            "winProbability": 0.2554923,
+            "winOdds": 3.1
+          },
+          "topCandidates": [
+            {
+              "horseNo": 11,
+              "horse": "モックモック",
+              "winOdds": 2,
+              "winProbability": 0.39496578,
+              "popularity": 1,
+              "morningWinProbability": 0.2554923,
+              "morningWinOdds": 3.1
+            },
+            {
+              "horseNo": 7,
+              "horse": "モンブランミノル",
+              "winOdds": 6.2,
+              "winProbability": 0.12740832,
+              "popularity": 2,
+              "morningWinProbability": 0.15529924,
+              "morningWinOdds": 5.1
+            },
+            {
+              "horseNo": 3,
+              "horse": "ジンセイ",
+              "winOdds": 8.8,
+              "winProbability": 0.08976495,
+              "popularity": 3,
+              "morningWinProbability": 0.11647443,
+              "morningWinOdds": 6.8
+            },
+            {
+              "horseNo": 9,
+              "horse": "シュラザック",
+              "winOdds": 10.5,
+              "winProbability": 0.07523158,
+              "popularity": 4,
+              "morningWinProbability": 0.07841843,
+              "morningWinOdds": 10.1
+            },
+            {
+              "horseNo": 6,
+              "horse": "レイナデアルシーラ",
+              "winOdds": 10.8,
+              "winProbability": 0.07314181,
+              "popularity": 5,
+              "morningWinProbability": 0.09428883,
+              "morningWinOdds": 8.4
+            }
+          ],
+          "risk": "低",
+          "fixedInRoutes": [
+            11
+          ],
+          "memo": "朝軸11が単勝2.0、1着推定39.50%で2番手以下を大きくリード。3ルート共通の固定軸を維持。"
+        },
+        {
+          "race": "福島11R",
+          "raceName": "七夕賞",
+          "start": "15:45",
+          "morningMain": {
+            "horseNo": 4,
+            "horse": "カラマティアノス",
+            "winProbability": 0.17665037,
+            "winOdds": 4.5
+          },
+          "topCandidates": [
+            {
+              "horseNo": 4,
+              "horse": "カラマティアノス",
+              "winOdds": 4.5,
+              "winProbability": 0.17699969,
+              "popularity": 1,
+              "morningWinProbability": 0.17665037,
+              "morningWinOdds": 4.5
+            },
+            {
+              "horseNo": 11,
+              "horse": "アスクナイスショー",
+              "winOdds": 5.4,
+              "winProbability": 0.14749974,
+              "popularity": 2,
+              "morningWinProbability": 0.14453212,
+              "morningWinOdds": 5.5
+            },
+            {
+              "horseNo": 13,
+              "horse": "バトルボーン",
+              "winOdds": 6.7,
+              "winProbability": 0.11888039,
+              "popularity": 3,
+              "morningWinProbability": 0.11520676,
+              "morningWinOdds": 6.9
+            },
+            {
+              "horseNo": 16,
+              "horse": "サヴォーナ",
+              "winOdds": 7.4,
+              "winProbability": 0.10763494,
+              "popularity": 4,
+              "morningWinProbability": 0.11520676,
+              "morningWinOdds": 6.9
+            },
+            {
+              "horseNo": 15,
+              "horse": "ヤマニンブークリエ",
+              "winOdds": 9.1,
+              "winProbability": 0.08752732,
+              "popularity": 5,
+              "morningWinProbability": 0.0893176,
+              "morningWinOdds": 8.9
+            }
+          ],
+          "risk": "中",
+          "fixedInRoutes": [
+            4
+          ],
+          "memo": "朝軸4が4.5で首位を維持。崩しは不確実性がより高い小倉10R・福島10R・函館11Rへ集中し、今回は3ルート共通で4を固定。"
+        }
+      ]
+    }
   },
   "sources": [
     {
@@ -6706,6 +7132,61 @@
     {
       "name": "JRA 馬場情報",
       "url": "https://www.jra.go.jp/keiba/baba/"
+    },
+    {
+      "name": "JRA レース結果",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html"
     }
-  ]
+  ],
+  "middayUpdate": {
+    "status": "reassessed",
+    "statusLabel": "日曜昼オッズEV再評価済み",
+    "updatedAt": "2026-07-12 11:39 JST",
+    "oddsWindow": "11:36〜11:39現在",
+    "lockRule": "JRA公式オッズ取得時に発走済み、または発走10分未満のレースは買い目とedgeを上書きしない",
+    "lockedRaceCount": 11,
+    "lockedRaces": [
+      "福島2R",
+      "福島3R",
+      "福島4R",
+      "小倉1R",
+      "小倉2R",
+      "小倉3R",
+      "小倉4R",
+      "函館1R",
+      "函館2R",
+      "函館3R",
+      "函館4R"
+    ],
+    "updatedRaceCount": 24,
+    "updatedRaces": [
+      "福島5R",
+      "福島6R",
+      "福島7R",
+      "福島8R",
+      "福島9R",
+      "福島10R",
+      "福島11R",
+      "福島12R",
+      "小倉5R",
+      "小倉6R",
+      "小倉7R",
+      "小倉8R",
+      "小倉9R",
+      "小倉10R",
+      "小倉11R",
+      "小倉12R",
+      "函館5R",
+      "函館6R",
+      "函館7R",
+      "函館8R",
+      "函館9R",
+      "函館10R",
+      "函館11R",
+      "函館12R"
+    ],
+    "betChanges": [],
+    "changeSummary": "3連単買い目変更なし。朝の推定確率を保持し、未ロック24Rの最新3連単オッズ・EV・判定だけを更新。福島6Rは発走13:01へ変更。",
+    "earlyTrend": "11:30までの平地9Rは勝ち馬が全て1〜3番人気で、ダート4Rの勝ち馬は全て4角1〜3番手。人気上位・先行寄りを軽く支持するが、芝は差し・中穴の例外も大きいためWIN5を一律補正しない。"
+  }
 }
