@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-12",
+  "weekday": "日曜",
+  "updatedAt": "2026-07-12 17:26 JST",
+  "status": "settled",
+  "summary": "3連単は35R中1本的中、WIN5は3ルート不的中。回収率240.8%。",
+  "axisStats": {
+    "label": "軸馬3着内率",
+    "definition": "◎にした馬が実際に3着以内",
+    "races": 35,
+    "hits": 20,
+    "rate": 57.1
+  },
+  "settlement": {
+    "stake": 3800,
+    "payout": 9150,
+    "hits": [
+      {
+        "race": "小倉7R",
+        "type": "3連単",
+        "ticket": [
+          4,
+          5,
+          12
+        ],
+        "payout": 9150
+      }
+    ],
+    "result": "hit",
+    "balance": 5350,
+    "roi": 240.8
+  },
+  "breakdown": {
+    "trifecta": {
+      "label": "3連単",
+      "stake": 3500,
+      "payout": 9150,
+      "hits": 1,
+      "roi": 261.4
+    },
+    "win5": {
+      "label": "WIN5",
+      "stake": 300,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0
+    }
+  },
+  "win5": {
+    "carryover": 0,
+    "salesVotes": 7236518,
+    "salesAmount": 723651800,
+    "result": [
+      10,
+      11,
+      10,
+      6,
+      11
+    ],
+    "payout": 6412100,
+    "hitCount": 79,
+    "nextCarryover": 0,
+    "remainingVotes": [
+      1178298,
+      278177,
+      6635,
+      523,
+      79
+    ],
+    "targets": [
+      {
+        "race": "小倉10R",
+        "raceName": "西部スポニチ",
+        "start": "14時55分",
+        "winner": 10,
+        "winnerName": "ジャスティンガルフ",
+        "popularity": 3,
+        "remainingVotes": 1178298,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0110202602061020260712/12"
+      },
+      {
+        "race": "福島10R",
+        "raceName": "天の川S",
+        "start": "15時10分",
+        "winner": 11,
+        "winnerName": "ドバイブルース",
+        "popularity": 2,
+        "remainingVotes": 278177,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0103202602061020260712/C7"
+      },
+      {
+        "race": "函館11R",
+        "raceName": "巴賞",
+        "start": "15時20分",
+        "winner": 10,
+        "winnerName": "ヴーレヴー",
+        "popularity": 8,
+        "remainingVotes": 6635,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0102202601101120260712/5F"
+      },
+      {
+        "race": "小倉11R",
+        "raceName": "阿蘇S",
+        "start": "15時30分",
+        "winner": 6,
+        "winnerName": "レイナデアルシーラ",
+        "popularity": 6,
+        "remainingVotes": 523,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0110202602061120260712/C7"
+      },
+      {
+        "race": "福島11R",
+        "raceName": "七夕賞",
+        "start": "15時45分",
+        "winner": 11,
+        "winnerName": "アスクナイスショー",
+        "popularity": 2,
+        "remainingVotes": 79,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0103202602061120260712/7C"
+      }
+    ],
+    "source": "https://www.jra.go.jp/JRADB/access5.html",
+    "detailCname": "pw17hde01202607121/58"
+  },
+  "items": [
+    {
+      "title": "3連単",
+      "body": "35R中1本的中。小倉7R 4-5-12で9,150円。"
+    },
+    {
+      "title": "軸馬",
+      "body": "◎は20/35Rで3着内。1着固定と3頭目が課題。"
+    },
+    {
+      "title": "WIN5",
+      "body": "公式結果は10-11-10-6-11。3ルートとも不的中、キャリーオーバーは0円。"
+    }
+  ],
+  "sources": [
+    {
+      "name": "JRA公式 レース結果 福島",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01ses01032026020620260712/58"
+    },
+    {
+      "name": "JRA公式 レース結果 小倉",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01ses01102026020620260712/A3"
+    },
+    {
+      "name": "JRA公式 レース結果 函館",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01ses01022026011020260712/3B"
+    },
+    {
+      "name": "JRA公式 WIN5詳細",
+      "url": "https://www.jra.go.jp/JRADB/access5.html",
+      "detailCname": "pw17hde01202607121/58"
+    }
+  ]
+}
