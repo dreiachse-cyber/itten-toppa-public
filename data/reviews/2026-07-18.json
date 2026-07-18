@@ -1,0 +1,147 @@
+{
+  "date": "2026-07-18",
+  "weekday": "土曜",
+  "updatedAt": "2026-07-18 18:50 JST",
+  "status": "settled",
+  "summary": "3連単は30R中0本的中、WIN5は0ルート的中。回収率0.0%。",
+  "axisStats": {
+    "label": "軸馬3着内率",
+    "definition": "◎にした馬が実際に3着以内",
+    "races": 30,
+    "hits": 19,
+    "rate": 63.3
+  },
+  "settlement": {
+    "stake": 3300,
+    "payout": 0,
+    "hits": [],
+    "result": "miss",
+    "balance": -3300,
+    "roi": 0
+  },
+  "breakdown": {
+    "trifecta": {
+      "label": "3連単",
+      "stake": 3000,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0
+    },
+    "win5": {
+      "label": "WIN5",
+      "stake": 300,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0
+    }
+  },
+  "win5": {
+    "carryover": 0,
+    "salesVotes": 4288915,
+    "salesAmount": 428891500,
+    "result": [
+      2,
+      15,
+      10,
+      5,
+      13
+    ],
+    "payout": 2274420,
+    "hitCount": 132,
+    "nextCarryover": 0,
+    "remainingVotes": [
+      597831,
+      11897,
+      1798,
+      812,
+      132
+    ],
+    "targets": [
+      {
+        "race": "小倉10R",
+        "raceName": "熊本城特別",
+        "start": "14時55分",
+        "winner": 2,
+        "winnerName": "ワイドクリーガー",
+        "popularity": 3,
+        "remainingVotes": 597831,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0110202602071020260718/F3"
+      },
+      {
+        "race": "福島10R",
+        "raceName": "米沢特別",
+        "start": "15時10分",
+        "winner": 15,
+        "winnerName": "モリノアミーゴ",
+        "popularity": 8,
+        "remainingVotes": 11897,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0103202602071020260718/A8"
+      },
+      {
+        "race": "函館11R",
+        "raceName": "マリーンS",
+        "start": "15時20分",
+        "winner": 10,
+        "winnerName": "ウェイワードアクト",
+        "popularity": 1,
+        "remainingVotes": 1798,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0102202601111120260718/40"
+      },
+      {
+        "race": "小倉11R",
+        "raceName": "テレQ杯",
+        "start": "15時30分",
+        "winner": 5,
+        "winnerName": "コウセキ",
+        "popularity": 1,
+        "remainingVotes": 812,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0110202602071120260718/A8"
+      },
+      {
+        "race": "福島11R",
+        "raceName": "阿武隈S",
+        "start": "15時45分",
+        "winner": 13,
+        "winnerName": "ミラビリスマジック",
+        "popularity": 2,
+        "remainingVotes": 132,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0103202602071120260718/5D"
+      }
+    ],
+    "source": "https://www.jra.go.jp/JRADB/access5.html",
+    "detailCname": "pw17hde01202607181/7E"
+  },
+  "items": [
+    {
+      "title": "3連単",
+      "body": "30R中0本的中。完全一致はなし。"
+    },
+    {
+      "title": "軸馬",
+      "body": "◎は19/30Rで3着内。1着固定と3頭目が課題。"
+    },
+    {
+      "title": "WIN5",
+      "body": "公式結果は2-15-10-5-13。3ルートとも不的中、キャリーオーバーは0円。"
+    }
+  ],
+  "sources": [
+    {
+      "name": "JRA公式 レース結果 福島",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01ses01032026020720260718/AD"
+    },
+    {
+      "name": "JRA公式 レース結果 小倉",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01ses01102026020720260718/F8"
+    },
+    {
+      "name": "JRA公式 レース結果 函館",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01ses01022026011120260718/90"
+    },
+    {
+      "name": "JRA公式 WIN5詳細",
+      "url": "https://www.jra.go.jp/JRADB/access5.html",
+      "detailCname": "pw17hde01202607181/7E"
+    }
+  ]
+}
