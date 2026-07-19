@@ -1,0 +1,147 @@
+{
+  "date": "2026-07-19",
+  "weekday": "日曜",
+  "updatedAt": "2026-07-19 22:18 JST",
+  "status": "settled",
+  "summary": "3連単は33R中0本的中、WIN5は0ルート的中。回収率0.0%。",
+  "axisStats": {
+    "label": "軸馬3着内率",
+    "definition": "◎にした馬が実際に3着以内",
+    "races": 33,
+    "hits": 15,
+    "rate": 45.5
+  },
+  "settlement": {
+    "stake": 3600,
+    "payout": 0,
+    "hits": [],
+    "result": "miss",
+    "balance": -3600,
+    "roi": 0
+  },
+  "breakdown": {
+    "trifecta": {
+      "label": "3連単",
+      "stake": 3300,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0
+    },
+    "win5": {
+      "label": "WIN5",
+      "stake": 300,
+      "payout": 0,
+      "hits": 0,
+      "roi": 0
+    }
+  },
+  "win5": {
+    "carryover": 0,
+    "salesVotes": 7077967,
+    "salesAmount": 707796700,
+    "result": [
+      7,
+      4,
+      5,
+      2,
+      1
+    ],
+    "payout": 247728840,
+    "hitCount": 2,
+    "nextCarryover": 0,
+    "remainingVotes": [
+      1643794,
+      55540,
+      2510,
+      94,
+      2
+    ],
+    "targets": [
+      {
+        "race": "福島10R",
+        "raceName": "猪苗代特別",
+        "start": "14時55分",
+        "winner": 7,
+        "winnerName": "ルールーリマ",
+        "popularity": 2,
+        "remainingVotes": 1643794,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0103202602081020260719/D8"
+      },
+      {
+        "race": "小倉10R",
+        "raceName": "宮崎S",
+        "start": "15時10分",
+        "winner": 4,
+        "winnerName": "グランキングオー",
+        "popularity": 8,
+        "remainingVotes": 55540,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0110202602081020260719/23"
+      },
+      {
+        "race": "函館11R",
+        "raceName": "函館2歳S",
+        "start": "15時20分",
+        "winner": 5,
+        "winnerName": "フェリチタ",
+        "popularity": 9,
+        "remainingVotes": 2510,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0102202601121120260719/70"
+      },
+      {
+        "race": "福島11R",
+        "raceName": "福島テレビ賞",
+        "start": "15時30分",
+        "winner": 2,
+        "winnerName": "ジョーローリット",
+        "popularity": 10,
+        "remainingVotes": 94,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0103202602081120260719/8D"
+      },
+      {
+        "race": "小倉11R",
+        "raceName": "小倉記念",
+        "start": "15時45分",
+        "winner": 1,
+        "winnerName": "ゼンダンハヤブサ",
+        "popularity": 10,
+        "remainingVotes": 2,
+        "source": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0110202602081120260719/D8"
+      }
+    ],
+    "source": "https://www.jra.go.jp/JRADB/access5.html",
+    "detailCname": "pw17hde01202607191/AF"
+  },
+  "items": [
+    {
+      "title": "3連単",
+      "body": "33R中0本的中。完全一致はなし。"
+    },
+    {
+      "title": "軸馬",
+      "body": "◎は15/33Rで3着内。1着固定と3頭目が課題。"
+    },
+    {
+      "title": "WIN5",
+      "body": "公式結果は7-4-5-2-1。3ルートとも不的中、キャリーオーバーは0円。"
+    }
+  ],
+  "sources": [
+    {
+      "name": "JRA公式 レース結果 福島",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01ses01032026020820260719/9B"
+    },
+    {
+      "name": "JRA公式 レース結果 小倉",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01ses01102026020820260719/E6"
+    },
+    {
+      "name": "JRA公式 レース結果 函館",
+      "url": "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01ses01022026011220260719/7E"
+    },
+    {
+      "name": "JRA公式 WIN5詳細",
+      "url": "https://www.jra.go.jp/JRADB/access5.html",
+      "detailCname": "pw17hde01202607191/AF"
+    }
+  ]
+}
